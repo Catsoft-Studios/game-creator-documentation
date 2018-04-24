@@ -9,13 +9,14 @@
 
 ## Game Creator
 
-* [Overview](game-creator/game-creator-overview.md)
-* [Actions](game-creator/actions.md)
-* [Events](game-creator/events.md)
-* [Triggers](game-creator/triggers.md)
-* [Hotspots](game-creator/hotspots.md)
-* [Characters](game-creator/characters.md)
-* [Camera](game-creator/camera.md)
+* [Overview](game-creator/game-creator-overview/README.md)
+  * [Actions](game-creator/game-creator-overview/actions.md)
+  * [Events](game-creator/game-creator-overview/events.md)
+  * [Triggers](game-creator/game-creator-overview/triggers.md)
+  * [Hotspots](game-creator/game-creator-overview/hotspots.md)
+  * [Characters](game-creator/game-creator-overview/characters.md)
+  * [Camera](game-creator/game-creator-overview/camera.md)
+* [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
 * [Module Manager](game-creator/module-manager.md)
 * [Customize Game Creator](game-creator/customize-game-creator.md)
 
