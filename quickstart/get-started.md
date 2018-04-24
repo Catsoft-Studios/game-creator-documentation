@@ -2,9 +2,9 @@
 
 **Game Creator** is an ecosystem that gives [Unity](https://unity3d.com) developers a world class technology platform from which they can build games that work seamlessly across multiple platforms quickly and efficiently.
 
-In this pages you'll learn everything you need to start using **Game Creator** like a **PRO**. Alternatively you can watch our [15 minute Quickstart playlist on Youtube](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5).
+In this pages you'll learn everything you need to start using **Game Creator** like a **PRO**. Alternatively you can watch our **15 minute Quickstart playlist on Youtube:**
 
-[https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5)
+{% embed data="{\"url\":\"https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5\",\"type\":\"video\",\"title\":\"\#1 Getting Started with Game Creator - Overview\",\"description\":\"Download at: https://www.assetstore.unity3d.com/\#!/content/89443\n\nGame Creator is an ecosystem that gives Unity developers a world class technology platform from which they can build games that work seamlessly across multiple platforms quickly and efficiently.\n\nIn these videos you\'ll learn everything you need to start using Game Creator like a PRO.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/IG8GXAAih2Q/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/IG8GXAAih2Q?rel=0&showinfo=0\",\"html\":\"<div style=\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\"><iframe src=\\"https://www.youtube.com/embed/IG8GXAAih2Q?rel=0&amp;showinfo=0\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen scrolling=\\"no\\"></iframe></div>\",\"aspectRatio\":1.7778},\"caption\":\"\"}" %}
 
 {% hint style="info" %}
 Have any question? Feel free to drop us a line at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com).
