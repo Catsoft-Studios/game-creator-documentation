@@ -39,19 +39,19 @@ Each Game Creator **module** has its own _Section_. Each _Section_ contains an i
 Game Creator is extremely easy to use. Despite this, sometimes certain features might require some extra explanation. Here's how this documentation describes highlights:
 
 {% hint style="info" %}
-A **blue** highlight provides extra information on the current topic.
+A **Blue** highlight provides extra information on the current topic.
 {% endhint %}
 
 {% hint style="success" %}
-A **green** highlight is used for best practices.
+A **Green** highlight is used for best practices.
 {% endhint %}
 
 {% hint style="warning" %}
-An **orange** highlight will inform of something which can lead to errors or confusion.
+An **Orange** highlight will inform of something which can lead to errors or confusion.
 {% endhint %}
 
 {% hint style="danger" %}
-A **red** highlight is a critical message that can be game breaking. Read with special care!
+A **Red** highlight is a critical message that can be game breaking. Read with special care!
 {% endhint %}
 
 ## Basic Concepts
