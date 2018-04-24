@@ -17,7 +17,7 @@
 * [Characters](game-creator/characters.md)
 * [Camera](game-creator/camera.md)
 * [Module Manager](game-creator/module-manager.md)
-* [Extend Game Creator](game-creator/extend-game-creator.md)
+* [Customize Game Creator](game-creator/customize-game-creator.md)
 
 ## Inventory
 
