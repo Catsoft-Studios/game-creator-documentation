@@ -24,11 +24,15 @@ Click [here](actions.md) to learn more about them.
 
 ### Events
 
-Condition the execution of **Actions**. For example, you can check if the object **Chest** has been opened. If so, don't increase the player's `gold coins`, but show the message: `This chest has already been looted!`
+Condition the execution of **Actions**. For example, you can check if the object **Chest** has been opened. If so, don't increase the player's `gold coins`, but show the message: `This chest has already been looted!` 
+
+Click [here](events.md) to learn more
 
 ### Triggers
 
 Triggers react to inputs and can execute one or more **Actions** and **Events**. For example, you can detect when the player enters a _Lava Zone_ and execute an **Action** that makes the player take damage.
+
+Click [here](triggers.md) to learn more about Triggers.
 
 ##   {#high-level-components}
 
