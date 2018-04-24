@@ -15,11 +15,11 @@
 
 ## Inventory
 
-* Inventory Overview
+* [Inventory Overview](inventory/inventory-overview.md)
 
 ## Dialogue
 
-* Dialogue Overview
+* [Dialogue Overview](dialogue/dialogue-overview.md)
 * [Roadmap](roadmap.md)
 * FAQ
 
