@@ -30,5 +30,9 @@ To add a new Action click on the **Add Action** button. A categorized dropdown w
 
 Select which action you want to add and it will automatically be added at the end of the list.
 
+### Behavior Options
+
+
+
 
 
