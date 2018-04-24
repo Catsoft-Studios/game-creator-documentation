@@ -10,7 +10,7 @@
 
 * [Game Creator Overview](game-creator/game-creator-overview.md)
 * [Module Manager](game-creator/module-manager.md)
-* Extend Game Creator
+* [Extend Game Creator](game-creator/extend-game-creator.md)
 
 ## Inventory
 
