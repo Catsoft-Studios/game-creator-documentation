@@ -5,6 +5,7 @@
 ## Quickstart
 
 * [Get Started](quickstart/get-started.md)
+* Setup
 
 ## Game Creator
 
