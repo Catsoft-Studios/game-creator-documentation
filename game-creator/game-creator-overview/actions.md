@@ -52,3 +52,7 @@ In other words, two **Actions** can't be executed at the same time if they both 
 You can accomplish the same behavior using the **Destroy** action at the end of the container of **Actions**., though it's faster this way.
 {% endhint %}
 
+{% hint style="success" %}
+You can add an **Actions** component below a **Trigger** component and let the** Destroy After Finishing** option destroy both the **Actions** and the **Trigger**. Useful if you want to execute it only once, for example, when picking an item.
+{% endhint %}
+
