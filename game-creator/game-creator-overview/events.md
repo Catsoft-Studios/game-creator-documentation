@@ -16,7 +16,9 @@ Upon clicking it, if it's the first time, the player gets some items. Otherwise 
 
 **Events** work much like [Actions](actions.md), but instead of immediately being executed when called, they perform a set of _checks_ before deciding which action to call \(if any at all\).
 
-![\(Event anatomy: Interactions hold pairs of Conditions - Actions\)](../../.gitbook/assets/event-anatomy.jpg)
+![\(Event anatomy: Interactions contain pairs of Conditions - Actions\)](../../.gitbook/assets/event-anatomy.jpg)
+
+
 
 An **Event** follows the following process:
 
