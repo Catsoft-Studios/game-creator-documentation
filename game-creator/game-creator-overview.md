@@ -1,12 +1,12 @@
-# Game Creator Overview
+---
+description: Learn what Game Creator is made of
+---
 
-## Can I become who I want to be?
+# Overview
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+The heart of **Game Creator** is composed of 6 different components. 
 
-## Have you had a chance to answer the previous question?
+The first three \(**Actions**, **Events** and **Triggers**\) focus on giving you the tools to create gameplay mechanics and design interactive elements. 
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
-
-
+The other three \(**Hotspots**, **Characters** and **Camera Motors**\) allow the previous ones
 

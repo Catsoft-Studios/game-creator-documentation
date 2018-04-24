@@ -23,6 +23,6 @@ Once you have **Game Creator** imported in your project you can start developing
 If this is the first time you're using it, we recommend you check out the **Example Scenes**. To open them, simply open the **Module Manager** \[⌘ + M\] and click the **Enable** button in the option _Game Creator Examples_.
 
 {% hint style="warning" %}
-The directory **Plugins/GameCreator** and **Plugins/GameCreatorData** and its content must always be at the root of the project and should never be moved.
+The directories **Plugins/GameCreator** and **Plugins/GameCreatorData** and their content must always be at the root of the project and should never be moved.
 {% endhint %}
 
