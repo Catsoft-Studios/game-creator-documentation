@@ -30,9 +30,25 @@ To add a new Action click on the **Add Action** button. A categorized dropdown w
 
 Select which action you want to add and it will automatically be added at the end of the list.
 
-### Behavior Options
+## Behavior Options
 
+You can configure the behavior of an **Action** at the end of the component.
 
+![\(Behavior options: Run in Background &amp; Destroy After Finishing\)](../../.gitbook/assets/actions-options.jpg)
 
+### Run in Background
 
+When the `Run in background` checkbox is marked the **Action** will always be executed when called. If the checkbox is left unmarked, if another **Actions** object is being executed and is set to run in the foreground, the first one won't be executed.
+
+{% hint style="info" %}
+In other words, two **Actions** can't be executed at the same time if they both have the **Run in background** checkbox unmarked.
+{% endhint %}
+
+### Destroy After Finishing
+
+**Game Creator** is all about fast development. If you want to destroy an **Actions** object after all its instructions have been executed, mark this checkbox.
+
+{% hint style="success" %}
+You can accomplish the same behavior using the **Destroy** action at the end of the container of **Actions**., though it's faster this way.
+{% endhint %}
 
