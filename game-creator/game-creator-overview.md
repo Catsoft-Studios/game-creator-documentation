@@ -12,5 +12,23 @@ The first three \(**Actions**, **Events** and **Triggers**\) focus on giving you
 
 For example, a user controls a **Character** \(Player\) which when it steps on a **Trigger**, it executes a set of **Actions** \(which can be a trap where rocks fall and reduce the player's HP\)
 
+### Actions
 
+A set of instructions that are sequentially executed from top to bottom. For example, an Actions set could be the following one:
+
+* Move **Player** near object **Chest**
+* Play animation `Open` on object **Chest**
+* Give `10 gold coins` to **Player**
+
+Click [here](actions.md) to learn more about them.
+
+### Events
+
+Condition the execution of **Actions**. For example, you can check if the object **Chest** has been opened. If so, don't increase the player's `gold coins`, but show the message: `This chest has already been looted!`
+
+### Triggers
+
+Triggers react to inputs and can execute one or more **Actions** and **Events**. For example, you can detect when the player enters a _Lava Zone_ and execute an **Action** that makes the player take damage.
+
+##   {#high-level-components}
 
