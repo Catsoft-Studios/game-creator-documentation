@@ -1,5 +1,5 @@
 ---
-description: Learn what Game Creator is made of.
+description: Learn everything Game Creator has to offer
 ---
 
 # Overview
