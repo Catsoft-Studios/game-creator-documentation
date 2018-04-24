@@ -1,5 +1,5 @@
 ---
-description: Integrate modules with Game Creator seamlessly with our own package manager
+description: Integrate modules with Game Creator seamlessly
 ---
 
 # Module Manager
