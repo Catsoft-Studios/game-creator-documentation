@@ -1,7 +1,10 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Test Page](test-page.md)
+
+## Quickstart
+
+* [Get Started](quickstart/get-started.md)
 
 ## Game Creator
 
@@ -16,8 +19,3 @@
 ## Dialogue
 
 * Dialogue Overview
-
-## Quickstart
-
-* [Get Started](quickstart/get-started.md)
-
