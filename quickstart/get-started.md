@@ -4,6 +4,8 @@
 
 In this pages you'll learn everything you need to start using **Game Creator** like a **PRO**. Alternatively you can watch our [15 minute Quickstart playlist on Youtube](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5).
 
+[https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5)
+
 {% hint style="info" %}
 Have any question? Feel free to drop us a line at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com).
 {% endhint %}
