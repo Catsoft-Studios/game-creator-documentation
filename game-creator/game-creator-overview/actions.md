@@ -16,6 +16,16 @@ To create an **Action**, right click on the _Hierarchy Panel_ and select `Game C
 
 ## Anatomy of an Action
 
+An **Action** is a single instruction that when executed _"does something"_. For example, the action **Wait** puts the execution on hold for a number of seconds.
+
+Here's an example of an action called **Play Sound**.
+
+![](../../.gitbook/assets/action-play-sound.jpg)
+
+{% hint style="info" %}
+When an **Action** is executed in runtime it will be highlighted in **light blue**. This is very useful in case your game gets halted for no reason and you want to debug which action is halting the system.
+{% endhint %}
+
 
 
 

@@ -14,7 +14,7 @@ The other three \([Hotspots](./#hotspots), [Characters](./#characters) and [Came
 
 For example, a user controls a **Character** \(Player\) which when it steps on a **Trigger**, it executes a set of **Actions** \(which can be a trap where rocks fall and reduce the player's HP\)
 
-### Actions
+## Actions
 
 A set of instructions that are sequentially executed from top to bottom. For example, an Actions set could be the following one:
 
@@ -24,19 +24,19 @@ A set of instructions that are sequentially executed from top to bottom. For exa
 
 Click [here](actions.md) to learn more about them.
 
-### Events
+## Events
 
 Condition the execution of **Actions**. For example, you can check if the object **Chest** has been opened. If so, don't increase the player's `gold coins`, but show the message: `This chest has already been looted!` 
 
 Click [here](events.md) to learn more
 
-### Triggers
+## Triggers
 
 Triggers react to inputs and can execute one or more **Actions** and **Events**. For example, you can detect when the player enters a _Lava Zone_ and execute an **Action** that makes the player take damage.
 
 Click [here](triggers.md) to learn more about Triggers.
 
-### Hotspots
+## Hotspots
 
 These are very simple components that are usually used together with **Triggers**. They allow to _hint_ the player about interactive elements. These _hints_ can be turned on and off depending on the type of interaction you want.
 
@@ -44,7 +44,7 @@ For example, you can make the **Player** turn his head towards the hotspot to in
 
 Click [here](hotspots.md) to learn more about Hotspots.
 
-### Characters
+## Characters
 
 As its name implies, **Characters** allow to easily add non-playable characters to your world using one single click.
 
@@ -54,7 +54,7 @@ There's a special type of **Character** called **Player** which inherits all the
 
 Click [here](characters.md) for more information.
 
-### Camera Motors
+## Camera Motors
 
 Cameras control how the world is viewed by the player. There are different types of cameras at your disposal such as steady cameras, top-down cameras motors, orbital adventure cameras, dolly cameras, tween cameras, and much much more!
 
