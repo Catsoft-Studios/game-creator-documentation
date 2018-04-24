@@ -6,7 +6,9 @@ description: Learn everything Game Creator has to offer
 
 The heart of **Game Creator** is composed of 6 different components. 
 
-The first three \(**Actions**, **Events** and **Triggers**\) focus on giving you the tools to create gameplay mechanics and design interactive elements. The other three \(**Hotspots**, **Characters** and **Camera Motors**\) act as an interface for the previous ones between the player and interactions.
+The first three \([Actions](game-creator-overview.md#actions), [Events](game-creator-overview.md#events) and [Triggers](game-creator-overview.md#triggers)\) focus on giving you the tools to create gameplay mechanics and design interactive elements. 
+
+The other three \([Hotspots](game-creator-overview.md#hotspots), [Characters](game-creator-overview.md#characters) and [Camera Motors](game-creator-overview.md#camera-motors)\) act as an interface for the previous ones between the player and interactions.
 
 ![\(The Player activates a Trigger when entering the green zone, which calls the Actions sequence\)](../.gitbook/assets/example.jpg)
 
