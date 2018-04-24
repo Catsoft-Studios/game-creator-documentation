@@ -46,7 +46,15 @@ Click [here](hotspots.md) to learn more about Hotspots.
 
 As its name implies, **Characters** allow to easily add non-playable characters to your world using one single click.
 
-All Characters have walk, run and jump capabilities by default. They also have procedural feet placement using Inverse Kinematics with an in-house custom algorithm called Weight Compensation.
+All Characters have **walk**, **run** and **jump** capabilities by default. They also have procedural feet placement using **Inverse Kinematics** with an in-house custom algorithm called _Weight Compensation_.
 
 There's a special type of **Character** called **Player** which inherits all the Character's functionalities and also allows it to be directly controlled by the user using different control schemes.
+
+Click [here](characters.md) for more information.
+
+### Camera Motors
+
+Cameras control how the world is viewed by the player. There are different types of cameras at your disposal such as steady cameras, top-down cameras motors, orbital adventure cameras, dolly cameras, tween cameras, and much much more!
+
+For more information on Cameras and Camera Motors click [here](camera.md).
 
