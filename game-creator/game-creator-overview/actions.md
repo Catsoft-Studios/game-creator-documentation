@@ -23,7 +23,7 @@ Here's an example of an action called **Play Sound**.
 ![](../../.gitbook/assets/action-play-sound.jpg)
 
 {% hint style="info" %}
-When an **Action** is executed in runtime it will be highlighted in **light blue**. This is very useful in case your game gets halted for no reason and you want to debug which action is halting the system.
+When an **Action** is executed in runtime it will be highlighted in **light blue**. This is very useful when you want to track which instruction is being executed.
 {% endhint %}
 
 
