@@ -18,8 +18,6 @@ Upon clicking it, if it's the first time, the player gets some items. Otherwise 
 
 ![\(Event anatomy: Interactions contain pairs of Conditions - Actions\)](../../.gitbook/assets/event-anatomy.jpg)
 
-
-
 An **Event** follows the following process:
 
 * Check the first **Interaction**
