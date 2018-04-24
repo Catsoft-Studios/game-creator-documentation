@@ -1,3 +1,7 @@
+---
+description: Integrate modules with Game Creator seamlessly with our own package manager
+---
+
 # Module Manager
 
 ## How to use Module Manager
