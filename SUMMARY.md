@@ -8,7 +8,7 @@
 
 ## Game Creator
 
-* [Game Creator Introduction](game-creator/game-creator-introduction.md)
+* [Game Creator Overview](game-creator/game-creator-overview.md)
 * [Module Manager](game-creator/module-manager.md)
 * Extend Game Creator
 
@@ -19,3 +19,4 @@
 ## Dialogue
 
 * Dialogue Overview
+

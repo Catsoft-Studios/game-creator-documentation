@@ -1,4 +1,4 @@
-# Game Creator Introduction
+# Game Creator Overview
 
 ## Can I become who I want to be?
 

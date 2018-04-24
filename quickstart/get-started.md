@@ -1,7 +1,3 @@
----
-description: Learn what Game Creator is and how it can help you build better games
----
-
 # Get Started
 
 **Game Creator** is an ecosystem that gives [Unity](https://unity3d.com) developers a world class technology platform from which they can build games that work seamlessly across multiple platforms quickly and efficiently.
@@ -26,11 +22,11 @@ Each **Action** is a high-level instruction. That means that unlike other script
 
 Ew! Boooring! With Game Creator you have an **Action** called `Move Character To` that does that: move a character to a specified destination. Under the hood it does a bunch of things, but that is all transparent to you.
 
-See the [Game Creator Overview](../game-creator/game-creator-introduction.md) section for more information on what Game Creator can offer to you.
+See the [Game Creator Overview](../game-creator/game-creator-overview.md) section for more information on what Game Creator can offer to you.
 
 ### For Programmers
 
-If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator](../game-creator/extend-game-creator.md) section to see how you can hack it. Why waste time reinventing the wheel?
+If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator]() section to see how you can hack it. Why waste time reinventing the wheel?
 
 Do you have existing coded tools? We're happy to say that they most likely work with Game Creator out of the box.
 
