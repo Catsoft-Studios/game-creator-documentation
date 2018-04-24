@@ -13,6 +13,9 @@
 * [Actions](game-creator/actions.md)
 * [Events](game-creator/events.md)
 * [Triggers](game-creator/triggers.md)
+* [Hotspots](game-creator/hotspots.md)
+* [Characters](game-creator/characters.md)
+* [Camera](game-creator/camera.md)
 * [Module Manager](game-creator/module-manager.md)
 * [Extend Game Creator](game-creator/extend-game-creator.md)
 

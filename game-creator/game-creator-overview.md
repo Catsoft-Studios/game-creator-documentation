@@ -34,5 +34,19 @@ Triggers react to inputs and can execute one or more **Actions** and **Events**.
 
 Click [here](triggers.md) to learn more about Triggers.
 
-##   {#high-level-components}
+### Hotspots
+
+These are very simple components that are usually used together with **Triggers**. They allow to _hint_ the player about interactive elements. These _hints_ can be turned on and off depending on the type of interaction you want.
+
+For example, you can make the **Player** turn his head towards the hotspot to indicate there's something that has caught his/her attention.
+
+Click [here](hotspots.md) to learn more about Hotspots.
+
+### Characters
+
+As its name implies, **Characters** allow to easily add non-playable characters to your world using one single click.
+
+All Characters have walk, run and jump capabilities by default. They also have procedural feet placement using Inverse Kinematics with an in-house custom algorithm called Weight Compensation.
+
+There's a special type of **Character** called **Player** which inherits all the Character's functionalities and also allows it to be directly controlled by the user using different control schemes.
 
