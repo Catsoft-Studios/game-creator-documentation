@@ -14,6 +14,8 @@ To create an **Action**, right click on the _Hierarchy Panel_ and select `Game C
 
 ![\(Right click &#x2192; Game Creator &#x2192; Action\)](../../.gitbook/assets/create-actions.jpg)
 
+## Anatomy of an Action
+
 
 
 
