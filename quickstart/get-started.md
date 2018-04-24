@@ -12,7 +12,7 @@ Have any question? Feel free to drop us a line at [hello@catsoft-studios.com](ma
 
 Because it's a highly flexible tool that does all the heavy lifting of game development so you can focus on what matters: **Making awesome games!**
 
-
+**Game Creator** comes packed with state-of-the-art components like the **Characters**, which allow you to drag and drop a model and _Wham!_ you have a working player with **walk**, **run** and **jump** controls, **head tracking**, advanced **Inverse Kinematics** for correct feet placement and a bunch of other cool stuff.
 
 ### For Artists & Game Designers
 
