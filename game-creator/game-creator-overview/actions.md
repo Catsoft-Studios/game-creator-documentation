@@ -1,5 +1,5 @@
 ---
-description: A Swiss blade for non-coders.
+description: A Swiss blade for game designers.
 ---
 
 # Actions
