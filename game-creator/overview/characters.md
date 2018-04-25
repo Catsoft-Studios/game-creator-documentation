@@ -77,3 +77,17 @@ You'll probably want to make a game with your custom character models. Luckely, 
 You can also change characters in **Play-Mode** in case you want to see how they look like. Switching back to **Edit-Mode** will undo any changes made.
 {% endhint %}
 
+### Inverse Kinematics
+
+Inverse Kinematics is an advanced set of algorithms that allow to procedurally create or adjust different animations.
+
+{% hint style="warning" %}
+Enabling **IK** comes at a performance cost of several **Raycasts** per frame. 
+{% endhint %}
+
+#### Foot IK
+
+Foot IK allows any Character or Player to correctly align and place their feed even on steep floors.
+
+
+
