@@ -49,6 +49,31 @@ Since version 0.4.1 **Game Creator** allows the use of **Inverse Kinematics** \(
 
 ## Animating the Character {#animating-the-character}
 
-In order to make the system more flexible, the **Character** and its animation system have been split in two different components.  
+In order to make the system more flexible, the **Character** and its animation system have been split in two different components.
 
+![\(You can customize the Animator parameters if you already have a Character system\)](../../.gitbook/assets/character-animation.jpg)
+
+The **Character Animator** has three different sections: 
+
+* Animator Parameters
+* Character Model
+* Inverse Kinematics
+
+### Animator Parameters {#animator-parameters}
+
+These string values behave as a proxy between the **Character** component and the **Animator**, gathering locomotion information from the logic controller and plugging it into the **Animator**. The string values defined inside the **Animator Parameters** allow to have a custom **Animator Controller**.
+
+{% hint style="warning" %}
+We don't recommend tweaking these parameters unless you are certain of what you want to do. In case you want to use your own Animation solution, you can access the current **Character** state by calling a public method named **`GetCharacterState()`**. It returns a **`Character.State`** class with information about if the character is grounded or not, its direction, etc.
+{% endhint %}
+
+### Character Model {#character-model}
+
+You'll probably want to make a game with your custom character models. Luckely, changing between characters in **Game Creator** is as easy as clicking the **Change Model** button and dragging in the 3D model you want to use from your _Project Panel_. **Game Creator** will take it from here and automagically update the character with the new one.
+
+![\(Automagically retarget any Humanoid bone structure with our Locomotion system\)](../../.gitbook/assets/character-change-model.gif)
+
+{% hint style="info" %}
+You can also change characters in **Play-Mode** in case you want to see how they look like. Switching back to **Edit-Mode** will undo any changes made.
+{% endhint %}
 
