@@ -27,3 +27,11 @@ There are different types of **Camera Motors**. Each one of them is responsible 
 
 Click here for a more in-depth view of the different Camera Motors
 
+To create a Camera Motor right click on the Hierarchy Panel and select `Game Creator → Other → Camera Motor`.
+
+![](../../.gitbook/assets/camera-motor-create.jpg)
+
+{% hint style="info" %}
+We're constantly looking for new ideas of **Camera Motors**. If you feel we're missing one drop us a line and we'll discuss the viability.
+{% endhint %}
+
