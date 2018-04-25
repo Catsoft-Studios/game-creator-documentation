@@ -49,5 +49,27 @@ The **Railway Camera Motor** is a little bit more sophisticated type of motor. I
 
 Railway Cameras are a bit difficult to understand at first but are a powerful tool to create cinematic experiences.
 
+![\(See how the camera follows the blue ball when it&apos;s inside its constrained bounds\)](../../../.gitbook/assets/camera-railway-demo.gif)
 
+The player \(_blue ball_\) moves from right to left. When the player is within the _plane_ of the blue line, the camera linearly interpolates the player's position with its min-max path.
+
+{% hint style="info" %}
+In other words, the camera follows the **Player** as long as the **Player** is within the blue line. Otherwise it stays at the edge of the path.
+{% endhint %}
+
+This type of cameras are very useful for corridors or narrow rooms.
+
+{% hint style="info" %}
+You can modify the camera path and the player min-max path by clicking and dragging the white balls in the scene view.
+{% endhint %}
+
+## Tween Camera Motor {#tween-camera-motor}
+
+The **Tween Camera Motor** allows to move the camera from a position _A_ to position _B_ within a time window. It is mostly used for cutscenes or small animations.
+
+![\(Move the camera from A to B within a time window\)](../../../.gitbook/assets/camera-tween.jpg)
+
+Tween Camera Motors are easily set up using the scene view gizmos. The motor's position corresponds to the initial position while the white dot is the end position
+
+![](../../../.gitbook/assets/camera-twee-scene.jpg)
 
