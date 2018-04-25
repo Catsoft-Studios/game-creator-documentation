@@ -16,8 +16,10 @@
   * [Hotspots](game-creator/game-creator-overview/hotspots.md)
   * [Characters](game-creator/game-creator-overview/characters.md)
   * [Camera](game-creator/game-creator-overview/camera.md)
-* [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
+* [Variables](game-creator/variables.md)
+* [Localization](game-creator/localization.md)
 * [Module Manager](game-creator/module-manager.md)
+* [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
 * [Customize Game Creator](game-creator/customize-game-creator.md)
 
 ## Inventory

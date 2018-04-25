@@ -8,7 +8,9 @@ description: Call Actions and Events
 
 ![](../../.gitbook/assets/triggers.jpg)
 
+{% hint style="warning" %}
 Triggers are executed from top to bottom. First the **Events** and then the rest of the **Actions**.
+{% endhint %}
 
 ## Advanced Options
 
