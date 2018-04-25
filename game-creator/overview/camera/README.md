@@ -25,11 +25,11 @@ The **Camera Controller** also has dampening options in case you constantly swit
 
 There are different types of **Camera Motors**. Each one of them is responsible for a specific logic. Some are very simple, like the **Fixed Camera Motor**, which only rotates towards a target. Others, like the **Adventure Camera Motor** allow you orbit around a character while avoiding walls getting in the way.
 
-Click here for a more in-depth view of the different Camera Motors
+Click [here](camera-motors.md) for a more in-depth view of the different Camera Motors
 
 To create a Camera Motor right click on the Hierarchy Panel and select `Game Creator → Other → Camera Motor`.
 
-![](../../.gitbook/assets/camera-motor-create.jpg)
+![](../../../.gitbook/assets/camera-motor-create.jpg)
 
 {% hint style="info" %}
 We're constantly looking for new ideas of **Camera Motors**. If you feel we're missing one drop us a line and we'll discuss the viability.
