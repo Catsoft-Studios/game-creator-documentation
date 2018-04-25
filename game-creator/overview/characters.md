@@ -41,12 +41,6 @@ The **Advanced** character properties are meant to be modified by more advanced 
 **Can Use Navigation Mesh** is disabled by default because the user has to **Bake** the Navigation Mesh first. To know more about using the **Navigation Mesh** follow this [link](https://docs.unity3d.com/Manual/Navigation.html).
 {% endhint %}
 
-### Inverse Kinematics {#inverse-kinematics}
-
-Since version 0.4.1 **Game Creator** allows the use of **Inverse Kinematics** \(aka **IK**\). This advanced technique allows to correctly place the feet of a character taking into account the steepness of the terrain, instead of relying on the animation of the character.
-
-**Game Creator** goes one step further and has a custom feature called **Weight Compensation**, which allows the character to slightly elevate or crouch depending on the inclination of the floor, so not only the feet are properly aligned, but also the knees gracefully bend.
-
 ## Animating the Character {#animating-the-character}
 
 In order to make the system more flexible, the **Character** and its animation system have been split in two different components.
@@ -79,7 +73,9 @@ You can also change characters in **Play-Mode** in case you want to see how they
 
 ### Inverse Kinematics
 
-Inverse Kinematics is an advanced set of algorithms that allow to procedurally create or adjust different animations.
+Since version 0.4.1 **Game Creator** allows the use of **Inverse Kinematics** \(aka **IK**\). This advanced technique allows to correctly place the feet of a character taking into account the steepness of the terrain, instead of relying on the animation of the character.
+
+**Game Creator** goes one step further and has a custom feature called **Weight Compensation**, which allows the character to slightly elevate or crouch depending on the inclination of the floor, so not only the feet are properly aligned, but also the knees gracefully bend.
 
 {% hint style="warning" %}
 Enabling **IK** comes at a performance cost of several **Raycasts** per frame. 
@@ -89,5 +85,5 @@ Enabling **IK** comes at a performance cost of several **Raycasts** per frame.
 
 Foot IK allows any Character or Player to correctly align and place their feed even on steep floors.
 
-
+![\(With just one click your Characters will realistically align their feet and body to the floor\)](../../.gitbook/assets/character-ik.gif)
 
