@@ -35,5 +35,3 @@ Only one set of **Actions** will be called in an **Event**. If the first **Inter
 **Events** are hard to get at the beginning. For a more comprehensive explanation, watch this [video tutorial](https://www.youtube.com/watch?v=WbREQsACPjw) \(less than 3 minutes\).
 {% endhint %}
 
-
-
