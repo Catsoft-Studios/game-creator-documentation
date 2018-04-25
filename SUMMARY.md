@@ -16,6 +16,7 @@
   * [Hotspots](game-creator/overview/hotspots.md)
   * [Characters](game-creator/overview/characters/README.md)
     * [Player](game-creator/overview/characters/player.md)
+    * [Markers](game-creator/overview/characters/markers.md)
   * [Camera](game-creator/overview/camera.md)
 * [Variables](game-creator/variables.md)
 * [Localization](game-creator/localization.md)
