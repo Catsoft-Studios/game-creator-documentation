@@ -28,7 +28,7 @@ There's a third component named _Post Process_. This is an extra tool that allow
 * **All Uppercase** - Changes all characters to uppercase.
 * **All Lowercase** - Changes all characters to lowercase.
 
-But where do you actually specify the translations? That's done inside the _Preferences Menu_. Press _Cmd_ + _M_ or click on _Game Creator_ -&gt; _Preferences_ to open the menu and navigate to **Localization**.
+But where do you actually specify the translations? That's done inside the _Preferences Menu_. Press ⌘ + _P_ or click on `Game Creator `→` Preferences` to open the menu and navigate to **Localization**.
 
 The **Localization** tab has two sections: **Languages** and **Texts**.
 
@@ -44,11 +44,13 @@ To update a language click on **Import...** and select the saved file. If everyt
 
 To test that everything works, create a new **Action** and use the **Change Language** to select _Spanish_.
 
-> When changing the language in runtime, all texts are updated instantaneously in realtime. There's no need to restart the application or reload the scene.
+{% hint style="info" %}
+When changing the language in runtime, all texts are updated instantaneously in **realtime**. There's no need to restart the application or reload the scene.
+{% endhint %}
 
 ### Texts {#texts}
 
-These are all the texts that can be translated. Notice that if you remove a _Game Object_ that contained a component with a localized string it might not disappear from this list, so it is a good practice to review these strings and delete those that are unused, from time to time.
+These are all the texts that can be translated. Notice that if you remove a Game Object that contained a component with a localized string it might not disappear from this list, so it is a good practice to review these strings and delete those that are unused, from time to time.
 
 ## Best Practices {#best-practices}
 
