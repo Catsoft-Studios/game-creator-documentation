@@ -18,3 +18,9 @@ This is specially useful when dealing with pickup items or interactive doors.
 
 There's also a shortcut option to create a [Hotspot](hotspots.md) component from within the **Trigger**.
 
+## Tips
+
+Some times you'll want a **Trigger** to execute an **Action** only once. You can easily take advantage of an **Action's** `DestroyAfterFinishing` property to destroy both the **Action** and the **Trigger**.
+
+To do so, simply add an **Actions** component inside the same **Game Object **where the **Trigger** is. After executing the **Actions**, it will destroy the entire **Game Object**.
+
