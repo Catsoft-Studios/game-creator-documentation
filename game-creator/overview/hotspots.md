@@ -1,8 +1,8 @@
 # Hotspots
 
-**Hotspots** are interactive elements that provide a simple interface for common gameplay mechanics that are not part of the core of the game. 
+**Hotspots** are interactive elements that provide a simple interface for common gameplay mechanics that are not part of the core of the game.
 
-![\(Hotspot&apos;s icon is a non-complete circumference\)](../../.gitbook/assets/hotspots%20%281%29.jpg)
+![\(Hotspot&apos;s icon is a non-complete circumference\)](../../.gitbook/assets/hotspots.jpg)
 
 For example, a typical hotspot is next to a **Trigger** with the option to change the cursor texture when the mouse hovers the object.
 
@@ -39,4 +39,3 @@ An instance of the **Prefab** game object will be created once and **enabled**/*
 If you have a _humanoid_ character as a player you can make him **look at** the **Hotspot**. This is a subtle effect but a great way to indicate important objects without the need of using UI elements.
 
 ![\(Example of the head-tracking option\)](../../.gitbook/assets/trigger-headtrack-anim.gif)
-
