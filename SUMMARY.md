@@ -9,13 +9,13 @@
 
 ## Game Creator
 
-* [Overview](game-creator/game-creator-overview/README.md)
-  * [Actions](game-creator/game-creator-overview/actions.md)
-  * [Events](game-creator/game-creator-overview/events.md)
-  * [Triggers](game-creator/game-creator-overview/triggers.md)
-  * [Hotspots](game-creator/game-creator-overview/hotspots.md)
-  * [Characters](game-creator/game-creator-overview/characters.md)
-  * [Camera](game-creator/game-creator-overview/camera.md)
+* [Overview](game-creator/overview/README.md)
+  * [Actions](game-creator/overview/actions.md)
+  * [Events](game-creator/overview/events.md)
+  * [Triggers](game-creator/overview/triggers.md)
+  * [Hotspots](game-creator/overview/hotspots.md)
+  * [Characters](game-creator/overview/characters.md)
+  * [Camera](game-creator/overview/camera.md)
 * [Variables](game-creator/variables.md)
 * [Localization](game-creator/localization.md)
 * [Module Manager](game-creator/module-manager.md)
@@ -24,11 +24,11 @@
 
 ## Inventory
 
-* [Overview](inventory/inventory-overview.md)
+* [Overview](inventory/overview.md)
 
 ## Dialogue
 
-* [Overview](dialogue/dialogue-overview.md)
-* [Roadmap](roadmap.md)
-* [FAQ](untitled.md)
+* [Overview](dialogue/overview.md)
+* [Roadmap](dialogue/roadmap.md)
+* [FAQ](dialogue/faq.md)
 

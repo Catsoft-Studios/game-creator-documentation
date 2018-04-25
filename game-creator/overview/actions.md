@@ -1,7 +1,3 @@
----
-description: A Swiss blade for game designers.
----
-
 # Actions
 
 **Actions** are one of the core features behind **Game Creator**. They allow to animate characters, activate interruptors, move objects, and a long etcetera.

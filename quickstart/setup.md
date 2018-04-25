@@ -1,9 +1,3 @@
----
-description: >-
-  Learn how to setup your project with Game Creator. It's so easy that this page
-  shouldn't even exist :-P
----
-
 # Setup
 
 ![](../.gitbook/assets/import%20%281%29.jpg)

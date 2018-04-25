@@ -1,7 +1,3 @@
----
-description: Call Actions and Events
----
-
 # Triggers
 
 **Triggers** are used to fire **Actions** and **Events** when _something_ happens. This _something_ can range from the player pressing a certain key to an NPC's entering a certain area.

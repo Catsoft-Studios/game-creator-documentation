@@ -1,12 +1,6 @@
----
-description: >-
-  Get insight into our future plans, and when you can expect new features and
-  functionality to be released.
----
-
 # Roadmap
 
-![](.gitbook/assets/roadmap.jpg)
+![](../.gitbook/assets/roadmap.jpg)
 
 ## 2018 - Milestone
 

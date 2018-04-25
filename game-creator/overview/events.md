@@ -1,7 +1,3 @@
----
-description: Wrap Actions around conditions
----
-
 # Events
 
 Events components a little bit more complex than Actions; they allow to check for conditions and branch from execution threads.

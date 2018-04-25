@@ -1,7 +1,3 @@
----
-description: Learn everything Game Creator has to offer
----
-
 # Overview
 
 The heart of **Game Creator** is composed of 6 different components. 
