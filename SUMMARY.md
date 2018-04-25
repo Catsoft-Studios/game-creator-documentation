@@ -32,6 +32,6 @@
 ## Dialogue
 
 * [Overview](dialogue/overview.md)
-* [Roadmap](dialogue/roadmap.md)
-* [FAQ](dialogue/faq.md)
+* [Roadmap](roadmap.md)
+* [FAQ](faq.md)
 
