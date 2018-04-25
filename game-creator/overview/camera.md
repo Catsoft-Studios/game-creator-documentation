@@ -13,7 +13,11 @@ Game Creator has two different Camera types:
 
 ## Camera Controller
 
-There should only be once single instance in the entire scene. The **Camera Controller** has a slot with a reference to an active **Camera Motor**. The **Camera Controller** tries to mimic the referenced motor properties.
+The **Camera Controller** has a slot with a reference to an active **Camera Motor**. The **Camera Controller** tries to mimic the referenced motor properties.
+
+{% hint style="warning" %}
+There should always be only **one single instance** in the entire scene.
+{% endhint %}
 
 The **Camera Controller** also has dampening options in case you constantly switch between different motors and you want to smooth out the different transitions.
 
