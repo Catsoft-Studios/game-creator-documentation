@@ -28,7 +28,7 @@ This type of camera is usually used for **RTS** or **Top-Down** games.
 {% endhint %}
 
 {% hint style="success" %}
-There is a little dampening between the position of the target and the actual movement of the camera to prevent it from jittering.
+Add a little dampening to the **Camera Controller **to avoid jittering.
 {% endhint %}
 
 
