@@ -6,6 +6,8 @@ description: >-
 
 # Roadmap
 
+![](.gitbook/assets/roadmap.jpg)
+
 ## 2018 - Milestone
 
 {% tabs %}
