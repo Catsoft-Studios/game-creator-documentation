@@ -10,6 +10,14 @@ In this pages you'll learn everything you need to start using **Game Creator** l
 Have any question? Feel free to drop us a line at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com).
 {% endhint %}
 
+## Community Driven
+
+**Game Creator** is a community driven product. That means that you can have a real impact on the direction of the development cycle. We internally have our own roadmap but if there's a community consensus that a certain feature should be implemented first, we hit the _pause_ button and implement that feature.
+
+{% hint style="info" %}
+Join our [Discord server](https://discord.gg/ZCkqJf5) for realtime discussions about the development of **Game Creator**.
+{% endhint %}
+
 ## Why Game Creator?
 
 Because it's a highly flexible tool that does all the heavy lifting of game development so you can focus on what matters: **Making awesome games!**
