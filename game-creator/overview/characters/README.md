@@ -6,7 +6,7 @@ description: The living parts of your game
 
 The **Characters** component allows to define an object as a character. A **Character** can be moved around using the appropriate **Actions**. You can also tweak different properties such as if the character can _walk_, _run_, its _speed_ and more
 
-![](../../.gitbook/assets/character.jpg)
+![](../../../.gitbook/assets/character.jpg)
 
 Since version **0.2.5 **a character can also perform one of multiple **gestures**, such as waving its hand, picking an object, drinking a potion, ... And be in one of multiple states, such as crouched, injured and so on.
 
@@ -45,7 +45,7 @@ The **Advanced** character properties are meant to be modified by more advanced 
 
 In order to make the system more flexible, the **Character** and its animation system have been split in two different components.
 
-![\(You can customize the Animator parameters if you already have a Character system\)](../../.gitbook/assets/character-animation.jpg)
+![\(You can customize the Animator parameters if you already have a Character system\)](../../../.gitbook/assets/character-animation.jpg)
 
 The **Character Animator** has three different sections: 
 
@@ -65,7 +65,7 @@ We don't recommend tweaking these parameters unless you are certain of what you 
 
 You'll probably want to make a game with your custom character models. Luckely, changing between characters in **Game Creator** is as easy as clicking the **Change Model** button and dragging in the 3D model you want to use from your _Project Panel_. **Game Creator** will take it from here and automagically update the character with the new one.
 
-![\(Automagically retarget any Humanoid bone structure with our Locomotion system\)](../../.gitbook/assets/character-change-model.gif)
+![\(Automagically retarget any Humanoid bone structure with our Locomotion system\)](../../../.gitbook/assets/character-change-model.gif)
 
 {% hint style="info" %}
 You can also change characters in **Play-Mode** in case you want to see how they look like. Switching back to **Edit-Mode** will undo any changes made.
@@ -85,5 +85,5 @@ Enabling **IK** comes at a performance cost of several **Raycasts** per frame.
 
 Foot IK allows any Character or Player to correctly align and place their feed even on steep floors.
 
-![\(With just one click your Characters will realistically align their feet and body to the floor\)](../../.gitbook/assets/character-ik.gif)
+![\(With just one click your Characters will realistically align their feet and body to the floor\)](../../../.gitbook/assets/character-ik.gif)
 

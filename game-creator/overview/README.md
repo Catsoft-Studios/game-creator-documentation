@@ -48,7 +48,7 @@ All Characters have **walk**, **run** and **jump** capabilities by default. They
 
 There's a special type of **Character** called **Player** which inherits all the Character's functionalities and also allows it to be directly controlled by the user using different control schemes.
 
-Click [here](characters.md) for more information.
+Click [here](characters/) for more information.
 
 ## Camera Motors
 
