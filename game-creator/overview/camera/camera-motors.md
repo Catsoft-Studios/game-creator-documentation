@@ -73,3 +73,23 @@ Tween Camera Motors are easily set up using the scene view gizmos. The motor's p
 
 ![](../../../.gitbook/assets/camera-twee-scene.jpg)
 
+## First Person Camera Motor {#first-person-camera-motor}
+
+The **First Person Motor** allows to create FPS action games like _Call of Duty_ or horror games like The Elder Scrolls.
+
+![\(Max pitch avoids overshooting rotations\)](../../../.gitbook/assets/camera-fps.jpg)
+
+This camera motor allows to define the mouse sensitivity, the amount of dampening/spring the camera moves relative to the mouse and the maximum pitch rotation \(in case you want to limit the visual spectrum of the player\).
+
+## Adventure Camera Motor {#adventure-camera-motor}
+
+The **Adventure Camera** is an advanced camera system that behaves like the cameras from _Tomb Raider_ or _Uncharted_ series.
+
+![\(Adventure Camera Motor has a quite a few configuration parameters\)](../../../.gitbook/assets/camera-adventure.jpg)
+
+The camera orbits around a target using the mouse movement \(on Desktop\) or using the touch-screen if the target device is mobile.
+
+{% hint style="success" %}
+You can also toggle whether you want to avoid **wall collision**.
+{% endhint %}
+
