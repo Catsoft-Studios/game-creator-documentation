@@ -1,6 +1,21 @@
+---
+description: 'Lights, Camera, ... And action!'
+---
+
 # Camera
 
-TODO
+In order to know which one is the **main camera** and apply different behaviors to it, **Game Creator** provides a component called **Camera Controller**.
+
+Game Creator has two different Camera types:
+
+* **Camera Controller:** Attached to the main camera. Mimics the behavior of an active Camera Motor.
+* **Camera Motors:** There are different types of motors. They tell the Camera Controller where to look at.
+
+## Camera Controller
+
+There should only be once single instance in the entire scene. The **Camera Controller** has a slot with a reference to an active **Camera Motor**. The **Camera Controller** tries to mimic the referenced motor properties.
+
+The **Camera Controller** also has dampening options in case you constantly switch between different motors and you want to smooth out the different transitions.
 
 
 
