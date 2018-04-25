@@ -31,5 +31,23 @@ This type of camera is usually used for **RTS** or **Top-Down** games.
 Add a little dampening to the **Camera Controller **to avoid jittering.
 {% endhint %}
 
+## Target Camera Motor {#target-camera-motor}
+
+The **Target Camera** behaves much similar like the **Follow Camera** but also accepts a **Look At** target. It's mostly used for _Shoulder_ cameras where the camera is anchored to a position \(Player's shoulder\) but the focus of the camera is targeting another scene object.
+
+![\(Camera orbits around the anchor while keeping both the anchor and target inside the screen\)](../../../.gitbook/assets/camera-target.jpg)
+
+{% hint style="success" %}
+This camera can also be used to highlight a place of interest
+{% endhint %}
+
+## Railway Camera Motor {#railway-camera-motor}
+
+The **Railway Camera Motor** is a little bit more sophisticated type of motor. It allows the camera to follow the target along a path \(or rail\) but never exceed it.
+
+![\(Railway cameras also have scene gizmos\)](../../../.gitbook/assets/camera-railway.jpg)
+
+Railway Cameras are a bit difficult to understand at first but are a powerful tool to create cinematic experiences.
+
 
 
