@@ -16,5 +16,20 @@ States are not **boolean** \(on/off\) values. You can blend between the root loc
 This is very useful if you want, for instance, to set the **Player** normal-injured state based on its remaining health.
 {% endhint %}
 
+## Default States {#default-states}
 
+**Game Creator** comes with some default **States**:
+
+* **Crouch:** The character crouches in a stealthy way
+* **Drunk:** The character appears... Not sober ^^'
+* **Hurt:** The character moves hoping with just one leg
+* **Mediate:** The character sits crossing its legs and placing its hands onto his knees.
+
+## Custom States {#custom-states}
+
+**Game Creator** allows you to easily create custom **States**. To do so, right click on the _Project Panel_ and select `Create → Game Creator → Characters` and a **State** asset will be created. You'll see there are different types of **States**.
+
+* **Simple State:** Just like the _Meditate_ state, a simple state is a character staying in a single pose. This can be sitting on a chair, leaning on a wall, ...
+* **Locomotion State:** Like the **Drunk** state, the Locomotion state is a state where you can override the different movement animations of the character. You'll be presented with a list of animation fields where you can drag and drop custom ones to. If you leave any animation in blank, the default one will be used instead.
+* **Advanced State:** This is for advanced users who want fine-grain solutions or have a custom **Mecanim Animator Controller**. Drag and drop the animator and call the different parameters need \(if any\) from a custom script to use it.
 
