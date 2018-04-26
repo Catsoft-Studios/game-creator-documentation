@@ -1,8 +1,8 @@
+---
+description: Debug.Log("Welcome to the Darkside of Game Creator");
+---
+
 # Game Creator API
 
-TODO
-
-
-
-
+![](../.gitbook/assets/darkside-header.jpg)
 
