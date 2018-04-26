@@ -21,7 +21,9 @@
     * [States](game-creator/overview/characters/states.md)
   * [Camera](game-creator/overview/camera/README.md)
     * [Camera Motors](game-creator/overview/camera/camera-motors.md)
-* [Variables](game-creator/variables.md)
+* [Variables](game-creator/variables/README.md)
+  * Global Variables
+  * Local Variables
 * [Localization](game-creator/localization.md)
 * [Module Manager](game-creator/module-manager.md)
 * [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
