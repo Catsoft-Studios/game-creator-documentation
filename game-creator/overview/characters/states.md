@@ -30,6 +30,14 @@ This is very useful if you want, for instance, to set the **Player** normal-inju
 **Game Creator** allows you to easily create custom **States**. To do so, right click on the _Project Panel_ and select `Create → Game Creator → Characters` and a **State** asset will be created. You'll see there are different types of **States**.
 
 * **Simple State:** Just like the _Meditate_ state, a simple state is a character staying in a single pose. This can be sitting on a chair, leaning on a wall, ...
-* **Locomotion State:** Like the **Drunk** state, the Locomotion state is a state where you can override the different movement animations of the character. You'll be presented with a list of animation fields where you can drag and drop custom ones to. If you leave any animation in blank, the default one will be used instead.
+* **Locomotion State:** Like the **Drunk** state, the Locomotion state is a state where you can override the different movement animations of the character. You'll be presented with a list of animation fields where you can drag and drop custom ones to.
 * **Advanced State:** This is for advanced users who want fine-grain solutions or have a custom **Mecanim Animator Controller**. Drag and drop the animator and call the different parameters need \(if any\) from a custom script to use it.
+
+{% hint style="success" %}
+If you leave any **State** animation in blank, the default locomotion animation will be used.
+{% endhint %}
+
+![\(Example of a Locomotion State asset with a complete list of all possible animations\)](../../../.gitbook/assets/character-states-custom.jpg)
+
+When using a **Character State Action** you'll have to drag and drop this **State** asset to the corresponding field and it will automagically bend between the default animations and the new state.
 
