@@ -25,7 +25,7 @@
 * [Localization](game-creator/localization.md)
 * [Module Manager](game-creator/module-manager.md)
 * [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
-* [Customize Game Creator](game-creator/customize-game-creator.md)
+* [Game Creator API](game-creator/game-creator-api.md)
 
 ## Inventory
 

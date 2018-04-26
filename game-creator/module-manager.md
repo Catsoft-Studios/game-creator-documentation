@@ -1,4 +1,14 @@
+---
+description: >-
+  Seamless integrate modules within Game Creator. Or remove them without a
+  trace!
+---
+
 # Module Manager
+
+## What is the Module Manager
+
+
 
 ## How to use Module Manager
 
