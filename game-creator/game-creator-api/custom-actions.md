@@ -72,7 +72,7 @@ public override IEnumerator Execute(GameObject invoker, IAction[] actions, int i
 Notice how after the `yield return new WaitForSeconds(0.5)` there's one last yield instruction that returns an integer \(`yield return 0`\)
 {% endhint %}
 
-## Exposing an Action's options
+## Editor Body example
 
 Let's take a look at the second half of the code for creating a custom **Action**. Between the platform compile condition pragmas \(`#if UNITY_EDITOR` ... `#endif`\).
 

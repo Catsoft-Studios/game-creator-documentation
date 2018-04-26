@@ -27,6 +27,7 @@
 * [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
 * [Game Creator API](game-creator/game-creator-api/README.md)
   * [Custom Actions](game-creator/game-creator-api/custom-actions.md)
+  * [Custom Conditions](game-creator/game-creator-api/custom-conditions.md)
 
 ## Inventory
 
