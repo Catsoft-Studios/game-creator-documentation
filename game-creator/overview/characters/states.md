@@ -1,7 +1,3 @@
----
-description: 'Sit on a chair, meditate or sneak passed those guards'
----
-
 # States
 
 Apart from performing different **Gestures**, a **Character** can also be in different **States**. The difference between a **State** and a **Gesture** is that a **State** is part of a range of Locomotion animations.

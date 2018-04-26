@@ -1,7 +1,3 @@
----
-description: Dale a tu cuerpo alegría Macarena!
----
-
 # Gestures
 
 The **Character** with the **Character Animator** can perform multiple gestures. A **Gesture** is a small movement the character does that doesn't imply changing its state. For example, when two people interact, their hands move according to their verbal language to emphasize their communication.
