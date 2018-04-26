@@ -1,5 +1,7 @@
 ---
-description: Debug.Log("Welcome to the Darkside of Game Creator");
+description: >-
+  01000111 01100001 01101101 01100101 00100000 01000011 01110010 01100101
+  01100001 01110100 01101111 01110010
 ---
 
 # Game Creator API
