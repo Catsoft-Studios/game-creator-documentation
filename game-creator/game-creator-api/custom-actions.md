@@ -4,8 +4,6 @@ description: 'Create custom: Pew! Pew! Paff! Broom!'
 
 # Custom Actions
 
-## Custom Actions {#custom-actions}
-
 **Actions** are the heart of **Game Creator** and thus is a process you'll be doing quite often if you intent to customize your game. Luckily we've created tools that allows you to easily create a _template_ action which you can modify.
 
 To create a new **Action** right-click on the _Project Panel_ inside the _Unity Editor_ and navigate to `Create → GameCreator → Developer → Action` and give the text file created a suitable name.
@@ -24,9 +22,11 @@ All **Game Creator** scripts are organized inside the namespace "GameCreator" an
 
 Creating a custom **Action** is divided in two parts. The first one, you'll be programming what the action actually does. The second part you'll need to tell Unity how you want this **Action** to be visualized in the _Inspector_ and which properties are exposed. Let's begin with the first one.
 
-### Runtime body of an Action {#runtime-body-of-an-action}
+## Runtime Body of an Action
 
 The runtime body of the **Action** goes from the beginning of the action class definition till the platform compile condition pragma \(where it's read `#if UNITY_EDITOR`\)
+
+![](../../.gitbook/assets/api-action-runtime.jpg)
 
 You can declare your properties at the beginning of the class as you would normally do. The method `Execute` is called whenever an action is executed. Let's break down its structure and explain how it works.
 
@@ -51,7 +51,7 @@ The parameters are:
 * `IAction[] actions`: An array containing the full set of instructions
 * `int index`: The index of the current **Action** in the previous parameter
 
-### Runtime body example {#runtime-body-example}
+## Runtime Body example
 
 Here's an example of a custom **Action** called `ActionLookAtAndWait`. What it does is to make the `objectA` asset look at the `objectB` and wait 0.5 seconds before resuming the execution.
 
@@ -72,9 +72,11 @@ public override IEnumerator Execute(GameObject invoker, IAction[] actions, int i
 Notice how after the `yield return new WaitForSeconds(0.5)` there's one last yield instruction that returns an integer \(`yield return 0`\)
 {% endhint %}
 
-### Exposing an Action's options {#exposing-an-actions-options}
+## Exposing an Action's options
 
 Let's take a look at the second half of the code for creating a custom **Action**. Between the platform compile condition pragmas \(`#if UNITY_EDITOR` ... `#endif`\).
+
+![](../../.gitbook/assets/api-action-editor.jpg)
 
 First of all, there is a _static_ property with the _new_ keyword called `NAME`. This property gives the **Action** a name in the **Action**'s selection dropdown list. Just change the name and you're good to go.
 
@@ -140,4 +142,6 @@ public override void OnInspectorGUI()
 ```
 
 Wrapping and putting everything together, you can see this custom **Action** in a real project. Notice how the square looks at the objectB \(red ball\) and waits 0.5 seconds before looking at it again.
+
+![](../../.gitbook/assets/actions-conditions.gif)
 
