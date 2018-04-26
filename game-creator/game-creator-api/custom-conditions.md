@@ -12,7 +12,11 @@ To create a custom **Condition** right-click in the _Project Panel_, select `Cre
 We use the convention **"Condition" +** **name**, but you can use whatever you like.
 {% endhint %}
 
+![](../../.gitbook/assets/api-create-action%20%281%29.jpg)
+
 A **Condition** code is divided in a _runtime_ section and an _editor_ section.
+
+![](../../.gitbook/assets/api-condition-runtime.jpg)
 
 The runtime section describes how it checks whether _something_ is true or false. To do so, declare your properties below the class definition and override the `Check` method. To create the new **Condition** let's remove the `isSatisfied` property and create 3 others:
 
@@ -40,6 +44,6 @@ public override bool Check(GameObject target)
 ```
 
 {% hint style="info" %}
-The _Editor_ section of a **Condition** is exactly as the **Action**. Check it out clicking here.
+The _Editor_ section of a **Condition** is exactly as the **Action**. Check it out clicking [here](custom-actions.md#editor-body-example).
 {% endhint %}
 
