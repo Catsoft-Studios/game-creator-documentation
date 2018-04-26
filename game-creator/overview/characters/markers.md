@@ -1,7 +1,3 @@
----
-description: Where to go and where to look
----
-
 # Markers
 
 **Markers** are special game objects used to set as destinations for moving characters. These **Markers** that are represented with a big yellow arrow.

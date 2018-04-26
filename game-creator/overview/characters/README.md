@@ -1,7 +1,3 @@
----
-description: The living parts of your game
----
-
 # Characters
 
 The **Characters** component allows to define an object as a character. A **Character** can be moved around using the appropriate **Actions**. You can also tweak different properties such as if the character can _walk_, _run_, its _speed_ and more

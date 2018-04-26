@@ -1,7 +1,3 @@
----
-description: Hello! Hola! Bonjour! Ciao! Salaam! Konnichiwa!
----
-
 # Localization
 
 The **Localization Tools** were first added in version **0.2.4**

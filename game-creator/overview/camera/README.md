@@ -1,7 +1,3 @@
----
-description: 'Lights, Camera, ... And action!'
----
-
 # Camera
 
 In order to know which one is the **main camera** and apply different behaviors to it, **Game Creator** provides a component called **Camera Controller**.

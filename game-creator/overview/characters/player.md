@@ -1,7 +1,3 @@
----
-description: Just another Character. With input.
----
-
 # Player
 
 The **Character Player** inherits all the functionalities from the **Character** component. This section assumes you are familiar with the **Character** component.

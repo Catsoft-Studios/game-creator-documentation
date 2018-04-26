@@ -17,6 +17,8 @@
   * [Characters](game-creator/overview/characters/README.md)
     * [Player](game-creator/overview/characters/player.md)
     * [Markers](game-creator/overview/characters/markers.md)
+    * Gestures
+    * [Untitled](game-creator/overview/characters/untitled.md)
   * [Camera](game-creator/overview/camera/README.md)
     * [Camera Motors](game-creator/overview/camera/camera-motors.md)
 * [Variables](game-creator/variables.md)
@@ -32,6 +34,6 @@
 ## Dialogue
 
 * [Overview](dialogue/overview.md)
-* [Roadmap](roadmap.md)
-* [FAQ](faq.md)
+* [Roadmap](dialogue/roadmap.md)
+* [FAQ](dialogue/faq.md)
 

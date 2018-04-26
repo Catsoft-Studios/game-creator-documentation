@@ -19,3 +19,4 @@ If this is the first time you're using it, we recommend you check out the **Exam
 {% hint style="warning" %}
 The directories **Plugins/GameCreator** and **Plugins/GameCreatorData** and their content must always be at the root of the project and should never be moved.
 {% endhint %}
+

@@ -1,6 +1,6 @@
 # Roadmap
 
-![](.gitbook/assets/roadmap.jpg)
+![](../.gitbook/assets/roadmap.jpg)
 
 ## 2018 - Milestone
 

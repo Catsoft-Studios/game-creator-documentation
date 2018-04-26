@@ -39,3 +39,4 @@ An instance of the **Prefab** game object will be created once and **enabled**/*
 If you have a _humanoid_ character as a player you can make him **look at** the **Hotspot**. This is a subtle effect but a great way to indicate important objects without the need of using UI elements.
 
 ![\(Example of the head-tracking option\)](../../.gitbook/assets/trigger-headtrack-anim.gif)
+
