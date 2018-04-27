@@ -18,7 +18,7 @@ Global Variables have a wide application scope and their values are shared betwe
 
 ### Get Global Variables
 
-Accessing a Global variable can be done specifying the return type or by requesting a generic object and later explicitly casting it to a usable type.
+Accessing a global variable can be done specifying the return type or by requesting a generic object and later explicitly casting it to a usable type.
 
 ```csharp
 public static T GetGlobal<T>(string name)
@@ -29,4 +29,16 @@ public static object GetGlobal(string name)
 ```
 
 ### Set Global Variables
+
+Setting a global variable value also very easy.
+
+```csharp
+public static void SetGlobal<T>(string name, T value)
+```
+
+```csharp
+public static void SetGlobal(string name, object value)
+```
+
+
 
