@@ -31,6 +31,7 @@
   * [Custom Actions](game-creator/game-creator-api/custom-actions.md)
   * [Custom Conditions](game-creator/game-creator-api/custom-conditions.md)
   * [Custom Hooks](game-creator/game-creator-api/custom-hooks.md)
+  * Variables Access
 
 ## Inventory
 
