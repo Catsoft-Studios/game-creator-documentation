@@ -92,7 +92,7 @@ Checking if a local variable exists is done exactly like with global variables
 public static bool ExistsLocal(GameObject target, string name, bool inChildren = false)
 ```
 
-## Using TypeProperties
+## TypeProperties
 
 When integrating Game Creator with your custom scripts you'll want to make use of both constant variable values \(float, strings, ...\) and Game Creator Variables. 
 
