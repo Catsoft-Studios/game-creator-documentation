@@ -26,5 +26,19 @@ Some variable types \(strings, numbers, booleans, Colors, ...\) can be saved bet
 Not all variables can be saved between play sessions. For example, Game Objects can't be saved because they are references to scene objects and thus they might not be present when reloading a scene.
 {% endhint %}
 
+To save a variable between sessions, mark the little checkbox next to its name. The header of the variable then will inform you that this variable is savable.
+
+## Tags
+
+A game can end up with thousands of global variables. Game Creator doesn't put any limit to the amount of variables you can create, but searching through them can become quite a daunting task. That's why we implemented a feature called Tags.
+
+Tags allow you to categorize global variables in groups. To create a tag click on Edit Tags and type in the name of your tag. For example: **Potions**. You can also choose the tag's **color**.
+
+![\(Click this image to enlarge it\)](../../.gitbook/assets/global-variables-edittags.jpg)
+
+{% hint style="info" %}
+Out of curiosity, tag color codes have been selected from an open source initiative called [Open Colors](https://yeun.github.io/open-color/), which have researched which palettes work well for UI elements.
+{% endhint %}
+
 
 
