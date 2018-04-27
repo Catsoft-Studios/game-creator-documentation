@@ -1,5 +1,5 @@
 ---
-description: Trade and use items as you please
+description: Khajiit has wares... If you have coin...
 ---
 
 # Actions

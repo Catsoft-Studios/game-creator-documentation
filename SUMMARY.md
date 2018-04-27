@@ -37,6 +37,7 @@
 
 * [Overview](inventory/overview/README.md)
   * [Actions](inventory/overview/actions.md)
+  * Conditions
 * [Inventory Window](inventory/inventory-window/README.md)
   * [Catalogue](inventory/inventory-window/catalogue.md)
   * [Recipes](inventory/inventory-window/recipes.md)
