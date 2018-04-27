@@ -1,3 +1,7 @@
+---
+description: 'Dialogue 101: How to say "Hello"'
+---
+
 # Actions
 
 The **Dialogue** module is 100% customizable and isn't restricted by any type of UI style. You can head to the [Game Creator Store](https://store.gamecreator.io/) and download any **Dialogue Skin** module and start using it right away.
