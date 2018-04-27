@@ -23,7 +23,7 @@
     * [Camera Motors](game-creator/components/camera/camera-motors.md)
 * [Variables](game-creator/variables/README.md)
   * [Global Variables](game-creator/variables/global-variables.md)
-  * Local Variables
+  * [Local Variables](game-creator/variables/local-variables.md)
 * [Localization](game-creator/localization.md)
 * [Module Manager](game-creator/module-manager.md)
 * [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
