@@ -38,7 +38,7 @@
 * [Overview](inventory/overview/README.md)
   * [Inventory Window](inventory/overview/inventory-window/README.md)
     * [Catalogue](inventory/overview/inventory-window/catalogue.md)
-    * Recipes
+    * [Recipes](inventory/overview/inventory-window/recipes.md)
     * Settings
 
 ## Dialogue
