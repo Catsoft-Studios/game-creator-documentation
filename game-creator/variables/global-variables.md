@@ -40,5 +40,13 @@ Tags allow you to categorize global variables in groups. To create a tag click o
 Out of curiosity, tag color codes have been selected from an open source initiative called [Open Colors](https://yeun.github.io/open-color/), which have researched which palettes work well for UI elements.
 {% endhint %}
 
+To categorize a variable with a tag, simply open it and tick the tags you want to include. A variable can have as many categories as you like.
 
+![](../../.gitbook/assets/global-variables-tags.jpg)
+
+A variable's tag name will be represented with the name and a background color next to it. 
+
+{% hint style="success" %}
+You can use the filter at the top of the _Preferences Window_ to search for a group of specific tags or by name.
+{% endhint %}
 
