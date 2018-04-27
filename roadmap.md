@@ -41,7 +41,7 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% endtab %}
 
 {% tab title="Postmortem" %}
-
+This quarter will be reviewed after the 1st of May
 {% endtab %}
 {% endtabs %}
 
@@ -52,19 +52,11 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * [ ] Game Creator - Gestures with Avatar Masks
 * [ ] Game Creator - Limb IK targets
 {% endtab %}
-
-{% tab title="Postmortem" %}
-
-{% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Q3" %}
 
-{% endtab %}
-
-{% tab title="Postmortem" %}
-* [ ] Sword & CQC module
 {% endtab %}
 {% endtabs %}
 
