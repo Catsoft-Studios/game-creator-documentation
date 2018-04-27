@@ -26,7 +26,10 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% tab title="Q1" %}
 ### Active
 
-* [x] Overhaul Variable System
+* [x] Game Creator - Overhaul Variable System
+* [x] Game Creator - Module Manager 2.0
+* [x] Dialogue module
+* [x] Game Creator Store 2.0
 
 ### Delayed
 
@@ -62,15 +65,26 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="2017" %}
-* Release Game Creator
-* Inventory module
-* Dialogue module
-* Game Creator Store
-* Game Creator Homepage
+* [x] Game Creator - Release
+* [x] Game Creator Store 1.0
+* [x] Game Creator Homepage
+* [x] Inventory module
+* [ ] Dialogue module
 {% endtab %}
 
 {% tab title="Postmortem" %}
+### What went right
 
+* We released Game Creator within the expected deadline. 
+* We also were able to effectively communicate what Game Creator is. 
+* We released the Inventory module within the expected deadline.
+
+### What went wrong
+
+* We had to redo the Actions & Conditions too many times. The initial approach of nesting Scriptable Objects didn't work as expected. 
+* The Module Manager 1.0 architecture did not fulfill the expectations.
+* The Variable system was too constrained.
+* We couldn't release the Dialogue module within the expected deadline.
 {% endtab %}
 {% endtabs %}
 
