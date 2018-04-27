@@ -1,3 +1,7 @@
+---
+description: Mix a little bit of this... Then a little bit of that and... *Boom!*
+---
+
 # Recipes
 
 A **Recipe** is the definition of the output of combining two **Items**. For example, a **recipe** for creating a _sharp sword_ would be the combination of a _worn out sword_ **item** with a _grinder_ item.
