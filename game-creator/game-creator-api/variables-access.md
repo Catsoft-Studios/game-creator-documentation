@@ -44,7 +44,7 @@ public static void SetGlobal<T>(string name, T value)
 public static void SetGlobal(string name, object value)
 ```
 
-### Exist Global Variable
+### Exist Global Variables
 
 You can also check if a global variable has been defined.
 
@@ -72,5 +72,11 @@ public static T GetLocal<T>(GameObject target, string name, bool inChildren = fa
 public static object GetLocal(GameObject target, string name, bool inChildren = false)
 ```
 
+### Set Local Variables
 
+TODO
+
+### Exist Local Variables
+
+TODO
 
