@@ -80,3 +80,43 @@ TODO
 
 TODO
 
+## Using TypeProperties
+
+When integrating Game Creator with your custom scripts you'll want to make use of both constant variable values \(float, strings, ...\) and Game Creator Variables. 
+
+This is where TypeProperties come to play. Instead of declaring a public float value so you can set up its value in the Inspector, use a NumberProperty. It will allow you to choose between a constant value, a local variable or a global variable.
+
+This is better explained with an example. Imagine you have a script where you need to use a string value that references the player's name. You would normally write:
+
+```csharp
+public class Player : MonoBehaviour
+{
+    public string playerName = "John";
+    
+    public void Awake()
+    {
+        Debug.Log(playerName);
+    }
+}
+```
+
+And in the Inspector this component would display as a textfield where you can modify the `playerName` property.
+
+Using TypeProperty \(`StringProperty` in this case\) you can define in edit-mode whether if `playerName` variable will use a constant value or any other Game Creator variable value.
+
+```csharp
+public class Player : MonoBehaviour
+{
+    public StringProperty playerName = new StringProperty("John");
+    
+    public void Awake()
+    {
+        Debug.Log(playerName.GetValue());
+    }
+}
+```
+
+If the user has decided to use a **constant value** `"John"` as the `playerName` value, `playerName.GetValue()` will return a string with `"John".` 
+
+If the user uses a **Global Variable** or a **Local Variable** for `playerName`, using `playerName.GetValue()` will return the Global/Local variable's value.
+

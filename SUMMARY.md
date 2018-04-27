@@ -9,18 +9,18 @@
 
 ## Game Creator
 
-* [Overview](game-creator/overview/README.md)
-  * [Actions](game-creator/overview/actions.md)
-  * [Events](game-creator/overview/events.md)
-  * [Triggers](game-creator/overview/triggers.md)
-  * [Hotspots](game-creator/overview/hotspots.md)
-  * [Characters](game-creator/overview/characters/README.md)
-    * [Player](game-creator/overview/characters/player.md)
-    * [Markers](game-creator/overview/characters/markers.md)
-    * [Gestures](game-creator/overview/characters/gestures.md)
-    * [States](game-creator/overview/characters/states.md)
-  * [Camera](game-creator/overview/camera/README.md)
-    * [Camera Motors](game-creator/overview/camera/camera-motors.md)
+* [Components](game-creator/components/README.md)
+  * [Actions](game-creator/components/actions.md)
+  * [Events](game-creator/components/events.md)
+  * [Triggers](game-creator/components/triggers.md)
+  * [Hotspots](game-creator/components/hotspots.md)
+  * [Characters](game-creator/components/characters/README.md)
+    * [Player](game-creator/components/characters/player.md)
+    * [Markers](game-creator/components/characters/markers.md)
+    * [Gestures](game-creator/components/characters/gestures.md)
+    * [States](game-creator/components/characters/states.md)
+  * [Camera](game-creator/components/camera/README.md)
+    * [Camera Motors](game-creator/components/camera/camera-motors.md)
 * [Variables](game-creator/variables/README.md)
   * Global Variables
   * Local Variables
