@@ -8,7 +8,11 @@ description: Where we are. Where we go. How did we do.
 
 Welcome to the Game Creator roadmap. We hope to keep this page up to date with the latest news about the development direction of our product.
 
-Each year is divided into 3 quarters. Each quarter is a milestone and has a collection of states. In each state we include epics/tasks that must be done. They can either be **Active** or **Delayed**.
+Each year is divided into 3 quarters. Each quarter is a milestone and has a collection of states. In each state we include epics/tasks that must be done.
+
+* Past quarters have no states.
+* Current quarter tasks can be **Active** or **Delayed**.
+* Future quarters have no states
 
 At the end of each quarter we'll include a small [postmortem](https://en.wikipedia.org/wiki/Postmortem_documentation) where we'll share insights of what went right and what went wrong during the development cycle. This will be very useful for both us and you.
 
@@ -43,7 +47,10 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q2" %}
-
+* [ ] Quest module
+* [ ] Shooter module
+* [ ] Game Creator - Gestures with Avatar Masks
+* [ ] Game Creator - Limb IK targets
 {% endtab %}
 
 {% tab title="Postmortem" %}
@@ -57,7 +64,7 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% endtab %}
 
 {% tab title="Postmortem" %}
-
+* [ ] Sword & CQC module
 {% endtab %}
 {% endtabs %}
 
