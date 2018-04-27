@@ -34,7 +34,7 @@ Each **Action** is a high-level instruction. That means that unlike other script
 
 Ew! Boooring! With Game Creator you have an **Action** called `Move Character To` that does that: move a character to a specified destination. Under the hood it does a bunch of things, but that is all transparent to you.
 
-See the [Game Creator Overview](../game-creator/components/) section for more information on what Game Creator can offer to you.
+See the [`Game Creator Components`](../game-creator/components/) section for more information on what Game Creator can offer to you.
 
 ### For Programmers
 
