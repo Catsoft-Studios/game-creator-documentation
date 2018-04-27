@@ -74,11 +74,23 @@ public static object GetLocal(GameObject target, string name, bool inChildren = 
 
 ### Set Local Variables
 
-TODO
+Setting a local variable value is as easy as getting them
+
+```csharp
+public static void SetLocal<T>(GameObject target, string name, T value, bool inChildren = false)
+```
+
+```csharp
+public static void SetLocal(GameObject target, string name, object value, bool inChildren = false)
+```
 
 ### Exist Local Variables
 
-TODO
+Checking if a local variable exists is done exactly like with global variables
+
+```csharp
+public static bool ExistsLocal(GameObject target, string name, bool inChildren = false)
+```
 
 ## Using TypeProperties
 
