@@ -63,6 +63,8 @@ When a **Module** is disabled, you'll have the option of deleting its _installer
 
 Manage, trade, use and craft items. Includes a couple of inventory skins.
 
+{% page-ref page="../inventory/overview.md" %}
+
 ### Dialogue
 
 Show a cinematic conversation between characters, branch and join different lines back together.

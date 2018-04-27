@@ -1,5 +1,5 @@
 ---
-description: Make your Inventory unique
+description: How your Inventory works
 ---
 
 # Settings
