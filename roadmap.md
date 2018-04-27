@@ -18,19 +18,39 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q1" %}
-* [ ] New Dynamic Animation System
-* [ ] Quest modules
-* [ ] New Variables System with Local & Global support
+### Development
+
+* [ ] Quest module
+* [ ] 
+### Research
 {% endtab %}
 
+{% tab title="Postmortem" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
 {% tab title="Q2" %}
 
 {% endtab %}
 
+{% tab title="Postmortem" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
 {% tab title="Q3" %}
 
 {% endtab %}
 
+{% tab title="Postmortem" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
 {% tab title="Q4" %}
 
 {% endtab %}
@@ -43,8 +63,10 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 ## 2017 - Milestones
 
 {% tabs %}
-{% tab title="Q1 + Q2 + Q3  Q4" %}
-
+{% tab title="2017" %}
+* Release Game Creator
+* Inventory module
+* Dialogue module
 {% endtab %}
 
 {% tab title="Postmortem" %}
