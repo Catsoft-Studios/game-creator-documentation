@@ -46,7 +46,8 @@
 
 ## Dialogue
 
-* [Overview](dialogue/overview.md)
+* [Overview](dialogue/overview/README.md)
+  * [Anatomy](dialogue/overview/anatomy.md)
 * [Roadmap](roadmap.md)
 * [FAQ](faq.md)
 

@@ -6,7 +6,7 @@ description: 'Luke, I am your father. Search your feelings. You know it is the t
 
 The **Dialogue** module is a **Game Creator** extension that allows to create and display in-game cutscenes and branching conversations between characters.
 
-![](../.gitbook/assets/dialogue-header.jpg)
+![](../../.gitbook/assets/dialogue-header.jpg)
 
 ## Key features {#key-features}
 
