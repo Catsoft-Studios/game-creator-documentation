@@ -35,11 +35,12 @@
 
 ## Inventory
 
-* [Overview](inventory/overview/README.md)
-  * [Inventory Window](inventory/overview/inventory-window/README.md)
-    * [Catalogue](inventory/overview/inventory-window/catalogue.md)
-    * [Recipes](inventory/overview/inventory-window/recipes.md)
-    * Settings
+* [Overview](inventory/overview.md)
+* [Inventory Window](inventory/inventory-window/README.md)
+  * [Catalogue](inventory/inventory-window/catalogue.md)
+  * [Recipes](inventory/inventory-window/recipes.md)
+  * [Settings](inventory/inventory-window/settings.md)
+* Custom Inventory UI
 
 ## Dialogue
 

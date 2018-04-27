@@ -67,7 +67,7 @@ Manage, trade, use and craft items. Includes a couple of inventory skins.
 
 Show a cinematic conversation between characters, branch and join different lines back together.
 
-{% page-ref page="../inventory/overview/" %}
+{% page-ref page="../inventory/overview.md" %}
 
 
 
