@@ -75,15 +75,18 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% tab title="Postmortem" %}
 ### What went right
 
-* We released Game Creator within the expected deadline. 
-* We also were able to effectively communicate what Game Creator is. 
-* We released the Inventory module within the expected deadline.
+* Releasing Game Creator within the expected deadline. 
+* Effectively communicate what Game Creator is. 
+* Releasing the Inventory module within the expected deadline.
+* Using GitLab CI/CD to automatically deploy new Store modules.
+* Using Jekyll as the bare bone structure for our website.
+* Using short video tutorials.
 
 ### What went wrong
 
-* We had to redo the Actions & Conditions too many times. The initial approach of nesting Scriptable Objects didn't work as expected. 
-* The Module Manager 1.0 architecture did not fulfill the expectations.
-* The Variable system was too constrained.
+* Actions & Conditions architecture. Using Scriptable Objects and attaching them to the scene asset resulted in too many edge cases when creating prefabs or duplicating.
+* The Module Manager 1.0 static architecture
+* The Variable system was too constrained and did only accept primitive types.
 * We couldn't release the Dialogue module within the expected deadline.
 {% endtab %}
 {% endtabs %}
