@@ -32,3 +32,11 @@ It is specially important that you don't modify the **UID** after releasing your
 You can also modify the UID value with a more descriptive one, as long as they are unique.
 {% endhint %}
 
+## Saving Variables
+
+Just like Global Variables, Local Variables have a little checkbox next to its name field. Marking it will tell Game Creator that this variable value must be tracked between play sessions.
+
+{% hint style="warning" %}
+**Prefabs** can't save the value of any type of variable because there can be any number of prefab instances in a scene at any given point.
+{% endhint %}
+
