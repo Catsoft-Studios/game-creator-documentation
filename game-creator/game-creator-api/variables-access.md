@@ -20,6 +20,10 @@ Global Variables have a wide application scope and their values are shared betwe
 
 Accessing a global variable can be done specifying the return type or by requesting a generic object and later explicitly casting it to a usable type.
 
+{% hint style="success" %}
+Despite having two methods for getting and setting global variables, it's highly recommended  explicitly specifying the type. Otherwise casting errors might arise.
+{% endhint %}
+
 ```csharp
 public static T GetGlobal<T>(string name)
 ```
