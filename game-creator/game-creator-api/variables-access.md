@@ -44,5 +44,33 @@ public static void SetGlobal<T>(string name, T value)
 public static void SetGlobal(string name, object value)
 ```
 
+### Exist Global Variable
+
+You can also check if a global variable has been defined.
+
+```csharp
+public static bool ExistsGlobal(string name)
+```
+
+## Local Variables
+
+Local variables pretty much work the same way as global variables. The difference is that they need a target object from where to start looking for the variable's value.
+
+### Get Local Variables
+
+If the `inChildren` property is set to `true`, then the variable will be depth-search through the `target` game object and its children.
+
+{% hint style="warning" %}
+Depth searching through a target and its children comes at a small performance cost.
+{% endhint %}
+
+```csharp
+public static T GetLocal<T>(GameObject target, string name, bool inChildren = false)
+```
+
+```csharp
+public static object GetLocal(GameObject target, string name, bool inChildren = false)
+```
+
 
 
