@@ -24,15 +24,13 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q1" %}
-### Active Development
+### Active
 
 * [x] Overhaul Variable System
 
 ### Delayed
 
 * [ ] Quest module
-
-### Research
 {% endtab %}
 
 {% tab title="Postmortem" %}
@@ -67,6 +65,8 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * Release Game Creator
 * Inventory module
 * Dialogue module
+* Game Creator Store
+* Game Creator Homepage
 {% endtab %}
 
 {% tab title="Postmortem" %}
