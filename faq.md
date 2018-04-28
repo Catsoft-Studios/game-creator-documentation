@@ -12,7 +12,7 @@ description: You've got questions? We've got some answers!
 
 ### What kind of games can I make with Game Creator?
 
-Game Creator is not tied to any specific game genre. You can even create a mobile app that isn't a game with Game Creator. Despite this, we focus all efforts on adventure and action games. Click here to see an example of a game made with an early version of Game Creator.
+Game Creator is not tied to any specific game genre. You can even create a mobile app that isn't a game with Game Creator. Despite this, we focus all efforts on adventure and action games. Click [here](https://catsoftstudios.itch.io/the-investigation) to see an example of a game made with an early version of Game Creator.
 
 ### Is Game Creator a Visual Scripting tool?
 
