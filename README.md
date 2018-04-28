@@ -2,7 +2,7 @@
 description: Hello World!
 ---
 
-# Welcome to the Game Creator Documentation
+# Welcome to the Official Game Creator Documentation
 
 ## Getting Super Powers
 
