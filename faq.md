@@ -30,5 +30,9 @@ Yes. Game Creator is all wrapped and isolated in its own namespace. Game Creator
 
 Absolutely. We actually encourage you to do it! Take for example the Call Method Action. It allows you to call any function from any component \(even custom ones\) with up to one parameter. To make everything even more automatic, we're working on integration modules with the most popular Asset Store packages.
 
+### Where can I find Modules for Game Creator to download?
+
+All available modules can be downloaded from the [Game Creator Store](https://store.gamecreator.io). Some of them are also available in the [Unity Asset Store](https://assetstore.unity.com/).
+
 
 
