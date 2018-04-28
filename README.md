@@ -1,25 +1,20 @@
 ---
-description: Hello World!
+description: We make the tools. You create the games.
 ---
 
-# Welcome to the Official Game Creator Documentation
+# Welcome to the Official Game Creator Documentation!
 
-## Getting Super Powers
+![\(Example of an Action sequence\)](.gitbook/assets/game-creator.jpg)
 
-Becoming a super hero is a fairly straight forward process:
+**Game Creator** is a set of tools that will help you kickstart your game in matter of minutes. It comes packed with ready-to-use fully animated **characters**, a flexible high-level **scripting language**, a complete save & load system with local and global variables, and much, much more!
 
-```text
-$ give me super-powers
-```
+On top of all these, **Game Creator** also comes with a state-of-the-art **module manager** that allows to create, distribute and update extension packages. 
 
-{% hint style="danger" %}
-Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+For example, the **Inventory** module allows to add a complete Inventory to your game with crafting recipes, usable items and customizable effects. The **Dialogue** module allows to have cinematic conversations between characters with branching options, timed choices, ... You name it!
+
+{% hint style="success" %}
+Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https://store.gamecreator.io)
 {% endhint %}
 
-Once you're strong enough, save the world:
 
-```text
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
 
