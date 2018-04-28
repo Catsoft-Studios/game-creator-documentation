@@ -46,3 +46,15 @@ Soon. Well, as soon as we have a stable version :-P We're at the last phase we c
 
 If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](game-creator/game-creator-api/custom-actions.md) and [Custom Conditions](game-creator/game-creator-api/custom-conditions.md) for more information.
 
+### Does Game Creator come with its own character controller?
+
+Yes, with jump, run, walk functionalities, smooth locomotion animations, a custom blazing fast Inverse Kinematics algorithm and procedural head tracking. All this with just one click!
+
+### Can I use my own 3D models with Game Creator?
+
+Sure! We have a magic drop zone where you drop your 3D model and Puff! Magic! Your character is live!
+
+{% embed data="{\"url\":\"https://twitter.com/catsoftstudios/status/935572917366206464\",\"type\":\"rich\",\"title\":\"Catsoft Studios on Twitter\",\"description\":\"Automagically change 3D models with the new \#Character system for \#GameCreator! Coming soon to the \#AssetStore on update 0.2.6! ➡️ https://t.co/RbhVuFJF7W\#GameDev \#Unity3D \#GamesMadeEasy pic.twitter.com/ZWS5j03zyn— Catsoft Studios \(@catsoftstudios\) November 28, 2017\n\n\",\"icon\":{\"type\":\"icon\",\"url\":\"https://abs.twimg.com/icons/apple-touch-icon-192x192.png\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://pbs.twimg.com/tweet\_video\_thumb/DPvR-ErWAAEM4EE.jpg\",\"width\":640,\"height\":336,\"aspectRatio\":0.525},\"embed\":{\"type\":\"app\",\"html\":\"<blockquote class=\\"twitter-tweet\\" align=\\"center\\"><p lang=\\"en\\" dir=\\"ltr\\">Automagically change 3D models with the new <a href=\\"https://twitter.com/hashtag/Character?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#Character</a> system for <a href=\\"https://twitter.com/hashtag/GameCreator?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#GameCreator</a>! Coming soon to the <a href=\\"https://twitter.com/hashtag/AssetStore?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#AssetStore</a> on update 0.2.6! ➡️ <a href=\\"https://t.co/RbhVuFJF7W\\">https://t.co/RbhVuFJF7W</a><a href=\\"https://twitter.com/hashtag/GameDev?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#GameDev</a> <a href=\\"https://twitter.com/hashtag/Unity3D?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#Unity3D</a> <a href=\\"https://twitter.com/hashtag/GamesMadeEasy?src=hash&amp;ref\_src=twsrc%5Etfw\\">\#GamesMadeEasy</a> <a href=\\"https://t.co/ZWS5j03zyn\\">pic.twitter.com/ZWS5j03zyn</a></p>&mdash; Catsoft Studios \(@catsoftstudios\) <a href=\\"https://twitter.com/catsoftstudios/status/935572917366206464?ref\_src=twsrc%5Etfw\\">November 28, 2017</a></blockquote>\n<script async src=\\"https://platform.twitter.com/widgets.js\\" charset=\\"utf-8\\"></script>\n\",\"maxWidth\":550,\"aspectRatio\":1}}" %}
+
+
+
