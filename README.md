@@ -18,6 +18,9 @@ Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https:/
 
 ## Useful Links
 
+* [Get Game Creator](https://www.assetstore.unity3d.com/#!/content/89443?aid=1100l36uR)
+* [See our Store](https://store.gamecreator.io)
+
 {% page-ref page="quickstart/get-started.md" %}
 
 {% page-ref page="game-creator/components/" %}
