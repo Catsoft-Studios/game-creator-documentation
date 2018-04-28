@@ -4,15 +4,15 @@ description: You've got questions? We've got some answers!
 
 # FAQ
 
-## General
-
-
-
 ## Game Creator
 
 ### What kind of games can I make with Game Creator?
 
 Game Creator is not tied to any specific game genre. You can even create a mobile app that isn't a game with Game Creator. Despite this, we focus all efforts on adventure and action games. Click [here](https://catsoftstudios.itch.io/the-investigation) to see an example of a game made with an early version of Game Creator.
+
+### Where can I learn more about using Game Creator?
+
+You are in the right place! Start by reading the [Get Started](quickstart/get-started.md) section or watch your [Quickstart video tutorials](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5). Will take you less than 15 minutes.
 
 ### Is Game Creator a Visual Scripting tool?
 
@@ -34,5 +34,15 @@ Absolutely. We actually encourage you to do it! Take for example the Call Method
 
 All available modules can be downloaded from the [Game Creator Store](https://store.gamecreator.io). Some of them are also available in the [Unity Asset Store](https://assetstore.unity.com/).
 
+### Can I make a feature request?
 
+Sure! Game Creator is a community driven product. This means we're always listening, planning and executing according to what we discussed in our [Discord server](https://discord.gg/nzN8z5e). Join us! We're really friendly folk ;-\)
+
+### When will Game Creator move beyond Beta phase?
+
+Soon. Well, as soon as we have a stable version :-P We're at the last phase we call \#RoadToStable
+
+### How easy is it to create my own Actions for Game Creator?
+
+If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](game-creator/game-creator-api/custom-actions.md) and [Custom Conditions](game-creator/game-creator-api/custom-conditions.md) for more information.
 
