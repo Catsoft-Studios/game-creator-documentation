@@ -18,9 +18,5 @@ Game Creator is not tied to any specific game genre. You can even create a mobil
 
 Not at the moment. But we've recently partnered with [Ninjutsu Games](https://assetstore.unity.com/publishers/3171) and they will be developing a module that will allow Game Creator to be used for multiplayer online games.
 
-## 
-
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
-
 
 
