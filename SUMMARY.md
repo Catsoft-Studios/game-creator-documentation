@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the Official Game Creator Documentation!](README.md)
+* [Welcome to Game Creator!](README.md)
 
 ## Quickstart
 

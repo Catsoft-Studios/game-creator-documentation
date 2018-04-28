@@ -2,7 +2,7 @@
 description: We make the tools. You create the games.
 ---
 
-# Welcome to the Official Game Creator Documentation!
+# Welcome to Game Creator!
 
 ![\(Example of an Action sequence\)](.gitbook/assets/game-creator.jpg)
 
