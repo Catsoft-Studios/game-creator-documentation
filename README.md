@@ -26,9 +26,10 @@ Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https:/
 
 {% page-ref page="roadmap.md" %}
 
-{% hint style="info" %}
-Have a question? Drop us a line at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)
+* [@catsoftstudios](https://twitter.com/catsoftstudios)
+* [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)
+
+{% hint style="success" %}
+Join the Game Creator [Discord server](https://discord.gg/WUTVJeq)!
 {% endhint %}
-
-
 
