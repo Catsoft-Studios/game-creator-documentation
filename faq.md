@@ -54,7 +54,7 @@ Yes, with jump, run, walk functionalities, smooth locomotion animations, a custo
 
 Sure! We have a magic drop zone where you drop your 3D model and Puff! Magic! Your character is live!
 
-![](.gitbook/assets/faq-model.gif)
+![](.gitbook/assets/faq-model%20%281%29.gif)
 
 ### I'm sold! Where can I get Game Creator?
 
