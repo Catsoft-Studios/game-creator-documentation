@@ -1,4 +1,8 @@
-# Initial page
+---
+description: Hello World!
+---
+
+# Welcome to the Game Creator Documentation
 
 ## Getting Super Powers
 
