@@ -18,5 +18,3 @@ If you are a programmer you can extend the **Game Creator** functionality to fit
 
 {% page-ref page="variables-access.md" %}
 
-
-
