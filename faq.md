@@ -60,3 +60,15 @@ Sure! We have a magic drop zone where you drop your 3D model and Puff! Magic! Yo
 
 Click this [link](https://www.assetstore.unity3d.com/#!/content/89443?aid=1100l36uR) to get it. If you have further questions, drop us a line at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com).
 
+## Refund Policy
+
+We don't \(or very rarely\) approve refunds. The reason is simple; even if we refund your money, there is no way for you to return our product. The end result is that you keep both the money and Game Creator.
+
+We provide the full documentation, demos, video tutorials and honest pre-purchase support so you can make an informed decision wether to buy **Game Creator** or not. 
+
+{% hint style="info" %}
+Feel free to ask us any question at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com).
+{% endhint %}
+
+We apologize if this sounds rude and we hope you can understand.
+
