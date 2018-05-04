@@ -28,29 +28,43 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q1" %}
-### Active
-
-* [x] Game Creator - Overhaul Variable System
+* [x] Game Creator - New Variable System
 * [x] Game Creator - Module Manager 2.0
 * [x] Dialogue module
 * [x] Game Creator Store 2.0
-
-### Delayed
-
 * [ ] Quest module
 {% endtab %}
 
 {% tab title="Postmortem" %}
-This quarter will be reviewed after the 1st of May
+### What went right
+
+* We managed to complete the Dialogue system without critical issues
+* The new Module Manager and the dependency system
+* Use Firebase as our backend service provider
+* The Module Manager automatic build/deploy function settings.
+* Splitting Game Creator into data-logic components
+
+### What went wrong
+
+* Too much time spent in re-coding existing things \(Module Manager, Variables, ...\)
+* Releases weren't properly tested and we shipped way too much patch releases
+* Low release of video tutorials
+* Still no alpha release channel
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Q2" %}
+### Active
+
 * [ ] Quest module
 * [ ] Shooter module
 * [ ] Game Creator - Gestures with Avatar Masks
 * [ ] Game Creator - Limb IK targets
+
+### Delayed
+
+* [ ] ...
 {% endtab %}
 {% endtabs %}
 
