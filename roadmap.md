@@ -40,8 +40,8 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 * We managed to complete the Dialogue system without critical issues
 * The new Module Manager and the dependency system
-* Use Firebase as our backend service provider
-* The Module Manager automatic build/deploy function settings.
+* Use Firebase as our backend
+* The Module Manager automatic build/deploy.
 * Splitting Game Creator into data-logic components
 
 ### What went wrong
