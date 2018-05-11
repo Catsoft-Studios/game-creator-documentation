@@ -34,5 +34,27 @@ The Manifest file contains the rest of the information relative to the specific 
 The password of all Manifest files is **gamecreator** \(lowercase and without any spaces\).
 {% endhint %}
 
+![\(Example of Manifest file\)](../../.gitbook/assets/custom-mm-manifest.png)
 
+After signing in the Manifest file you'll see all the Manifest options.
+
+![\(Custom Manifest file with testing values\)](../../.gitbook/assets/custom-mm-manifest-file.png)
+
+The Manifest can be broken down into 3 sections.
+
+* The **Build Module** and **Logout** options.
+* The **General Information**.
+* The **Build Settings**.
+
+### Build Module
+
+TODO
+
+### General Information
+
+TODO
+
+### Build Settings
+
+TODO
 
