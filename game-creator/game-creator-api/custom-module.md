@@ -20,5 +20,19 @@ For example, the **bundleID** of the **Dialogue** module is `com.gamecreator.mod
 
 ## Anatomy of a Module
 
+A module is composed of two files. The **Unity Package** and the **Manifest** file.
+
+The **Unity Package** contains all the assets and scripts of the module. It also knows where the files should be routed when updating or installing the module.
+
+{% hint style="info" %}
+If you are unfamiliar with [package managers](https://en.wikipedia.org/wiki/Package_manager), imagine the **Unity Package** is a **zip** file you can decompress to access its content.
+{% endhint %}
+
+The Manifest file contains the rest of the information relative to the specific module. Manifest files are password protected so that inexperienced users don't accidentally mess with them.
+
+{% hint style="success" %}
+The password of all Manifest files is **gamecreator** \(lowercase and without any spaces\).
+{% endhint %}
+
 
 
