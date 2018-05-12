@@ -94,5 +94,17 @@ Tags allow the module to be easily searched.
 
 ### Build Settings
 
-TODO
+The **Build Settings** are the most important part of the **Module Manifest**. They tell which parts are included in the package and which aren't.
+
+Since version 0.5.1 **Game Creator **assets are split in two: The **Logic** and the **Data**.
+
+The **Logic** includes scripts and all the assets that must be shipped with **Game Creator** in order to work. A module must always include at least one asset \(either a script, a 3D model, ...\).
+
+The **Data** is usually auto-generated information, such as script instances. **Data** is usually excluded from the build as it would overwrite other user's existing data.
+
+{% hint style="info" %}
+**Data** is usually used when building an [Example](https://store.gamecreator.io/?tags=examples) module, which needs previously auto-generated data.
+{% endhint %}
+
+Data is usually used when building an Example module, which needs previously auto-generated data.
 
