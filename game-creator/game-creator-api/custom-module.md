@@ -72,6 +72,10 @@ The version system is an incremental number. We follow the [Semantic Versioning 
 * **Y** - Minor version. New features are added. Might need to take some config steps when upgrading.
 * **Z** - Patch version. Does not contain new features. Fixes errors from the last minor version.
 
+{% hint style="danger" %}
+On top of this, stable versions always start at **1.0.0**. A **major** version of **0** means that product is in **Beta** or **Alpha** phase and should not be used in production.
+{% endhint %}
+
 ### Build Settings
 
 TODO
