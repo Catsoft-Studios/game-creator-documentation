@@ -58,7 +58,19 @@ The **Logout** option allows you to exit the Manifest editing mode.
 
 ### General Information
 
-TODO
+The General information includes the **Information**, **Version**, **Author**, **Dependencies** and **Tags** information.
+
+#### Information
+
+Here you can modify the **name**, **description** and **bundle id** and more. You can freely alter any of these fields \(but bundle-id\) without any further consequences.
+
+#### Version
+
+The version system is an incremental number. We follow the [Semantic Versioning 2.0 standard](https://semver.org/). This means that version are composed of three fields: **X.Y.Z** where
+
+* **X** - Major version. Complete overhaul of major systems.
+* **Y** - Minor version. New features are added. Might need to take some config steps when upgrading.
+* **Z** - Patch version. Does not contain new features. Fixes errors from the last minor version.
 
 ### Build Settings
 
