@@ -88,6 +88,10 @@ Here you can list what modules are required to be installed before this module. 
 Unless the **minimum dependency** requirements are met, a module won't be neither **installable** nor **updatable**.
 {% endhint %}
 
+#### Tags
+
+Tags allow the module to be easily searched.
+
 ### Build Settings
 
 TODO
