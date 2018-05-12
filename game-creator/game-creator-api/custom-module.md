@@ -48,7 +48,13 @@ The Manifest can be broken down into 3 sections.
 
 ### Build Module
 
-TODO
+The** Build Module** button allows you to pack the module into a `bundleid.unitypackage` file which can be found next to the **Manifest**.
+
+{% hint style="warning" %}
+The **Build Module** option will overwrite any existing Unity Package at that location.
+{% endhint %}
+
+The **Logout** option allows you to exit the Manifest editing mode.
 
 ### General Information
 
