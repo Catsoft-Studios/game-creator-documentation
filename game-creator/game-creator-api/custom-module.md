@@ -106,5 +106,5 @@ The **Data** is usually auto-generated information, such as script instances. **
 **Data** is usually used when building an [Example](https://store.gamecreator.io/?tags=examples) module, which needs previously auto-generated data.
 {% endhint %}
 
-Data is usually used when building an Example module, which needs previously auto-generated data.
+In **Game Creator** we publish all the **Logic** at `Assets/Plugins/GameCreator` directory and the **Data** inside `Assets/Plugins/GameCreatorData`.
 
