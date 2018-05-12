@@ -76,6 +76,18 @@ The version system is an incremental number. We follow the [Semantic Versioning 
 On top of this, stable versions always start at **1.0.0**. A **major** version of **0** means that product is in **Beta** or **Alpha** phase and should not be used in production.
 {% endhint %}
 
+#### Author
+
+Information about the creator of this module. Used for support inquiries.
+
+#### Dependencies
+
+Here you can list what modules are required to be installed before this module. You can also specify the minimum compatible version.
+
+{% hint style="info" %}
+Unless the **minimum dependency** requirements are met, a module won't be neither **installable** nor **updatable**.
+{% endhint %}
+
 ### Build Settings
 
 TODO
