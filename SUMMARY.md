@@ -50,6 +50,10 @@
 * [Overview](dialogue/overview/README.md)
   * [Anatomy](dialogue/overview/anatomy.md)
   * [Actions](dialogue/overview/actions.md)
+
+## Quests
+
+* [Overview](quests/overview/README.md)
+
 * [Roadmap](roadmap.md)
 * [FAQ](faq.md)
-
