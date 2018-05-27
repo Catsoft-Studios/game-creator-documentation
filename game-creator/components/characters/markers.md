@@ -4,7 +4,7 @@
 
 ![\(Default Marker\)](../../../.gitbook/assets/marker.jpg)
 
-To create a **Marker** go to the **Hierarchy Panel **and select `GameCreator → Navigation → Marker`. Drag it to the place you want and rotate it.
+To create a **Marker** go to the **Hierarchy Panel** and select `GameCreator → Navigation → Marker`. Drag it to the place you want and rotate it.
 
 {% hint style="success" %}
 Setting a **Marker** as a destination will cause the character not only to move towards it but also face the direction the **Marker** is looking at.

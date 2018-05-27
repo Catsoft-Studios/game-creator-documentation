@@ -24,7 +24,7 @@ This type of camera is usually used for **RTS** or **Top-Down** games.
 {% endhint %}
 
 {% hint style="success" %}
-Add a little dampening to the **Camera Controller **to avoid jittering.
+Add a little dampening to the **Camera Controller** to avoid jittering.
 {% endhint %}
 
 ## Target Camera Motor {#target-camera-motor}

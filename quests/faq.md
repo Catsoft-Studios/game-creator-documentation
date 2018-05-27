@@ -1,7 +1,3 @@
----
-description: You've got questions? We've got some answers!
----
-
 # FAQ
 
 ## Game Creator
@@ -12,11 +8,11 @@ Game Creator is not tied to any specific game genre. You can even create a mobil
 
 ### Where can I learn more about using Game Creator?
 
-You are in the right place! Start by reading the [Get Started](quickstart/get-started.md) section or watch your [Quickstart video tutorials](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5). Will take you less than 15 minutes.
+You are in the right place! Start by reading the [Get Started](../quickstart/get-started.md) section or watch your [Quickstart video tutorials](https://www.youtube.com/watch?v=IG8GXAAih2Q&list=PL7FyK0gfdpCbxMrWIV9B2xQiExkiZbpa5). Will take you less than 15 minutes.
 
 ### Is Game Creator a Visual Scripting tool?
 
-Game Creator is more than a scripting tool. It's an entire game creator toolbox that handles all the heavy lifting and lets you focus on what matters: Making awesome games. It helps you kickstart the development of your games with just a few seconds. Creating cinematic sequences is extremely easy with our [Camera Motors](game-creator/components/camera/). Our [high-level scripting language](game-creator/components/actions.md) abstracts you from complex math and lets you use simple instructions such as: Move character from A to B. Under the hood, these instructions handle collision avoidance, locomotion, acceleration, inverse kinematics to align the feet to the floor, etc... Check the [Get Started](quickstart/get-started.md) section for a complete list of features.
+Game Creator is more than a scripting tool. It's an entire game creator toolbox that handles all the heavy lifting and lets you focus on what matters: Making awesome games. It helps you kickstart the development of your games with just a few seconds. Creating cinematic sequences is extremely easy with our [Camera Motors](../game-creator/components/camera/). Our [high-level scripting language](../game-creator/components/actions.md) abstracts you from complex math and lets you use simple instructions such as: Move character from A to B. Under the hood, these instructions handle collision avoidance, locomotion, acceleration, inverse kinematics to align the feet to the floor, etc... Check the [Get Started](../quickstart/get-started.md) section for a complete list of features.
 
 ### Can I make a multiplayer game with Game Creator?
 
@@ -24,7 +20,7 @@ Not at the moment. But we've recently partnered with [Ninjutsu Games](https://as
 
 ### Can I use my own scripts with Game Creator?
 
-Yes. Game Creator is all wrapped and isolated in its own namespace. Game Creator has an [open API](game-creator/game-creator-api/) architecture that allows you to extend all functionalities. All logic and data are located inside the [special](https://docs.unity3d.com/Manual/SpecialFolders.html) Plugins/GameCreator/ folder. This means that recompiling your project won't also recompile Game Creator.
+Yes. Game Creator is all wrapped and isolated in its own namespace. Game Creator has an [open API](../game-creator/game-creator-api/) architecture that allows you to extend all functionalities. All logic and data are located inside the [special](https://docs.unity3d.com/Manual/SpecialFolders.html) Plugins/GameCreator/ folder. This means that recompiling your project won't also recompile Game Creator.
 
 ### Can I integrate other Unity Asset Store packages with Game Creator?
 
@@ -44,7 +40,7 @@ Soon. Well, as soon as we have a stable version :-P We're at the last phase we c
 
 ### How easy is it to create my own Actions for Game Creator?
 
-If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](game-creator/game-creator-api/custom-actions.md) and [Custom Conditions](game-creator/game-creator-api/custom-conditions.md) for more information.
+If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](../game-creator/game-creator-api/custom-actions.md) and [Custom Conditions](../game-creator/game-creator-api/custom-conditions.md) for more information.
 
 ### Does Game Creator come with its own character controller?
 
@@ -54,7 +50,7 @@ Yes, with jump, run, walk functionalities, smooth locomotion animations, a custo
 
 Sure! We have a magic drop zone where you drop your 3D model and Puff! Magic! Your character is live!
 
-![](.gitbook/assets/faq-model%20%281%29.gif)
+![](../.gitbook/assets/faq-model%20%281%29.gif)
 
 ### I'm sold! Where can I get Game Creator?
 

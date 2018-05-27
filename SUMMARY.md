@@ -54,6 +54,7 @@
 ## Quests
 
 * [Overview](quests/overview/README.md)
+  * Creating Quests
+* [Roadmap](quests/roadmap.md)
+* [FAQ](quests/faq.md)
 
-* [Roadmap](roadmap.md)
-* [FAQ](faq.md)

@@ -1,7 +1,3 @@
----
-description: What if you don't drink that Potion with a skull...?
----
-
 # Conditions
 
 The **Inventory** module includes a set of **Conditions** that complement **Game Creator**'s and allow to _check_ whether an **Item** can be bought, if the player has a certain amount of items, etc...

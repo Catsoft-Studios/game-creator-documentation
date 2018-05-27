@@ -1,7 +1,3 @@
----
-description: How your Inventory works
----
-
 # Settings
 
 In the _Settings_ tab you can configure all the necessary information related to the **Inventory** module. It's divided into different sub-sections such as _User Interface_ and _Behavior Configuration_.

@@ -1,7 +1,3 @@
----
-description: VariablesManager.Get()
----
-
 # Variables Access
 
 Accessing variables is done though the `VariablesManager` static class.

@@ -1,7 +1,3 @@
----
-description: Check this out!
----
-
 # Custom Conditions
 
 Creating custom **Conditions** is much like creating custom **Actions** but even easier. If you haven't taken a look at how to create **Actions** it is encourage that you do so, as the process is practically the same.

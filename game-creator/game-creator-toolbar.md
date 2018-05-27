@@ -1,7 +1,3 @@
----
-description: An easier way to create Game Creator components
----
-
 # Game Creator Toolbar
 
 **Game Creator** is all about speed. Instead of right-clicking on the _Hierarchy Panel_, selecting _Game Creator_ and then picking which component you want to create, you can simply select the component from the **Game Creator Toolbar**.

@@ -1,30 +1,31 @@
 ---
-description: 'Luke, I am your father. Search your feelings. You know it is the truth'
+description: Thank you! But our princess is in another castle!
 ---
 
 # Overview
 
-The **Dialogue** module is a **Game Creator** extension that allows to create and display in-game cutscenes and branching conversations between characters.
+The **Quest** module is a **Game Creator** extension that allows to create, track and easily manage game quests.
 
-![](../../.gitbook/assets/dialogue-header.jpg)
+![\(Example of the Journal user interface\)](../../.gitbook/assets/quests-header.jpg)
 
 ## Key features {#key-features}
 
-* Easily create **conversations** between Characters
-* Add custom skins or download pre-made ones from the [Game Creator Store](https://store.gamecreator.io/)​
-* Add **Conditions** to each line of dialogue
-* Choose to execute Dialogue **Actions** first, last or simultaneously with the conversation line
+* Easily create **quests**
+* Easy to debug and track quests with Editor built-in tools
+* Add **Pre-Conditions** before starting a quest or sub-quest
+* Comes with a default \(but editable\) Journal and Quest HUD
 
 {% hint style="info" %}
-**Dialogue** comes a minimalist skin. You can create your own by duplicating the default one or import one from the store.
+**Quests** comes a minimalist skin. You can create your own by duplicating the default ones.
 {% endhint %}
 
 ## Setup {#setup}
 
-Download the package from the Game Creator Store or the Unity Asset Store. You'll first need to have Game Creator installed.
+Download the package from the [Game Creator Store](https://store.gamecreator.io) or the **Unity Asset Store**. You'll first need to have **Game Creator** installed.
 
-Then, bring up the _Preferences Window_ clicking on the Game Creator option in the toolbar. Head to the **Modules** tab and click the Dialogue's **Enable** button.
+Then, bring up the _Modules Window_ clicking on the Game Creator option in the toolbar. Click the Quest Module **Enable** button.
 
 {% hint style="danger" %}
 This module requires **Game Creator** and won't work without it. Don't attempt to extract the package inside the Plugins/ folder as it will throw some errors.
 {% endhint %}
+

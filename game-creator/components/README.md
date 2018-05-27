@@ -1,7 +1,3 @@
----
-description: The very heart of Game Creator
----
-
 # Components
 
 The heart of **Game Creator** is composed of 6 different components. 

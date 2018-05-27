@@ -1,7 +1,3 @@
----
-description: 'Hello {variable-string-hello}'
----
-
 # Variables
 
 **Game Creator** comes with a variables system that allows you to keep track of the game progress and save the state between play sessions.

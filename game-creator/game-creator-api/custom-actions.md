@@ -1,7 +1,3 @@
----
-description: 'Create custom: Pew! Pew! Paff! Broom!'
----
-
 # Custom Actions
 
 **Actions** are the heart of **Game Creator** and thus is a process you'll be doing quite often if you intent to customize your game. Luckily we've created tools that allows you to easily create a _template_ action which you can modify.
@@ -40,7 +36,7 @@ public override IEnumerator Execute(GameObject invoker, IAction[] actions, int i
 Notice how `Execute` returns an `IEnumerator` type. This is because this method is a [coroutine](https://docs.unity3d.com/Manual/Coroutines.html). A coroutine works as any other function, except that it can halt its execution waiting for a value or for an amount of time. This is perfect for **Actions** as it allows to halt the execution independently of the cause.
 
 {% hint style="info" %}
-For example, the** Move Character To** Action that allows to move a character from _A_ to _B_. You can decide whether to wait for the character to arrive to its destination or continue the execution as soon as the character starts moving.
+For example, the **Move Character To** Action that allows to move a character from _A_ to _B_. You can decide whether to wait for the character to arrive to its destination or continue the execution as soon as the character starts moving.
 
 The `Execute` method must always return A `yield return 0` \(or any other integer number\). This value is used to jump between instructions. Positive values skip forward instructions and negative ones re-execute previous instructions. By default you should always return 0.
 {% endhint %}

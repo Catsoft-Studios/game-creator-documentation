@@ -1,10 +1,6 @@
----
-description: Where we are. Where we go. How did we do.
----
-
 # Roadmap
 
-![](.gitbook/assets/roadmap.jpg)
+![](../.gitbook/assets/roadmap.jpg)
 
 Welcome to the Game Creator roadmap. We hope to keep this page up to date with the latest news about the development direction of our product.
 

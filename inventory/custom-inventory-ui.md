@@ -1,7 +1,3 @@
----
-description: Make your Inventory unique
----
-
 # Custom Inventory UI
 
 Every game is unique in its own way and even though two games of the same genre might share some similarities, the truth is that there aren't two games with the same **inventory** visuals.

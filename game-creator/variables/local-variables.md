@@ -1,7 +1,3 @@
----
-description: Strength = 999
----
-
 # Local Variables
 
 **Local Variables** are one of the newest and most useful **Game Creator** tools. They allow to access different variable instances from different game objects but with the same name.

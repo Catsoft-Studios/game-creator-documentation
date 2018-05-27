@@ -26,7 +26,7 @@ There's a third component named _Post Process_. This is an extra tool that allow
 * **All Uppercase** - Changes all characters to uppercase.
 * **All Lowercase** - Changes all characters to lowercase.
 
-But where do you actually specify the translations? That's done inside the _Preferences Menu_. Press ⌘ + _P_ or click on `Game Creator `→` Preferences` to open the menu and navigate to **Localization**.
+But where do you actually specify the translations? That's done inside the _Preferences Menu_. Press ⌘ + _P_ or click on `Game Creator` → `Preferences` to open the menu and navigate to **Localization**.
 
 ![](../.gitbook/assets/localization-menu.jpg)
 

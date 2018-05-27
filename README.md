@@ -1,7 +1,3 @@
----
-description: We make the tools. You create the games.
----
-
 # Welcome to Game Creator!
 
 ![\(Example of an Action sequence\)](.gitbook/assets/game-creator.jpg)
@@ -25,9 +21,9 @@ Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https:/
 
 {% page-ref page="game-creator/components/" %}
 
-{% page-ref page="faq.md" %}
+{% page-ref page="quests/faq.md" %}
 
-{% page-ref page="roadmap.md" %}
+{% page-ref page="quests/roadmap.md" %}
 
 * [@catsoftstudios](https://twitter.com/catsoftstudios)
 * [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)

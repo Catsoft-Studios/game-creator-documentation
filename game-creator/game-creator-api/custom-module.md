@@ -1,7 +1,3 @@
----
-description: Learn how to create a module using the same tools we use
----
-
 # Custom Module
 
 **Game Creator** comes with a dependency manager called **Module Manager**. It allows to add, remove and seamlessly update extensions that add new features to our core product.
@@ -48,7 +44,7 @@ The Manifest can be broken down into 3 sections.
 
 ### Build Module
 
-The** Build Module** button allows you to pack the module into a `bundleid.unitypackage` file which can be found next to the **Manifest**.
+The **Build Module** button allows you to pack the module into a `bundleid.unitypackage` file which can be found next to the **Manifest**.
 
 {% hint style="warning" %}
 The **Build Module** option will overwrite any existing Unity Package at that location.
@@ -96,7 +92,7 @@ Tags allow the module to be easily searched.
 
 The **Build Settings** are the most important part of the **Module Manifest**. They tell which parts are included in the package and which aren't.
 
-Since version 0.5.1 **Game Creator **assets are split in two: The **Logic** and the **Data**.
+Since version 0.5.1 **Game Creator** assets are split in two: The **Logic** and the **Data**.
 
 The **Logic** includes scripts and all the assets that must be shipped with **Game Creator** in order to work. A module must always include at least one asset \(either a script, a 3D model, ...\).
 

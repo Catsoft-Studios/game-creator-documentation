@@ -4,7 +4,7 @@ The **Characters** component allows to define an object as a character. A **Char
 
 ![](../../../.gitbook/assets/character.jpg)
 
-Since version **0.2.5 **a character can also perform one of multiple **gestures**, such as waving its hand, picking an object, drinking a potion, ... And be in one of multiple states, such as crouched, injured and so on.
+Since version **0.2.5** a character can also perform one of multiple **gestures**, such as waving its hand, picking an object, drinking a potion, ... And be in one of multiple states, such as crouched, injured and so on.
 
 {% hint style="info" %}
 Since version **0.2.6** a character can also **Jump**.

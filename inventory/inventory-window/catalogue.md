@@ -1,7 +1,3 @@
----
-description: 'Swords, Potions and... a Pan? You name it!'
----
-
 # Catalogue
 
 **Items** are the main object of the **Inventory** module. The _Items Catalogue_ tab in the _Preferences Window_ allows to create and set the **Item**'s properties.

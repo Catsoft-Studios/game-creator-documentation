@@ -1,7 +1,3 @@
----
-description: Khajiit has wares... If you have coin...
----
-
 # Actions
 
 The **Inventory** module includes a set of **Actions** that complement **Game Creator**'s and allow to _do_ things with **Items**, **Recipes** and the player's **Currency**.

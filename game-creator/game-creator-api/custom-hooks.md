@@ -1,7 +1,3 @@
----
-description: HookCat.Instance
----
-
 # Custom Hooks
 
 Hooks are _Unity_ components that allow you to easily access unique objects such as the _Player_ or the _Main Camera_. Their use is not required but useful if you want to simplify the process of selecting common objects.

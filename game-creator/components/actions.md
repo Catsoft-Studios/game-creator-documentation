@@ -49,6 +49,6 @@ You can accomplish the same behavior using the **Destroy** action at the end of 
 {% endhint %}
 
 {% hint style="success" %}
-You can add an **Actions** component below a **Trigger** component and let the** Destroy After Finishing** option destroy both the **Actions** and the **Trigger**. Useful if you want to execute it only once, for example, when picking an item.
+You can add an **Actions** component below a **Trigger** component and let the **Destroy After Finishing** option destroy both the **Actions** and the **Trigger**. Useful if you want to execute it only once, for example, when picking an item.
 {% endhint %}
 
