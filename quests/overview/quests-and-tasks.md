@@ -44,5 +44,5 @@ Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed**
 
 ![](../../.gitbook/assets/quest-settings.jpg)
 
-
+To create the different quest lines, open the **Quests** tab in the **Preferences Window**. More information about creating quests in the next section.
 
