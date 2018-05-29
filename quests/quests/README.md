@@ -2,7 +2,7 @@
 description: 'Luke, I am your father. Search your feelings. You know it is the truth'
 ---
 
-# Overview
+# Quests
 
 The **Quest** module is a **Game Creator** extension that allows to create, track and easily manage game quests.
 

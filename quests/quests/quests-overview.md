@@ -1,7 +1,3 @@
----
-description: Learn the basics
----
-
 # Quests Overview
 
 Before getting hands on creating Quests and tasks, let's first review a few key concepts.

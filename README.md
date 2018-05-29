@@ -21,9 +21,9 @@ Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https:/
 
 {% page-ref page="game-creator/components/" %}
 
-{% page-ref page="quests/faq.md" %}
+{% page-ref page="annex/faq.md" %}
 
-{% page-ref page="quests/roadmap.md" %}
+{% page-ref page="annex/roadmap.md" %}
 
 * [@catsoftstudios](https://twitter.com/catsoftstudios)
 * [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)

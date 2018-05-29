@@ -1,10 +1,6 @@
----
-description: Let's get our hands dirty
----
-
 # Create Quests
 
-Before continuing, make sure you've carefully read the [Quests Overview](quests-and-tasks.md) section and you know the difference between **Quests**, a **Quest Root** and **Tasks**. Once you've done that, open the **Preferences Window** \(⌘ + P\) and click on the **Quests** tab.
+Before continuing, make sure you've carefully read the [Quests Overview](quests-overview.md) section and you know the difference between **Quests**, a **Quest Root** and **Tasks**. Once you've done that, open the **Preferences Window** \(⌘ + P\) and click on the **Quests** tab.
 
 ![\(Quests dashboard\)](../../.gitbook/assets/quests-preferences.jpg)
 
@@ -57,7 +53,7 @@ Each icon will have its own color, depending on the state of the Quest element a
 * **Orange**: Abandoned
 
 {% hint style="info" %}
-**Incremental Quests** will also display a green bar with the fulfilled percentage. More information about incremental quests [here](quests-and-tasks.md#incremental-quests).
+**Incremental Quests** will also display a green bar with the fulfilled percentage. More information about incremental quests [here](quests-overview.md#incremental-quests).
 {% endhint %}
 
 {% hint style="success" %}

@@ -1,4 +1,4 @@
-# Overview
+# Inventory
 
 **Inventory** is a complete solution exclusively developed for **Game Creator** that allows to have a fully functional inventory system in your game in less than 30 seconds.
 

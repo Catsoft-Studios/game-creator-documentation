@@ -36,9 +36,9 @@
 
 ## Inventory
 
-* [Inventory](inventory/overview/README.md)
-  * [Actions](inventory/overview/actions.md)
-  * [Conditions](inventory/overview/conditions.md)
+* [Inventory](inventory/inventory/README.md)
+  * [Actions](inventory/inventory/actions.md)
+  * [Conditions](inventory/inventory/conditions.md)
 * [Inventory Window](inventory/inventory-window/README.md)
   * [Catalogue](inventory/inventory-window/catalogue.md)
   * [Recipes](inventory/inventory-window/recipes.md)
@@ -47,18 +47,19 @@
 
 ## Dialogue
 
-* [Dialogue](dialogue/overview/README.md)
-  * [Anatomy](dialogue/overview/anatomy.md)
-  * [Actions](dialogue/overview/actions.md)
+* [Dialogue](dialogue/dialogue/README.md)
+  * [Anatomy](dialogue/dialogue/anatomy.md)
+  * [Actions](dialogue/dialogue/actions.md)
 
 ## Quests
 
-* [Quests](quests/overview/README.md)
-  * [Quests Overview](quests/overview/quests-and-tasks.md)
-  * [Create Quests](quests/overview/create-quests.md)
+* [Quests](quests/quests/README.md)
+  * [Quests Overview](quests/quests/quests-overview.md)
+  * [Create Quests](quests/quests/create-quests.md)
 * [Quests UI](quests/quests-ui.md)
 
 ## Annex
 
-* [Roadmap](quests/roadmap.md)
-* [FAQ](quests/faq.md)
+* [Roadmap](annex/roadmap.md)
+* [FAQ](annex/faq.md)
+
