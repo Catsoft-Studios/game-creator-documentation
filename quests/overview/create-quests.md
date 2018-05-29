@@ -18,7 +18,11 @@ On the top-left corner of the **Quests Dashboard** there are three buttons with 
 You can drag and drop the different **Quest** elements and re-order your quests as you want.
 {% endhint %}
 
-The right-most icons indicate if that particular Quest element has some Conditions assigned before they can be Activated, whether it has an On Complete set of Actions and/or an On Fail set of Actions.
+The right-most icons indicate if that particular **Quest** element has some **Conditions** assigned before they can be **Activated**, whether it has an **On Complete** set of **Actions** and/or an **On Fail** set of **Actions**.
 
-For example, the Task `tell-the-king-you-rescued-the-princess` will invoke a set of Actions when it successfully completes, and the `give-the-strange-man-the-tiara` will do the same, but also has some conditions before this quest can be activated.
+For example, the **Task** `tell-the-king-you-rescued-the-princess` will invoke a set of **Actions** when it successfully completes, and the `give-the-strange-man-the-tiara` will do the same, but also has some **Conditions** before this quest can be **Activated**.
+
+When selecting a **Task** or a **Quest Root** a small _**Edit**_ button will appear next to these icons. This allows you to modify the **Quests** settings, such as the title, description, ...
+
+
 
