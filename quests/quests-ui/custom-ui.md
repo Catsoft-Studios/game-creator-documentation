@@ -44,13 +44,13 @@ This component allows you to display all the information relative to a specific 
 
 ![](../../.gitbook/assets/quests-questui.jpg)
 
-The General tab allows you to specify which Text components will be updated with the corresponding information about the quest.
+The **General** tab allows you to specify which Text components will be updated with the corresponding information about the quest.
 
-The Buttons tab allows to trigger different effects, such as toggling the isTracking property or abandoning a quest.
+The **Buttons** tab allows to trigger different effects, such as toggling the **isTracking** property or abandoning a quest.
 
-The States tab will deactivate all game objects but the one which status matches. For example, if the Quest UI is bound to a quest which status is Active, the Inactive, Complete, Failed and Abandoned will be deactivated.
+The **States** tab will deactivate all game objects but the one which status matches. For example, if the **Quest UI** is bound to a quest which status is **Active**, the **Inactive**, **Complete**, **Failed** and **Abandoned** will be deactivated.
 
-The Tasks tab allows you to specify a Quests Group component, which will be initialized with the Tasks of the current Quest.
+The **Tasks** tab allows you to specify a **Quests Group** component, which will be initialized with the **Tasks** of the current **Quest**.
 
 {% hint style="success" %}
 The **Quests Group** referenced by a **Quest UI** should have the **Initialization** property set to **Manual**. The **Quest UI** will handle initializing it.
