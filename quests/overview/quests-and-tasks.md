@@ -40,7 +40,7 @@ Apart from the Status and the isTracking property, a Quest also has the followin
 * **Description:** A text that contains further details on the Quest. Also localizable.
 * **Sprite:** This is completely optional. Some Quests might need to reference a map, a picture or simply have an icon that defines the type of quest. Here you can set it.
 
-Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed** or **Failed** \(aka **Abandoned**\) it is possible to also assign Actions that will be automatically triggered when transitioning to one of these states.
+Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed** or **Failed** \(aka **Abandoned**\) it is possible to also assign **Actions** that will be automatically triggered when transitioning to one of these states.
 
 ![](../../.gitbook/assets/quest-settings.jpg)
 
