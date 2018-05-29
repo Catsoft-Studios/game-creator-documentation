@@ -16,7 +16,7 @@ These are just some example assets that can be built with the **Quest** built-in
 
 The **Journal** is a complex user interface. On the left panel there are all the current active **Quest Roots**. Those that are being tracked are bookmarked.
 
-![](../.gitbook/assets/quests-journal.jpg)
+![](../../.gitbook/assets/quests-journal.jpg)
 
 When selecting a **Quest Root**, an in-depth description will appear on the right side. With the default **Journal** you'll be able to see which **Tasks** are active, toggle the tracking property and abandon the **Quest Root**.
 
@@ -28,9 +28,11 @@ You can **show**, **hide** or **toggle** the **Journal** using the **Journal Act
 
 The **Quests HUD** is a smaller user interface asset that shows the current active **Quest Roots** and their active **Tasks** below which update in realtime.
 
-![](../.gitbook/assets/quests-hud.jpg)
+![](../../.gitbook/assets/quests-hud.jpg)
 
 {% hint style="success" %}
 You can **show**, **hide** and **toggle** the **Quests HUD** using the **Quests HUD Action**.
 {% endhint %}
+
+
 

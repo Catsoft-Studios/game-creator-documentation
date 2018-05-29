@@ -56,7 +56,8 @@
 * [Quests](quests/quests/README.md)
   * [Quests Overview](quests/quests/quests-overview.md)
   * [Create Quests](quests/quests/create-quests.md)
-* [Quests UI](quests/quests-ui.md)
+* [Quests UI](quests/quests-ui/README.md)
+  * [Custom UI](quests/quests-ui/custom-ui.md)
 
 ## Annex
 
