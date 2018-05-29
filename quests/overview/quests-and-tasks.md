@@ -6,6 +6,8 @@ description: Learn the basics
 
 Before getting hands on creating Quests and tasks, let's first review a few key concepts.
 
+## Basic Concepts
+
 * **Quests:** Quests are any objective the player \(or any other entity\) has to do in order to change its state. When using the word Quests we both reference **Quest Roots** and **Tasks**.
 * **Quest Root:** A Quest Root is the top-level quest that summarizes the entire chain of tasks.
 * **Task:** A Task is anything below a Quest Root which defines one single goal. A Task can have any number of children Tasks as well as any number of siblings.
@@ -34,17 +36,21 @@ Quest Roots can also be marked as **Tracking**. This will allow the **Journal** 
 You can also use the **Reset Quest** action if you want to let the players retake a quest-line multiple times.
 {% endhint %}
 
+### Parameters
+
 Apart from the Status and the isTracking property, a Quest also has the following attributes:
 
 * **Title:** A localizable text that serves as the Quest Root/Task title.
 * **Description:** A text that contains further details on the Quest. Also localizable.
 * **Sprite:** This is completely optional. Some Quests might need to reference a map, a picture or simply have an icon that defines the type of quest. Here you can set it.
 
+### Actions & Conditions
+
 Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed** or **Failed** \(aka **Abandoned**\) it is possible to also assign **Actions** that will be automatically triggered when transitioning to one of these states.
 
 ![](../../.gitbook/assets/quest-settings.jpg)
 
-To create the different quest lines, open the **Quests** tab in the **Preferences Window**. More information about creating quests in the next section.
+To create the different quest lines, open the **Quests** tab in the **Preferences Window**. More information about creating quests in the [next section](create-quests.md).
 
 ## Advanced Concepts
 
@@ -63,6 +69,8 @@ For these kind of quests we've created the **Incremental Quests**, which start f
 {% endhint %}
 
 {% hint style="success" %}
-Use the **Quest Progress** action to add, subtract or set the progress of a Quest.
+Use the **Quest Progress** action to add, subtract or set the progress of a **Quest**.
 {% endhint %}
+
+
 

@@ -57,7 +57,7 @@ Each icon will have its own color, depending on the state of the Quest element a
 * **Orange**: Abandoned
 
 {% hint style="info" %}
-**Incremental Quests** will also display a green bar with the fulfilled percentage. More information about incremental quests here.
+**Incremental Quests** will also display a green bar with the fulfilled percentage. More information about incremental quests [here](quests-and-tasks.md#incremental-quests).
 {% endhint %}
 
 {% hint style="success" %}
