@@ -1,4 +1,8 @@
-# Quests & Tasks
+---
+description: Learn the basics
+---
+
+# Quests Overview
 
 Before getting hands on creating Quests and tasks, let's first review a few key concepts.
 
@@ -24,6 +28,10 @@ It is important to note that a Complete Quest can't be directly transitioned to 
 
 {% hint style="info" %}
 Quest Roots can also be marked as **Tracking**. This will allow the **Journal** and other systems to know which quests are the ones being tracked by the player.
+{% endhint %}
+
+{% hint style="success" %}
+You can also use the **Reset Quest** action if you want to let the players retake a quest-line multiple times.
 {% endhint %}
 
 Apart from the Status and the isTracking property, a Quest also has the following attributes:
