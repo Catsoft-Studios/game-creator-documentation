@@ -36,7 +36,7 @@
 
 ## Inventory
 
-* [Overview](inventory/overview/README.md)
+* [Inventory](inventory/overview/README.md)
   * [Actions](inventory/overview/actions.md)
   * [Conditions](inventory/overview/conditions.md)
 * [Inventory Window](inventory/inventory-window/README.md)
@@ -47,16 +47,18 @@
 
 ## Dialogue
 
-* [Overview](dialogue/overview/README.md)
+* [Dialogue](dialogue/overview/README.md)
   * [Anatomy](dialogue/overview/anatomy.md)
   * [Actions](dialogue/overview/actions.md)
 
 ## Quests
 
-* [Overview](quests/overview/README.md)
+* [Quests](quests/overview/README.md)
   * [Quests Overview](quests/overview/quests-and-tasks.md)
   * [Create Quests](quests/overview/create-quests.md)
 * [Quests UI](quests/quests-ui.md)
+
+## Annex
+
 * [Roadmap](quests/roadmap.md)
 * [FAQ](quests/faq.md)
-
