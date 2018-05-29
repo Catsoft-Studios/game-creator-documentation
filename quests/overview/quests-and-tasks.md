@@ -1,7 +1,3 @@
----
-description: 'Create main quests, side quests and any quests'
----
-
 # Quests & Tasks
 
 Before getting hands on creating Quests and tasks, let's first review a few key concepts.
@@ -29,6 +25,16 @@ It is important to note that a Complete Quest can't be directly transitioned to 
 {% hint style="info" %}
 Quest Roots can also be marked as **Tracking**. This will allow the **Journal** and other systems to know which quests are the ones being tracked by the player.
 {% endhint %}
+
+Apart from the Status and the isTracking property, a Quest also has the following attributes:
+
+* **Title:** A localizable text that serves as the Quest Root/Task title.
+* **Description:** A text that contains further details on the Quest. Also localizable.
+* **Sprite:** This is completely optional. Some Quests might need to reference a map, a picture or simply have an icon that defines the type of quest. Here you can set it.
+
+Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed** or **Failed** \(aka **Abandoned**\) it is possible to also assign Actions that will be automatically triggered when transitioning to one of these states.
+
+![](../../.gitbook/assets/quest-settings.jpg)
 
 
 
