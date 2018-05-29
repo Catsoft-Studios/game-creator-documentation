@@ -46,3 +46,23 @@ Because any **Quest** \(**Root Quest** or **Task**\) can be either **Completed**
 
 To create the different quest lines, open the **Quests** tab in the **Preferences Window**. More information about creating quests in the next section.
 
+## Advanced Concepts
+
+The following topics are meant to be used for advanced users. If this is the first time you play around with Game Creator or the Quests modules, you might want to skip this so you're not bloated with information.
+
+### Incremental Quests
+
+Most **Quests** allow you to set them as fulfilled when attaining a certain goal, such as discovering a hidden treasure or killing a final boss.
+
+But sometimes you'll want to fulfill a quest upon reaching a certain number of goals. For example, killing 10 bugs, destroying 20 vases or gathering 5 mystical flowers.
+
+For these kind of quests we've created the **Incremental Quests**, which start from a value of 0 and when reaching or overshooting a value of 1 they will automatically be marked as complete with all the effects.
+
+{% hint style="info" %}
+**Incremental Quests** always range from **0** to **1**. If you want to complete a **Task** after killing **5 bees**, you should increment the progress by **0.2** every time a bee is killed.
+{% endhint %}
+
+{% hint style="success" %}
+Use the **Quest Progress** action to add, subtract or set the progress of a Quest.
+{% endhint %}
+
