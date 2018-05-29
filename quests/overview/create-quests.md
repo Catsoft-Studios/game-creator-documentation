@@ -10,8 +10,8 @@ Before continuing, make sure you've carefully read the [Quests Overview](quests-
 
 On the top-left corner of the **Quests Dashboard** there are three buttons with icons. From left to right:
 
-* Create a Quest Root
-* Create a Task
+* Create a **Quest Root**
+* Create a **Task**
 * Delete selection
 
 {% hint style="info" %}
@@ -41,4 +41,28 @@ When creating a new **Quest Root** or a **Task**, the system will assign a rando
 {% hint style="success" %}
 When prototyping stories, don't waste time setting the _Title_, _Description_ and other quest details. Instead focus on creating a robust quest line structure using the **Internal Name** properties. Once your story makes sense, you can fill the details.
 {% endhint %}
+
+## Debugging at Runtime
+
+You can open the Quests Dashboard during runtime and its behavior will change. 
+
+![](../../.gitbook/assets/quests-runtime.jpg)
+
+Each icon will have its own color, depending on the state of the Quest element and its automatically updated.
+
+* **Grey**: Inactive
+* **Blue**: Active
+* **Green**: Complete
+* **Red**: Failed
+* **Orange**: Abandoned
+
+{% hint style="info" %}
+**Incremental Quests** will also display a green bar with the fulfilled percentage. More information about incremental quests here.
+{% endhint %}
+
+{% hint style="success" %}
+It is highly recommended that you have this **Quests Dashboard** open when testing your storylines.
+{% endhint %}
+
+
 
