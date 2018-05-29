@@ -65,5 +65,11 @@ Show a cinematic conversation between characters, branch and join different line
 
 {% page-ref page="../dialogue/overview/" %}
 
+### Quests
+
+Create main-quests, side-quests and hidden-quests.
+
+{% page-ref page="../inventory/overview/" %}
+
 
 
