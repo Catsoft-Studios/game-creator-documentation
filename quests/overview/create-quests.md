@@ -22,7 +22,23 @@ The right-most icons indicate if that particular **Quest** element has some **Co
 
 For example, the **Task** `tell-the-king-you-rescued-the-princess` will invoke a set of **Actions** when it successfully completes, and the `give-the-strange-man-the-tiara` will do the same, but also has some **Conditions** before this quest can be **Activated**.
 
-When selecting a **Task** or a **Quest Root** a small _**Edit**_ button will appear next to these icons. This allows you to modify the **Quests** settings, such as the title, description, ...
+When selecting a **Task** or a **Quest Root** a small _**Edit**_ button will appear next to these icons. This allows you to modify the **Quests** settings, such as the _Title_, _Description_, ...
 
+## Quests Editor Workflow
 
+Creating **Quests** should be quick and efficient when prototyping quest-lines. That's why each quest has a property called **Internal Name**. This property will never be used in your game and is only used for you to easily identify the quest.
+
+{% hint style="info" %}
+**Internal Names** should have short and concise nomenclature. They can contain spoilers, as they are only used during development.
+{% endhint %}
+
+When creating a new **Quest Root** or a **Task**, the system will assign a randomly generated **Internal Name**. To modify it, simply press _Return_ or _double click_ it to edit it.
+
+{% hint style="warning" %}
+**Internal Names** can only contain alphanumeric characters and spaces are replaced by dashes.
+{% endhint %}
+
+{% hint style="success" %}
+When prototyping stories, don't waste time setting the _Title_, _Description_ and other quest details. Instead focus on creating a robust quest line structure using the **Internal Name** properties. Once your story makes sense, you can fill the details.
+{% endhint %}
 
