@@ -40,7 +40,11 @@ The **Quests UI** allows you to specify which component will receive the selecte
 
 ### Quest UI
 
-This component allows you to display all the information relative to a specific Quest \(either Quest Root or Task\). Every property is optional.
+This component allows you to display all the information relative to a specific **Quest** \(either **Quest Root** or **Task**\).
+
+{% hint style="info" %}
+Every **Quest UI** is optional
+{% endhint %}
 
 ![](../../.gitbook/assets/quests-questui.jpg)
 
