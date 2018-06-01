@@ -12,8 +12,8 @@ Every game has its own unique approach when presenting quests. Some only give yo
 
 That's why we tried to reduce all the complexity to its bare minimum and we came up with just two components:
 
-* Quests Group
-* Quest UI
+* **Quests Group**
+* **Quest UI**
 
 With these two components \(and combining them\) you can create any quest UI.
 
