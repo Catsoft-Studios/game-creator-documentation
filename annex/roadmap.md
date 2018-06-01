@@ -53,7 +53,7 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% tab title="Q2" %}
 ### Active
 
-* [ ] Quest module
+* [x] Quest module
 * [ ] Shooter module
 * [ ] Stats/Attributes module
 * [ ] Game Creator - Enhance Save/Load system
