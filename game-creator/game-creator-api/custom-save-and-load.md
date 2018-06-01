@@ -97,7 +97,100 @@ void Start()
 }
 ```
 
-## Example
+## Complete Example
 
+To better illustrate how to use the Save/Load system let's see a simple yet complete example. Imagine our game always has some music track playing in the background as well as at a user defined volume level. The class that manages this part of the game could be named as **`BackgroundMusicManager`**.
 
+{% code-tabs %}
+{% code-tabs-item title="BackgroundMusicManager.cs" %}
+```csharp
+public class BackgroundMusicManager : MonoBehaviour
+{
+    public string songName = "Dream On";
+    public float volume = 1.0f;
+    
+    void Start()
+    {
+        this.PlaySong();
+    }
+    
+    private void PlaySong()
+    {
+        // loads the audio clip with name this.songName 
+        // and plays it with the volume this.volume
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+A simple and straightforward component, right? Let's modify it so it supports Game Creator Save/Load system.
+
+We need to make the **`BackgroundMusicManager`** inherit from the **`IGameSave`** interface and implement all its methods. After that we'll also have to add the initialization line inside the **`Start()`** method.
+
+We'll also need to create a class to save both the current song name and the volume and set it as serializable. You can do this on a separate file, though we prefer to create an internal class.
+
+{% code-tabs %}
+{% code-tabs-item title="BackgroundMusicManager.cs" %}
+```csharp
+public class BackgroundMusicManager : MonoBehaviour, IGameSave
+{
+	// Create a serializable class which contains
+	// all savable data:
+	[System.Serializable]
+	public class MusicData
+	{
+		public string songName = "Dream On";
+	    public float volume = 1.0f;
+	}
+    
+    // (Optional) Replace the individual 
+    // properties for a savable class instance:
+    public MusicData musicData = new MusicData();
+    
+    void Start()
+    {
+        this.PlaySong();
+        
+        // Notify the SaveLoadManager that a new
+        // instance of a savable/loadable object
+        // has been created.
+        SaveLoadManager.Instance.Initialize(this);
+    }
+    
+    private void PlaySong() { ... }
+    
+    // implement the IGameSave interface:
+    
+    public string GetUniqueName()
+	{
+		return "background-music";
+	}
+
+	public System.Type GetSaveDataType()
+	{
+		return typeof(MusicData);
+	}
+
+	public System.Object GetSaveData()
+	{
+		return this.musicData;
+	}
+
+	public void ResetData()
+	{
+		this.musicData = new MusicData();
+	}
+
+	public void OnLoad(System.Object generic)
+	{
+		MusicData loadedMusicData = (MusicData)generic;
+		this.musicData = loadedMusicData;
+	}
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+And _voilá_! That's all that needs to be done. Of course this is a simple example but unless you want to save procedural data with multiple instances it should be pretty straight forward and similar to this example.
 
