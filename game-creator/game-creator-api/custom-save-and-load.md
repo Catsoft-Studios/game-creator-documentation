@@ -192,5 +192,41 @@ public class BackgroundMusicManager : MonoBehaviour, IGameSave
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-And _voilá_! That's all that needs to be done. Of course this is a simple example but unless you want to save procedural data with multiple instances it should be pretty straight forward and similar to this example.
+And _voilá!_ That's all that needs to be done. Of course this is a simple example but unless you want to save procedural data with multiple instances it should be pretty straight forward and similar to this example.
+
+## Scene Objects
+
+Sometimes you will not only want to save Singleton objects but also individual scene objects. In these cases you have to take into account a couple of things.
+
+The first one is that the GetUniqueName method should return a unique project name. Two objects with the same name in two different scenes will overwrite each other. 
+
+{% hint style="success" %}
+One way of solving this problem is assigning a unique generic value using the **GUID** class.
+{% endhint %}
+
+The other issue is the edge case where whether you want to keep changes when switching between scenes without loading the game. To explain this, consider the following example:
+
+1. Player is in **scene A** and pulls the **lever L**.
+2. Player goes to **scene B** and **saves** the game.
+3. Player goes to **scene A**
+
+Should the Lever L be pulled? That's something you should consider. Most cases will be positive, but other times you'll want to reset the changes \(for example, having enemies repopulate the field\).
+
+To keep the changes all you need to do is to inform the **`SaveLoadManager`** class that the object has been destroyed \(when switching between scenes\) and it will automatically restore the state when going back.
+
+{% code-tabs %}
+{% code-tabs-item title="MyClass.cs" %}
+```csharp
+public class MyClass : MonoBehaviour, IGameSave
+{
+    // (...)
+    
+    void OnDestroy()
+    {
+        SaveLoadManager.Instance.OnDestroyIGameSave(this);
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
