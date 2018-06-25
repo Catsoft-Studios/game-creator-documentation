@@ -56,9 +56,9 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * [x] Quest module
 * [ ] Shooter module
 * [ ] Stats/Attributes module
-* [ ] Game Creator - Enhance Save/Load system
-* [ ] Game Creator - Gestures with Avatar Masks
-* [ ] Game Creator - Limb IK targets
+* [x] Game Creator - Enhance Save/Load system
+* [x] Game Creator - Gestures with Avatar Masks
+* [x] Game Creator - Limb IK targets
 {% endtab %}
 {% endtabs %}
 
