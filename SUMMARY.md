@@ -45,6 +45,7 @@
   * [Catalogue](inventory/inventory-window/catalogue.md)
   * [Recipes](inventory/inventory-window/recipes.md)
   * [Settings](inventory/inventory-window/settings.md)
+* [Merchants](inventory/merchants.md)
 * [Custom Inventory UI](inventory/custom-inventory-ui.md)
 
 ## Dialogue
