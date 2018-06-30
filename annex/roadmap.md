@@ -64,7 +64,10 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q3" %}
-TBA
+* [ ] Melee module
+* [ ] Integration with Bolt
+* [ ] Integration with Playmaker
+* [ ] Integration Behavior Designer
 {% endtab %}
 {% endtabs %}
 
