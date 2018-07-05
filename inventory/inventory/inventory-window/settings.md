@@ -2,7 +2,7 @@
 
 In the _Settings_ tab you can configure all the necessary information related to the **Inventory** module. It's divided into different sub-sections such as _User Interface_ and _Behavior Configuration_.
 
-![](../../.gitbook/assets/inventory-settings.jpg)
+![](../../../.gitbook/assets/inventory-settings.jpg)
 
 ## User Interface {#user-interface}
 
@@ -10,7 +10,7 @@ In this section you can define how the **Inventory** looks like in the game.
 
 **Inventory UI Prefab** and **Item UI Prefab** fields tell **Game Creator** what should be instantiated when the game requests to open the inventory. There's a complete chapter dedicated to this topic, but as a teaser, **Game Creator** comes with a couple of **Inventory** interfaces that can be seen in the image below. You can switch between them by setting the _InventoryRPG_ or the _InventoryAdventure_ prefabs in the **Inventory UI Prefab** field.
 
-![\(Inventory comes with two skins: RPG Inventory and Adventure Inventory\)](../../.gitbook/assets/inventory-skins.jpg)
+![\(Inventory comes with two skins: RPG Inventory and Adventure Inventory\)](../../../.gitbook/assets/inventory-skins.jpg)
 
 {% hint style="info" %}
 See [Custom User Interface](../custom-inventory-ui.md) section for more information

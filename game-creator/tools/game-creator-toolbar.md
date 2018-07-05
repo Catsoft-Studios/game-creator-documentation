@@ -2,7 +2,7 @@
 
 **Game Creator** is all about speed. Instead of right-clicking on the _Hierarchy Panel_, selecting _Game Creator_ and then picking which component you want to create, you can simply select the component from the **Game Creator Toolbar**.
 
-![](../.gitbook/assets/toolbar.jpg)
+![](../../.gitbook/assets/toolbar.jpg)
 
 The toolbar is a small utility bar found at the top-left edge of the Scene view. It's dynamically built. This means that when you install a new modules this may stack a new button at the right.
 

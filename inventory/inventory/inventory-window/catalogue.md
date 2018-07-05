@@ -4,7 +4,7 @@
 
 Here's an example of an empty **Item**:
 
-![\(Example of an item definition\)](../../.gitbook/assets/inventory-catalogue.jpg)
+![\(Example of an item definition\)](../../../.gitbook/assets/inventory-catalogue.jpg)
 
 An **Item** has quite a lot of options
 
@@ -20,7 +20,7 @@ If an item is marked as _consumable_ then the **Actions** defined below will be 
 
 For example, if you create a **Health Potion** you'll want to restore some player's health \(which in this example will be saved in a **Variable**\). Then the **Item** would look like this.
 
-![\(Example of how a Potion item looks in the RPG Inventory skin\)](../../.gitbook/assets/inventory-catalogue-game.jpg)
+![\(Example of how a Potion item looks in the RPG Inventory skin\)](../../../.gitbook/assets/inventory-catalogue-game.jpg)
 
 {% hint style="success" %}
 Notice that you are not restricted to add effects to the player when consuming items. 

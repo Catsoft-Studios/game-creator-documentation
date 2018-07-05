@@ -25,7 +25,7 @@ If you want to create your own **Quest UI** we highly recommend examining and le
 
 The Quests Group allows to filter by **Quest** status and instantiate a prefab per quest.
 
-![](../../.gitbook/assets/quests-questsgroup.jpg)
+![](../../../.gitbook/assets/quests-questsgroup.jpg)
 
 Initialization has two options; automatic and Manual.
 
@@ -46,7 +46,7 @@ This component allows you to display all the information relative to a specific 
 Every **Quest UI** is optional
 {% endhint %}
 
-![](../../.gitbook/assets/quests-questui.jpg)
+![](../../../.gitbook/assets/quests-questui.jpg)
 
 The **General** tab allows you to specify which Text components will be updated with the corresponding information about the quest.
 

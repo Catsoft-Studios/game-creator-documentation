@@ -14,7 +14,7 @@ The last thing we wanted to do was to display 5 different input fields, each for
 
 Localized string fields are composed of two parts. The first is the _input field_. Here you type the text in the default language. For example, if we want to show a message saying _Hello, World!_ we would simply type these characters there.
 
-![](../.gitbook/assets/localization-locstring.jpg)
+![](../../.gitbook/assets/localization-locstring.jpg)
 
 The second part is a button that enables/disables the translation. If you want the previous text to be localized, simply enable the _Kanji_ character and you'll be good to go.
 
@@ -28,7 +28,7 @@ There's a third component named _Post Process_. This is an extra tool that allow
 
 But where do you actually specify the translations? That's done inside the _Preferences Menu_. Press ⌘ + _P_ or click on `Game Creator` → `Preferences` to open the menu and navigate to **Localization**.
 
-![](../.gitbook/assets/localization-menu.jpg)
+![](../../.gitbook/assets/localization-menu.jpg)
 
 The **Localization** tab has two sections: **Languages** and **Texts**.
 
@@ -38,7 +38,7 @@ Here you can add new languages and export and import the translations. For examp
 
 All you need to do is to click the **+** symbol and select the _Spanish_ language. Then, click on **Export...** and select where you want to save the translation document. Translation documents are in _JSON_ format.
 
-![](../.gitbook/assets/localization-doc.jpg)
+![](../../.gitbook/assets/localization-doc.jpg)
 
 If you open the saved document you'll see that there's only one entry with the text "_Hello, World!_". This is what needs to be translated. Let's change it to "_Hola, Mundo!_", save and close the document.
 

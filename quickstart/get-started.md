@@ -73,6 +73,6 @@ For example, the **Inventory** module give you a set of extremely easy to use to
 You can manage all your **modules** from the **Module Manager** window \[⌘ + M\]. You can download free modules from the [Game Creator Store](https://store.gamecreator.io).
 
 {% hint style="info" %}
-See the [Module Manager](../game-creator/module-manager.md) section for a full list of all the available **modules.**
+See the [Module Manager](../game-creator/tools/module-manager.md) section for a full list of all the available **modules.**
 {% endhint %}
 

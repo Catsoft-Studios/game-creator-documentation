@@ -10,14 +10,14 @@ Creating a **Recipe** is as easy as clicking on the "_Create Recipe_" button on 
 
 All that's left to do is specify the effects of combining two items.
 
-![\(Example of a Recipe: A Wooden Stick combined with a Metal Lingot becomes a Battle Axe\)](../../.gitbook/assets/inventory-recipes.jpg)
+![\(Example of a Recipe: A Wooden Stick combined with a Metal Lingot becomes a Battle Axe\)](../../../.gitbook/assets/inventory-recipes.jpg)
 
 In the previous screenshot, we can see how combining a **Wooden Stick** and a **Metal Lingot** will execute the **Actions** sequence defined below:
 
 * Play a _success_ sound effect
 * Give the player an item called _Battle Axe_
 
-![\(Example of a Recipe where combining a Pink Potion with a Spider results in Poison\)](../../.gitbook/assets/recipe-example-gif.gif)
+![\(Example of a Recipe where combining a Pink Potion with a Spider results in Poison\)](../../../.gitbook/assets/recipe-example-gif.gif)
 
 You can tell the game to combine two **Items** using the **Recipe Action** that comes with the **Inventory** module or dragging and dropping one item onto another one in the **Inventory UI**.
 

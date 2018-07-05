@@ -24,9 +24,10 @@
 * [Variables](game-creator/variables/README.md)
   * [Global Variables](game-creator/variables/global-variables.md)
   * [Local Variables](game-creator/variables/local-variables.md)
-* [Localization](game-creator/localization.md)
-* [Module Manager](game-creator/module-manager.md)
-* [Game Creator Toolbar](game-creator/game-creator-toolbar.md)
+* [Tools](game-creator/tools/README.md)
+  * [Localization](game-creator/tools/localization.md)
+  * [Module Manager](game-creator/tools/module-manager.md)
+  * [Game Creator Toolbar](game-creator/tools/game-creator-toolbar.md)
 * [Game Creator API](game-creator/game-creator-api/README.md)
   * [Custom Actions](game-creator/game-creator-api/custom-actions.md)
   * [Custom Conditions](game-creator/game-creator-api/custom-conditions.md)
@@ -41,12 +42,12 @@
 * [Inventory](inventory/inventory/README.md)
   * [Actions](inventory/inventory/actions.md)
   * [Conditions](inventory/inventory/conditions.md)
-* [Inventory Window](inventory/inventory-window/README.md)
-  * [Catalogue](inventory/inventory-window/catalogue.md)
-  * [Recipes](inventory/inventory-window/recipes.md)
-  * [Settings](inventory/inventory-window/settings.md)
-* [Merchants](inventory/merchants.md)
-* [Custom Inventory UI](inventory/custom-inventory-ui.md)
+  * [Merchants](inventory/inventory/merchants.md)
+  * [Inventory Window](inventory/inventory/inventory-window/README.md)
+    * [Catalogue](inventory/inventory/inventory-window/catalogue.md)
+    * [Recipes](inventory/inventory/inventory-window/recipes.md)
+    * [Settings](inventory/inventory/inventory-window/settings.md)
+  * [Custom Inventory UI](inventory/inventory/custom-inventory-ui.md)
 
 ## Dialogue
 
@@ -59,8 +60,8 @@
 * [Quests](quests/quests/README.md)
   * [Quests Overview](quests/quests/quests-overview.md)
   * [Create Quests](quests/quests/create-quests.md)
-* [Quests UI](quests/quests-ui/README.md)
-  * [Custom UI](quests/quests-ui/custom-ui.md)
+  * [Quests UI](quests/quests/quests-ui/README.md)
+    * [Custom UI](quests/quests/quests-ui/custom-ui.md)
 
 ## Annex
 
