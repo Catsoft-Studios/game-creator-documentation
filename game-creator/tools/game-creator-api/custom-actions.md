@@ -4,7 +4,7 @@
 
 To create a new **Action** right-click on the _Project Panel_ inside the _Unity Editor_ and navigate to `Create → GameCreator → Developer → Action` and give the text file created a suitable name.
 
-![](../../.gitbook/assets/api-create-action.jpg)
+![](../../../.gitbook/assets/api-create-action.jpg)
 
 {% hint style="success" %}
 We use the convention **"Action" +** **name**, but you can use whatever you like.
@@ -22,7 +22,7 @@ Creating a custom **Action** is divided in two parts. The first one, you'll be p
 
 The runtime body of the **Action** goes from the beginning of the action class definition till the platform compile condition pragma \(where it's read `#if UNITY_EDITOR`\)
 
-![](../../.gitbook/assets/api-action-runtime.jpg)
+![](../../../.gitbook/assets/api-action-runtime.jpg)
 
 You can declare your properties at the beginning of the class as you would normally do. The method `Execute` is called whenever an action is executed. Let's break down its structure and explain how it works.
 
@@ -72,7 +72,7 @@ Notice how after the `yield return new WaitForSeconds(0.5)` there's one last yie
 
 Let's take a look at the second half of the code for creating a custom **Action**. Between the platform compile condition pragmas \(`#if UNITY_EDITOR` ... `#endif`\).
 
-![](../../.gitbook/assets/api-action-editor.jpg)
+![](../../../.gitbook/assets/api-action-editor.jpg)
 
 First of all, there is a _static_ property with the _new_ keyword called `NAME`. This property gives the **Action** a name in the **Action**'s selection dropdown list. Just change the name and you're good to go.
 
@@ -139,5 +139,5 @@ public override void OnInspectorGUI()
 
 Wrapping and putting everything together, you can see this custom **Action** in a real project. Notice how the square looks at the objectB \(red ball\) and waits 0.5 seconds before looking at it again.
 
-![](../../.gitbook/assets/actions-conditions.gif)
+![](../../../.gitbook/assets/actions-conditions.gif)
 

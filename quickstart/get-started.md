@@ -38,7 +38,7 @@ See the [`Game Creator Components`](../game-creator/components/) section for mor
 
 ### For Programmers
 
-If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator](../game-creator/game-creator-api/) section to see how you can hack it. Why waste time reinventing the wheel?
+If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator](../game-creator/tools/game-creator-api/) section to see how you can hack it. Why waste time reinventing the wheel?
 
 Do you have existing coded tools? We're happy to say that they most likely work with Game Creator out of the box.
 

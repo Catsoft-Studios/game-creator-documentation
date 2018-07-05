@@ -6,7 +6,7 @@ description: Aka Igniters. Yeah. Cool name!
 
 **Triggers** are the bridge between some kind of input and the execution of **Actions** and **Events**. What receives this input and decides whether the Trigger should be fired or not are a hidden component called **Igniters**.
 
-![\(An Igniter tells the Trigger: Hey! Invoke the Actions &amp; Events\)](../../.gitbook/assets/igniter.jpg)
+![\(An Igniter tells the Trigger: Hey! Invoke the Actions &amp; Events\)](../../../.gitbook/assets/igniter.jpg)
 
 So when we talk about creating custom **Triggers**, we're actually talking about custom **Igniters**. And these work pretty much the same way as **Actions** and **Conditions**.
 

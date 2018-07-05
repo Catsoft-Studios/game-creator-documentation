@@ -2,7 +2,7 @@
 
 **Game Creator** comes with a variables system that allows you to keep track of the game progress and save the state between play sessions.
 
-![](../../.gitbook/assets/variables-example.jpg)
+![](../../../.gitbook/assets/variables-example.jpg)
 
 A **variable** is a value container with information that can be changed during gameplay.
 
@@ -10,12 +10,12 @@ A **variable** is a value container with information that can be changed during 
 For example, in a **Zelda** game, the hearts at the top of the screen would be a variable identified by the name "_hearts_".
 {% endhint %}
 
-![\(You can track the Player health creating an integer variable called &quot;hearts&quot;\)](../../.gitbook/assets/variables-header.jpg)
+![\(You can track the Player health creating an integer variable called &quot;hearts&quot;\)](../../../.gitbook/assets/variables-header.jpg)
 
 Variables can be **Global** or **Local**. For more information about **Global Variables** click [here](global-variables.md). To learn more about **Local Variables** click [here](local-variables.md).
 
 {% hint style="info" %}
-Variables can also be accessed through code. Head to [Variables Access](../game-creator-api/variables-access.md) to know more.
+Variables can also be accessed through code. Head to [Variables Access](../../tools/game-creator-api/variables-access.md) to know more.
 {% endhint %}
 
 ## Anatomy of a Variable

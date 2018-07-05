@@ -14,7 +14,7 @@ When accessing it, each character will return its own unique name.
 
 To create a local variable you can add the `Local Variables` component to any game object. Alternatively you can create one using the **Game Creator Toolbar** option to create a new instance.
 
-![](../../.gitbook/assets/local-variables.jpg)
+![](../../../.gitbook/assets/local-variables.jpg)
 
 Notice there's a UID field at the end of the component. This `UID` is used by the save-system to keep track of the different variables between play sessions.
 

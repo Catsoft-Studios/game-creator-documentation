@@ -6,11 +6,11 @@
 
 To create and edit global variables open the Preferences Menu \[⌘+P\] and select the Variables option.
 
-![\(Global Variables editor\)](../../.gitbook/assets/global-variables.jpg)
+![\(Global Variables editor\)](../../../.gitbook/assets/global-variables.jpg)
 
 To create a new global variable type in the name and press return or click on the `+` button. You'll create a variable of type `null`, which means it holds no value.
 
-![](../../.gitbook/assets/global-variables-type.jpg)
+![](../../../.gitbook/assets/global-variables-type.jpg)
 
 Choose which type of value a variable will hold. You can then initialize its default value.
 
@@ -30,7 +30,7 @@ A game can end up with thousands of global variables. Game Creator doesn't put a
 
 Tags allow you to categorize global variables in groups. To create a tag click on Edit Tags and type in the name of your tag. For example: **Potions**. You can also choose the tag's **color**.
 
-![\(Click this image to enlarge it\)](../../.gitbook/assets/global-variables-edittags.jpg)
+![\(Click this image to enlarge it\)](../../../.gitbook/assets/global-variables-edittags.jpg)
 
 {% hint style="info" %}
 Out of curiosity, tag color codes have been selected from an open source initiative called [Open Colors](https://yeun.github.io/open-color/), which have researched which palettes work well for UI elements.
@@ -38,7 +38,7 @@ Out of curiosity, tag color codes have been selected from an open source initiat
 
 To categorize a variable with a tag, simply open it and tick the tags you want to include. A variable can have as many categories as you like.
 
-![](../../.gitbook/assets/global-variables-tags.jpg)
+![](../../../.gitbook/assets/global-variables-tags.jpg)
 
 A variable's tag name will be represented with the name and a background color next to it. 
 

@@ -3,7 +3,7 @@
 **Game Creator** comes with a dependency manager called **Module Manager**. It allows to add, remove and seamlessly update extensions that add new features to our core product.
 
 {% hint style="info" %}
-Learn more about the Module Manager [here](../tools/module-manager.md).
+Learn more about the Module Manager [here](../module-manager.md).
 {% endhint %}
 
 All Modules are located at `Plugins/GameCreatorData/Modules/`. Modules are identified by a **unique name** or **bundleID**. You can name bundles however you want, but we recommend following the pattern:
@@ -30,11 +30,11 @@ The Manifest file contains the rest of the information relative to the specific 
 The password of all Manifest files is **gamecreator** \(lowercase and without any spaces\).
 {% endhint %}
 
-![\(Example of Manifest file\)](../../.gitbook/assets/custom-mm-manifest.png)
+![\(Example of Manifest file\)](../../../.gitbook/assets/custom-mm-manifest.png)
 
 After signing in the Manifest file you'll see all the Manifest options.
 
-![\(Custom Manifest file with testing values\)](../../.gitbook/assets/custom-mm-manifest-file.png)
+![\(Custom Manifest file with testing values\)](../../../.gitbook/assets/custom-mm-manifest-file.png)
 
 The Manifest can be broken down into 3 sections.
 
