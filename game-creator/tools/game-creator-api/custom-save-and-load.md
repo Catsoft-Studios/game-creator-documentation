@@ -4,9 +4,9 @@ description: Snake? Snake?! Snaaaaaaake!!!
 
 # Custom Save & Load
 
-Game Creator has a built-in functionality for saving and loading games. For non-programmers this should be as easy as use the **Load Game** to load a previously saved game and **Save Game** for saving it.
+Game Creator has a built-in functionality for saving and loading games. For non-programmers this should be as easy as using the **Load Game** Action to load a previously saved game and the **Save Game** Action for saving it.
 
-For programmers, the save/load system has so many constraints that it is nearly impossible to cover all cases with one generic script.
+Despite this, the save/load system has some constraints and it is nearly impossible to cover all cases with one generic script. That's why we've exposed the Save/Load API in case you want to create a custom savable object.
 
 Here we'll cover all the necessary steps you need to take when creating an extension of **Game Creator** or you simply want to use its save/load features with some custom scripts.
 
