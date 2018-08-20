@@ -37,6 +37,12 @@
     * [Variables Access](game-creator/tools/game-creator-api/variables-access.md)
     * [Custom Module](game-creator/tools/game-creator-api/custom-module.md)
 
+## Dialogue
+
+* [Dialogue](dialogue/dialogue/README.md)
+  * [Anatomy](dialogue/dialogue/anatomy.md)
+  * [Actions](dialogue/dialogue/actions.md)
+
 ## Inventory
 
 * [Inventory](inventory/inventory/README.md)
@@ -49,12 +55,6 @@
     * [Settings](inventory/inventory/inventory-window/settings.md)
   * [Custom Inventory UI](inventory/inventory/custom-inventory-ui.md)
 
-## Dialogue
-
-* [Dialogue](dialogue/dialogue/README.md)
-  * [Anatomy](dialogue/dialogue/anatomy.md)
-  * [Actions](dialogue/dialogue/actions.md)
-
 ## Quests
 
 * [Quests](quests/quests/README.md)
@@ -63,12 +63,12 @@
   * [Quests UI](quests/quests/quests-ui/README.md)
     * [Custom UI](quests/quests/quests-ui/custom-ui.md)
 
+## Stats
+
+* [Stats](stats/stats.md)
+
 ## Annex
 
 * [Roadmap](annex/roadmap.md)
 * [FAQ](annex/faq.md)
-
-## Stats
-
-* [Stats](stats/stats.md)
 
