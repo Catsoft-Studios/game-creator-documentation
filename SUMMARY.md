@@ -68,3 +68,7 @@
 * [Roadmap](annex/roadmap.md)
 * [FAQ](annex/faq.md)
 
+## Stats
+
+* [Stats](stats/stats.md)
+
