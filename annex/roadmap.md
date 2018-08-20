@@ -60,11 +60,27 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * [x] Game Creator - Gestures with Avatar Masks
 * [x] Game Creator - Limb IK targets
 {% endtab %}
+
+{% tab title="Postmortem" %}
+### What went right
+
+* Deploying the Quests modules before releasing to the Asset Store
+* Enhancing the Save/Load system to almost automatically save play-throughs
+* Many brainstorm sessions to architect the Stats module
+
+### What went wrong
+
+* Vacations split the development of the Stats module
+* Game Creator update took too much time, though brought many new features
+* The Stats module wasn't 100% architected when the development started
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Q3" %}
-* [ ] Melee module
+* [ ] Stats module
+* [ ] Shooter module
+* [ ] Integration with Cinemachine
 * [ ] Integration with Bolt
 * [ ] Integration with Playmaker
 * [ ] Integration Behavior Designer
