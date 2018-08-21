@@ -65,7 +65,7 @@
 
 ## Stats
 
-* [Stats](stats/stats.md)
+* [Stats Get started](stats/stats.md)
 
 ## Annex
 
