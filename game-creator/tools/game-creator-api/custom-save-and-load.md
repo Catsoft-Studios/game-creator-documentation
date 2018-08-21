@@ -1,7 +1,3 @@
----
-description: Snake? Snake?! Snaaaaaaake!!!
----
-
 # Custom Save & Load
 
 Game Creator has a built-in functionality for saving and loading games. For non-programmers this should be as easy as using the **Load Game** Action to load a previously saved game and the **Save Game** Action for saving it.

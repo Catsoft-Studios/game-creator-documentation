@@ -1,7 +1,3 @@
----
-description: Aka Igniters. Yeah. Cool name!
----
-
 # Custom Triggers
 
 **Triggers** are the bridge between some kind of input and the execution of **Actions** and **Events**. What receives this input and decides whether the Trigger should be fired or not are a hidden component called **Igniters**.

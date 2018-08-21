@@ -1,7 +1,3 @@
----
-description: You made your quests. Now make them look yours.
----
-
 # Custom UI
 
 The **Quests** module comes packed with two assets: the **Journal** and the **Quests HUD**. These assets are nothing more than a combination of default Unity UI components and two Quests components.

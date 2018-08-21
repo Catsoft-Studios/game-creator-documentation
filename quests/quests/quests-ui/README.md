@@ -1,7 +1,3 @@
----
-description: Show those quests to the world!
----
-
 # Quests UI
 
 Setting up **Quests** is not only useful for internally following a structure when telling your story but also a way to inform the player about the next steps.

@@ -1,7 +1,3 @@
----
-description: Khajiit has wares... If you have coin...
----
-
 # Merchants
 
 The **Inventory** module comes with a powerful **Merchant** system that allows to quickly define which items should a vendor sell and how many of them.
