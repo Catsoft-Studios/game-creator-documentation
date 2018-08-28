@@ -77,7 +77,8 @@
     * [Regenerative Mana](stats/stats/common-use-cases/regenerative-mana.md)
     * [Levels and XP](stats/stats/common-use-cases/levels-and-xp.md)
     * [Health from Stats](stats/stats/common-use-cases/health-from-stats.md)
-    * [Stats for Interactions](stats/stats/common-use-cases/stats-for-interactions.md)
+    * [Strength and Armor](stats/stats/common-use-cases/strength-and-armor.md)
+    * [Lockpicking](stats/stats/common-use-cases/lockpicking.md)
 
 ## Annex
 

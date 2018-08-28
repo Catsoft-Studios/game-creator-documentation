@@ -16,7 +16,7 @@ We've gathered some common use cases: from simple arcade games to complex RPG sy
 
 {% page-ref page="health-from-stats.md" %}
 
-{% page-ref page="stats-for-interactions.md" %}
+{% page-ref page="lockpicking.md" %}
 
 {% hint style="info" %}
 If you feel we missed a user case or want to tell us about your game, feel free to drop us a line and tell us about it at [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)
