@@ -65,7 +65,19 @@
 
 ## Stats
 
-* [Stats](stats/stats.md)
+* [Stats](stats/stats/README.md)
+  * [Stats Overview](stats/stats/stats-overview/README.md)
+    * [Stat](stats/stats/stats-overview/stat.md)
+    * [Attributes](stats/stats/stats-overview/attributes.md)
+    * [Status Effects](stats/stats/stats-overview/status-effects.md)
+    * [Formulas](stats/stats/stats-overview/formulas.md)
+    * [Stat Modifiers](stats/stats/stats-overview/stat-modifiers.md)
+  * [Common Use Cases](stats/stats/common-use-cases/README.md)
+    * [Simple Health Bar](stats/stats/common-use-cases/simple-health-bar.md)
+    * [Regenerative Mana](stats/stats/common-use-cases/regenerative-mana.md)
+    * [Levels and XP](stats/stats/common-use-cases/levels-and-xp.md)
+    * [Health from Stats](stats/stats/common-use-cases/health-from-stats.md)
+    * [Stats for Interactions](stats/stats/common-use-cases/stats-for-interactions.md)
 
 ## Annex
 
