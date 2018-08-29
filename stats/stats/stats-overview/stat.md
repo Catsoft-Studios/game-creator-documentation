@@ -45,3 +45,17 @@ There's a clear distinction between the base value of a **Stat** and its final r
 These concepts are better off explained with examples. We've gathered a bunch of [common case scenarios](../common-use-cases/) where we believe this might be easier to understand.
 {% endhint %}
 
+## Actions
+
+There are some **Actions** that let you interact and query stats values and states.
+
+* **Change Stat:** Allows you to change the base value of a stat. The value can come from a variable of be a constant value
+* **Sync Stat to Variable:** Assigns the current value of a Stat to a specific global or local variable.
+* **Debug Stat:** Prints the value of a Stat in the console
+
+## Conditions
+
+Same as Actions, Conditions with stats allow to use the Stats features outside of the module, such as in the Inventory, Dialogue modules or even your own custom systems
+
+* **Stat Value:** Returns the final value of a Stat and compares it to another constant or variable number.
+
