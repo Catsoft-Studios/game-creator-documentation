@@ -75,11 +75,11 @@
   * [Common Use Cases](stats/stats/common-use-cases/README.md)
     * [Simple Health Bar](stats/stats/common-use-cases/simple-health-bar.md)
     * [Regenerative Mana](stats/stats/common-use-cases/regenerative-mana.md)
-    * [Poison Status Effect](stats/stats/common-use-cases/poison-status-effect.md)
     * [Levels and XP](stats/stats/common-use-cases/levels-and-xp.md)
     * [Health from Stats](stats/stats/common-use-cases/health-from-stats.md)
     * [Strength and Armor](stats/stats/common-use-cases/strength-and-armor.md)
     * [Lockpicking](stats/stats/common-use-cases/lockpicking.md)
+    * [Poison Status Effect](stats/stats/common-use-cases/poison-status-effect.md)
 
 ## Annex
 
