@@ -12,6 +12,8 @@ We've gathered some common use cases: from simple arcade games to complex RPG sy
 
 {% page-ref page="regenerative-mana.md" %}
 
+{% page-ref page="poison-status-effect.md" %}
+
 {% page-ref page="levels-and-xp.md" %}
 
 {% page-ref page="health-from-stats.md" %}
