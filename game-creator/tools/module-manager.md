@@ -53,23 +53,13 @@ When a **Module** is disabled, you'll have the option of deleting its _installer
 
 ## Available Modules
 
-### Inventory
-
-Manage, trade, use and craft items. Includes a couple of inventory skins.
-
 {% page-ref page="../../inventory/inventory/" %}
-
-### Dialogue
-
-Show a cinematic conversation between characters, branch and join different lines back together.
 
 {% page-ref page="../../dialogue/dialogue/" %}
 
-### Quests
-
-Create main-quests, side-quests and hidden-quests.
-
 {% page-ref page="../../quests/quests/" %}
+
+{% page-ref page="../../stats/stats/" %}
 
 
 
