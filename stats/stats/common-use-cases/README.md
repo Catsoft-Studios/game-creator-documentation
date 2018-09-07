@@ -18,6 +18,8 @@ We've gathered some common use cases: from simple arcade games to complex RPG sy
 
 {% page-ref page="health-from-stats.md" %}
 
+{% page-ref page="strength-and-armor.md" %}
+
 {% page-ref page="lockpicking.md" %}
 
 {% hint style="info" %}
