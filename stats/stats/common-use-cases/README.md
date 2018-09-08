@@ -8,6 +8,10 @@ Even though the **Stats** module is very complete and flexible we also think it 
 
 We've gathered some common use cases: from simple arcade games to complex RPG systems with different stats affecting the outcome of other stats and attributes.
 
+{% hint style="info" %}
+The **Stats** module comes with the implementation of the examples listed below.
+{% endhint %}
+
 {% page-ref page="simple-health-bar.md" %}
 
 {% page-ref page="regenerative-mana.md" %}
@@ -15,8 +19,6 @@ We've gathered some common use cases: from simple arcade games to complex RPG sy
 {% page-ref page="poison-status-effect.md" %}
 
 {% page-ref page="levels-and-xp.md" %}
-
-{% page-ref page="health-from-stats.md" %}
 
 {% page-ref page="strength-and-armor.md" %}
 
