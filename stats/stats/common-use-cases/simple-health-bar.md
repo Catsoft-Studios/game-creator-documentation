@@ -1,3 +1,7 @@
+---
+description: Health for everyone!
+---
+
 # Simple Health Bar
 
 Health, Energy, Mana, Stamina, ... All these attributes are usually represented as a UI element. The Stats module provides a very simple way of showing those and define rules when they change.
