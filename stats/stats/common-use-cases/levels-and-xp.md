@@ -33,5 +33,13 @@ What's interesting is the **Level Formula**, which uses the **Progression Table*
 
 ![\(Level Formula with table\(stat\[exp\]\) as its expression\)](../../../.gitbook/assets/stat-example-4-level.png)
 
+Let's break down the previous expression. On the outer part we have **`table(...)`**. This means that we get an output integer value depending on the input and the **progression table** defined at the bottom of the **Formula** object. The input for that table is **`stat[exp]`** which references the current amount of experience points.
 
+## On Level Up!
+
+Right now we have a way to get the current **`level`** depending on the current amount of **`experience`** points. But knowing the current **`level`** is of no interest unless we can detect the exact moment in which our characters level up.
+
+To do so, all we need to do is to create a **Trigger** object and use the **Change Stat** option, which detects when a stat changes its current value and fires the corresponding **Actions** or **Events**.
+
+All that needs to be done then is to use the **Instantiate Action** with a prefab with some fancy particle effects on the player's position.
 
