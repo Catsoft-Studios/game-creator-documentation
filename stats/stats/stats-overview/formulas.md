@@ -84,6 +84,10 @@ Not all **Formulas** will provide a valid "**`other`**" reference. It only makes
 All symbols follow a naming pattern. When accessing a property by name, use the square brackets:**`stat[strength]`**. When accessing a property of another object, specify the target after double dots:**`stat:other[strength]`**. When calling a function, use parenthesis for parameters: **`rand(1, 5)`**.
 {% endhint %}
 
+{% hint style="info" %}
+See the [Strength & Armor](../common-use-cases/strength-and-armor.md) use case for an example.
+{% endhint %}
+
 ### Advanced
 
 You might be wondering what the heck is the graph at the bottom of the Formula object.
