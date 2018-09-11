@@ -64,7 +64,11 @@ Still reading? Great! You have just learned the hardest part!
 
 Now that you know the basics of how a **Formula** works, let's dig a bit deeper. We previously saw how to calculate a character's stat using its own information. But we might also want to calculate a value taking into account two objects.
 
-The most common scenario would be having a character attack an enemy. The damage of the attack could be the value of the **`strength`** stat of the player minus the **`armor`** stat of the enemy. In this case, the **Formula** would be:
+The most common scenario would be having a character attack an enemy. The damage of the attack could be the value of the **`strength`** stat of the player minus the **`armor`** stat of the enemy. 
+
+![\(Example of an Action using a Target and an Opponent field for the Formula\)](../../../.gitbook/assets/stats-formula-targets.png)
+
+In this case, the **Formula** would be:
 
 ```text
 stat[strength] - stat:other[armor]

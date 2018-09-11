@@ -32,6 +32,8 @@ Note how we can try changing a **Stat** value of any object. If that object does
 
 We've previously seen how we can increase the **`mana`** of a character by a fixed certain amount over the course of time. Now we want to do something similar \(change the value of an **Attribute**\) but by a dynamic value that depends both on the attacker's **`attack`** stat and the target's **`defense`** stat.
 
+![\(Reduce the health of the Invoker based on a Formula and an Opponent\)](../../../.gitbook/assets/stats-formula-targets.png)
+
 To do so, instead of using a constant float value we'll be using the output of a **Formula** as the value we'll be subtracting to the **`health`** attribute of the enemy. Here's how that Formula looks like:
 
 ```text
