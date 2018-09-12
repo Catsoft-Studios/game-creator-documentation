@@ -130,6 +130,7 @@ We've put up an example of how to use a Progression Table to define the Level of
 | **`table(input)`** | The tier of the Progression Table |
 | **`rand(X, Y)`** | Returns a random value between X and Y |
 | **`dice(R, S)`** | Returns the value of rolling R dices of S sides |
+| **`chance(X)`** | Returns 1 if a random percentage is less or equal to X, and 0 otherwise |
 | **`stat[name]`** | Returns the value of a stat identified by name |
 | **`attr[name]`** | Returns the value of an attribute identified by name |
 | **`stat:other[name]`** | Returns the value of the other stat identified by name |
