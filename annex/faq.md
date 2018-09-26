@@ -16,7 +16,9 @@ Game Creator is more than a scripting tool. It's an entire game creator toolbox 
 
 ### Can I make a multiplayer game with Game Creator?
 
-Not at the moment. But we've recently partnered with [Ninjutsu Games](https://assetstore.unity.com/publishers/3171) and they will be developing a module that will allow Game Creator to be used for multiplayer online games.
+We've recently partnered with [Ninjutsu Games](https://assetstore.unity.com/publishers/3171) and they have developed a module that adds multiplayer support for Game Creator using Photon. [Get it here](https://gamecreator.page.link/multiplayer).
+
+Notice that this is a third-party module and support is handled by the developer.
 
 ### Can I use my own scripts with Game Creator?
 
