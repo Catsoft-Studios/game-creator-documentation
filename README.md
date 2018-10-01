@@ -8,10 +8,6 @@ On top of all these, **Game Creator** also comes with a state-of-the-art **modul
 
 For example, the **Inventory** module allows to add a complete Inventory to your game with crafting recipes, usable items and customizable effects. The **Dialogue** module allows to have cinematic conversations between characters with branching options, timed choices, ... You name it!
 
-{% hint style="success" %}
-Best of all? They are **FREE**! Check them out at [store.gamecreator.io](https://store.gamecreator.io)
-{% endhint %}
-
 ## Useful Links
 
 * [Get Game Creator](https://www.assetstore.unity3d.com/#!/content/89443?aid=1100l36uR)
