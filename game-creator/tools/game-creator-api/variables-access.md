@@ -6,7 +6,7 @@ Accessing variables is done though the `VariablesManager` static class.
 To use it make sure you include the namespace `GameCreator.Variables`.
 {% endhint %}
 
-Variables follow a very simple convention. Accessing global variables is done through the `GetGlobal` and `SetGlobal` static methods. Homonimously, accessing local variables is done through the `GetLocal` and `SetLocal` methods.
+Variables follow a very simple convention. Accessing global variables is done through the `GetGlobal` and `SetGlobal` static methods. Homonymously, accessing local variables is done through the `GetLocal` and `SetLocal` methods.
 
 ## Global Variables
 
@@ -21,20 +21,12 @@ Despite having two methods for getting and setting global variables, it's highly
 {% endhint %}
 
 ```csharp
-public static T GetGlobal<T>(string name)
-```
-
-```csharp
 public static object GetGlobal(string name)
 ```
 
 ### Set Global Variables
 
 Setting a global variable value also very easy.
-
-```csharp
-public static void SetGlobal<T>(string name, T value)
-```
 
 ```csharp
 public static void SetGlobal(string name, object value)
@@ -61,20 +53,12 @@ Depth searching through a target and its children comes at a small performance c
 {% endhint %}
 
 ```csharp
-public static T GetLocal<T>(GameObject target, string name, bool inChildren = false)
-```
-
-```csharp
 public static object GetLocal(GameObject target, string name, bool inChildren = false)
 ```
 
 ### Set Local Variables
 
-Setting a local variable value is as easy as getting them
-
-```csharp
-public static void SetLocal<T>(GameObject target, string name, T value, bool inChildren = false)
-```
+Setting a local variable value is as easy as getting them:
 
 ```csharp
 public static void SetLocal(GameObject target, string name, object value, bool inChildren = false)
