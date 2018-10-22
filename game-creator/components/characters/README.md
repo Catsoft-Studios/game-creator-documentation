@@ -10,11 +10,11 @@ Since version **0.2.5** a character can also perform one of multiple **gestures*
 Since version **0.2.6** a character can also **Jump**.
 {% endhint %}
 
-## Character Properties {#character-properties}
+## Character Properties <a id="character-properties"></a>
 
 The **Character**'s properties is divided into two big sub-groups: The **Basic** properties, and the **Advanced** properties.
 
-### Basic Properties {#basic-properties}
+### Basic Properties <a id="basic-properties"></a>
 
 As its name implies, the **Basic** character properties are easily understandable and directly affect the **Character**'s behavior.
 
@@ -25,7 +25,7 @@ As its name implies, the **Basic** character properties are easily understandabl
 * **Can Jump:** Allows to give the character the ability to jump. If set to false, even if the Character receive an order from an **Action** to jump, it won't do it.
 * **Jump Force:** Default jump force used by the **Player** jump input and the **Jump Action**
 
-### Advanced Properties {#advanced-properties}
+### Advanced Properties <a id="advanced-properties"></a>
 
 The **Advanced** character properties are meant to be modified by more advanced users who need finer-grain control over the **Player** and other **NPC**s.
 
@@ -37,7 +37,7 @@ The **Advanced** character properties are meant to be modified by more advanced 
 **Can Use Navigation Mesh** is disabled by default because the user has to **Bake** the Navigation Mesh first. To know more about using the **Navigation Mesh** follow this [link](https://docs.unity3d.com/Manual/Navigation.html).
 {% endhint %}
 
-## Animating the Character {#animating-the-character}
+## Animating the Character <a id="animating-the-character"></a>
 
 In order to make the system more flexible, the **Character** and its animation system have been split in two different components.
 
@@ -49,7 +49,7 @@ The **Character Animator** has three different sections:
 * Character Model
 * Inverse Kinematics
 
-### Animator Parameters {#animator-parameters}
+### Animator Parameters <a id="animator-parameters"></a>
 
 These string values behave as a proxy between the **Character** component and the **Animator**, gathering locomotion information from the logic controller and plugging it into the **Animator**. The string values defined inside the **Animator Parameters** allow to have a custom **Animator Controller**.
 
@@ -57,7 +57,7 @@ These string values behave as a proxy between the **Character** component and th
 We don't recommend tweaking these parameters unless you are certain of what you want to do. In case you want to use your own Animation solution, you can access the current **Character** state by calling a public method named **`GetCharacterState()`**. It returns a **`Character.State`** class with information about if the character is grounded or not, its direction, etc.
 {% endhint %}
 
-### Character Model {#character-model}
+### Character Model <a id="character-model"></a>
 
 You'll probably want to make a game with your custom character models. Luckely, changing between characters in **Game Creator** is as easy as clicking the **Change Model** button and dragging in the 3D model you want to use from your _Project Panel_. **Game Creator** will take it from here and automagically update the character with the new one.
 

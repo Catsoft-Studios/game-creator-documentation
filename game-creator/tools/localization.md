@@ -10,7 +10,7 @@ We've designed the **Localization tools** to be as simple as possible and non-in
 The last thing we wanted to do was to display 5 different input fields, each for a different languages, for each localized message.
 {% endhint %}
 
-## Localized Strings {#localized-strings}
+## Localized Strings <a id="localized-strings"></a>
 
 Localized string fields are composed of two parts. The first is the _input field_. Here you type the text in the default language. For example, if we want to show a message saying _Hello, World!_ we would simply type these characters there.
 
@@ -32,7 +32,7 @@ But where do you actually specify the translations? That's done inside the _Pref
 
 The **Localization** tab has two sections: **Languages** and **Texts**.
 
-### Languages {#languages}
+### Languages <a id="languages"></a>
 
 Here you can add new languages and export and import the translations. For example, continuing the previous example, let's say we want to add the _Spanish_ language and translate the previous message.
 
@@ -50,11 +50,11 @@ To test that everything works, create a new **Action** and use the **Change Lang
 When changing the language in runtime, all texts are updated instantaneously in **realtime**. There's no need to restart the application or reload the scene.
 {% endhint %}
 
-### Texts {#texts}
+### Texts <a id="texts"></a>
 
 These are all the texts that can be translated. Notice that if you remove a Game Object that contained a component with a localized string it might not disappear from this list, so it is a good practice to review these strings and delete those that are unused, from time to time.
 
-## Best Practices {#best-practices}
+## Best Practices <a id="best-practices"></a>
 
 * Don't set any text as translatable until the very end of the project. You can always do that later.
 * Keep a copy of all translation documents or save them inside the project. better yet, use _git_ to keep older copies.

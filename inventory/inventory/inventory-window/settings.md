@@ -4,7 +4,7 @@ In the _Settings_ tab you can configure all the necessary information related to
 
 ![](../../../.gitbook/assets/inventory-settings.jpg)
 
-## User Interface {#user-interface}
+## User Interface <a id="user-interface"></a>
 
 In this section you can define how the **Inventory** looks like in the game.
 
@@ -20,7 +20,7 @@ The **On Drag Grab Item** toggle allows to enable/disable showing the **Item** p
 
 **Cursor Drag** and **Cursor Drag Hotspot** are, as their name implies, the cursor used when dragging an item around.
 
-## Behavior Configuration {#behavior-configuration}
+## Behavior Configuration <a id="behavior-configuration"></a>
 
 In the _Behavior Configuration_ section you'll see options to set or unset **Inventory** features.
 

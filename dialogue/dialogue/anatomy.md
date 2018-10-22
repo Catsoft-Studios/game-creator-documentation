@@ -1,12 +1,12 @@
 # Anatomy
 
-## Dialogue Anatomy {#dialogue-anatomy}
+## Dialogue Anatomy <a id="dialogue-anatomy"></a>
 
 The Dialogue module is a **Component** that can be attached to any scene Game Object or _prefab_. To create one, right click on the _Hierarchy Panel_ and select `Game Creator → Other → Dialogue`.
 
 ![\(All available Dialogue elements\)](../../.gitbook/assets/dialogue-toolbar-buttons.jpg)
 
-## The Toolbar {#the-toolbar}
+## The Toolbar <a id="the-toolbar"></a>
 
 The **Toolbar** is where all the Dialogue items are created. It's located at the top of the Dialogue component.
 
@@ -17,11 +17,11 @@ The **Toolbar** is where all the Dialogue items are created. It's located at the
 * **Search:** Type to search a specific line of dialogue.
 * **Maximize/Minimize:** Toggle between fullscreen and normal mode. Useful for large conversations.
 
-## Dialogue Elements {#dialogue-elements}
+## Dialogue Elements <a id="dialogue-elements"></a>
 
 Any **Dialogue** is composed of the combination of 3 types of elements: **Text**, **Choice Groups** and **Choices**.
 
-### Text Elements {#text-elements}
+### Text Elements <a id="text-elements"></a>
 
 The most common element on a conversation between characters. The Text element allows to display a text following a set of rules defined by the **Conditions** tab and execute a set of **Actions** \(if any\) that can be found in its homonym tab. If a custom skin is provided, it will use it for this specific line of text. Otherwise, it will use the one set in the _Preferences Window_.
 
@@ -35,7 +35,7 @@ Additionally, you can also specify what happens after executing a **Text** eleme
 
 To do so, change the **After Run** property to **Exit** to end the dialogue or **Jump** to jump to another dialogue line. **Continue** will jump to the next element \(if any\).
 
-### Choice Group & Choices {#choice-group-and-choices}
+### Choice Group & Choices <a id="choice-group-and-choices"></a>
 
 **Choice Group** and **Choice** elements go hand in hand. A **Choice Groups** behaves like a **Text** element, but also allows to specify the characteristics and settings of the following choices presented to the player.
 
@@ -56,7 +56,7 @@ A **Choice Group** will also allow you to randomly shuffle all choices at runtim
 
 On the other hand, a **Choice** element will work as a "gate" to a specific choice. They work more or less like a **Text** element. The difference is that only the player can use one.
 
-### Tips & Tricks {#tips-and-tricks}
+### Tips & Tricks <a id="tips-and-tricks"></a>
 
 See there's a **Condition** tab inside a **Text Element**? These _Conditions_ are checked before running the text line. If the result is negative, the line will be skipped.
 

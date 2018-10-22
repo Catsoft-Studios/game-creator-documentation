@@ -10,7 +10,7 @@ The other inventory representation reminds more of old-school adventure games su
 
 ![\(Adventure Inventory skin\)](../../.gitbook/assets/inventory-skin-adventure.jpg)
 
-## UI Overview {#ui-overview}
+## UI Overview <a id="ui-overview"></a>
 
 The only difference between these two inventories is their layout. Yes, seriously. We first created the **RPG Inventory**, we duplicated it and then, in less than 2 minutes, we had finished the **Adventure Inventory**.
 
@@ -47,7 +47,7 @@ The `Floating Item` field is used when an item is dragged around the inventory a
 
 _Voilá_! That's all you need to know about customizing your inventory!
 
-## Customizing the Items UI {#customizing-the-items-ui}
+## Customizing the Items UI <a id="customizing-the-items-ui"></a>
 
 Customizing how the items appear is even easier than the inventory. To begin with, drop the duplicated prefab of the **RPG Item** in the _items container_ of the duplicated prefab of the **RPG Inventory** \(see the image below\). That way, you'll have a clean view of how it will look like.
 

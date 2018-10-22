@@ -14,7 +14,7 @@ A **Hotspot** has different options that can be enabled/disabled individually.
 
 To create a **Hotspot** component simply **Right Click** on the _Hierarchy Panel_ and select `Game Creator → Other → Hotspot`. You can also create a **Hotspot** element adding the component to any Game Object.
 
-## Hotspot options {#hotspot-options}
+## Hotspot options <a id="hotspot-options"></a>
 
 A **Hotspot** component has different options that can be enabled.
 

@@ -12,7 +12,7 @@ States are not **boolean** \(on/off\) values. You can blend between the root loc
 This is very useful if you want, for instance, to set the **Player** normal-injured state based on its remaining health.
 {% endhint %}
 
-## Default States {#default-states}
+## Default States <a id="default-states"></a>
 
 **Game Creator** comes with some default **States**:
 
@@ -21,7 +21,7 @@ This is very useful if you want, for instance, to set the **Player** normal-inju
 * **Hurt:** The character moves hoping with just one leg
 * **Mediate:** The character sits crossing its legs and placing its hands onto his knees.
 
-## Custom States {#custom-states}
+## Custom States <a id="custom-states"></a>
 
 **Game Creator** allows you to easily create custom **States**. To do so, right click on the _Project Panel_ and select `Create → Game Creator → Characters` and a **State** asset will be created. You'll see there are different types of **States**.
 

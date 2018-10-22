@@ -6,7 +6,7 @@ description: Show me those words!
 
 The **Dialogue** module is 100% customizable and isn't restricted by any type of UI style. The Dialogue module comes with two skins that can be easily swapped between them.
 
-## Using a Skin {#using-a-skin}
+## Using a Skin <a id="using-a-skin"></a>
 
 A **skin** is a prefab that is used whenever a conversation line or choice is displayed. They are automatically managed by the **Dialogue** module.
 

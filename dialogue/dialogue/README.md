@@ -4,7 +4,7 @@ The **Dialogue** module is a **Game Creator** extension that allows to create an
 
 ![](../../.gitbook/assets/dialogue-header.jpg)
 
-## Key features {#key-features}
+## Key features <a id="key-features"></a>
 
 * Easily create **conversations** between Characters
 * Add custom skins or download pre-made ones from the [Game Creator Store](https://store.gamecreator.io/)​
@@ -15,7 +15,7 @@ The **Dialogue** module is a **Game Creator** extension that allows to create an
 **Dialogue** comes a minimalist skin. You can create your own by duplicating the default one or import one from the store.
 {% endhint %}
 
-## Setup {#setup}
+## Setup <a id="setup"></a>
 
 Download the package from the Game Creator Store or the Unity Asset Store. You'll first need to have Game Creator installed.
 

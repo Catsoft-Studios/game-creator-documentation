@@ -8,7 +8,7 @@ The **Quest** module is a **Game Creator** extension that allows to create, trac
 
 ![\(Example of the Journal user interface\)](../../.gitbook/assets/quests-header.jpg)
 
-## Key features {#key-features}
+## Key features <a id="key-features"></a>
 
 * Easily create **quests**
 * Easy to debug and track quests with Editor built-in tools
@@ -19,7 +19,7 @@ The **Quest** module is a **Game Creator** extension that allows to create, trac
 **Quests** comes a minimalist skin. You can create your own by duplicating the default ones.
 {% endhint %}
 
-## Setup {#setup}
+## Setup <a id="setup"></a>
 
 Download the package from the [Game Creator Store](https://store.gamecreator.io) or the **Unity Asset Store**. You'll first need to have **Game Creator** installed.
 

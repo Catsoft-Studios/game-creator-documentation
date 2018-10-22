@@ -42,6 +42,7 @@
 * [Dialogue](dialogue/dialogue/README.md)
   * [Anatomy](dialogue/dialogue/anatomy.md)
   * [Dialogue UI](dialogue/dialogue/dialogue-ui.md)
+  * [API](dialogue/dialogue/api.md)
 
 ## Inventory
 
