@@ -20,6 +20,16 @@ At the end of each quarter we'll include a small [postmortem](https://en.wikiped
 Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the development of Game Creator!
 {% endhint %}
 
+## 2019 - Milestones
+
+{% tabs %}
+{% tab title="Q1" %}
+* [ ] AI module
+* [ ] Shooter module
+* [ ] Melee module
+{% endtab %}
+{% endtabs %}
+
 ## 2018 - Milestones
 
 {% tabs %}
@@ -84,7 +94,6 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * [ ] Integration with Cinemachine
 * [ ] Integration with Bolt
 * [ ] Integration with Playmaker
-* [ ] Integration Behavior Designer
 {% endtab %}
 {% endtabs %}
 
