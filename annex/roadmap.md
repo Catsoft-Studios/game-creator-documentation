@@ -89,7 +89,7 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 {% tabs %}
 {% tab title="Q3" %}
 * [x] Stats module
-* [ ] Game Creator Hub
+* [x] Game Creator Hub
 * [ ] Shooter module
 * [ ] Integration with Cinemachine
 * [ ] Integration with Bolt
