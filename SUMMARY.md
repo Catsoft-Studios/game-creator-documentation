@@ -41,6 +41,7 @@
 
 * [Dialogue](dialogue/dialogue/README.md)
   * [Anatomy](dialogue/dialogue/anatomy.md)
+  * [Actors](dialogue/dialogue/actors.md)
   * [Dialogue UI](dialogue/dialogue/dialogue-ui.md)
   * [API](dialogue/dialogue/api.md)
 
