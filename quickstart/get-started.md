@@ -70,7 +70,7 @@ A **Red** highlight is a critical message that can be game breaking. Read with s
 
 For example, the **Inventory** module give you a set of extremely easy to use tools to create items which produce different effects when consumed. It also allows you to easily define crafting recipes between different items and what happens when these two are combined.
 
-You can manage all your **modules** from the **Module Manager** window \[⌘ + M\]. You can download free modules from the [Game Creator Store](https://store.gamecreator.io).
+You can manage all your **modules** from the **Module Manager** window \[⌘ + M\]. You can download integration modules, Actions, Conditions and Triggers from the [Game Creator Hub](https://hub.gamecreator.io).
 
 {% hint style="info" %}
 See the [Module Manager](../game-creator/tools/module-manager.md) section for a full list of all the available **modules.**
