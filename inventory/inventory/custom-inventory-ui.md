@@ -66,3 +66,39 @@ You can choose to show different properties of an **Item**:
 
 Don't forget to save your prefab \(click _Apply_\) and delete it from the scene view.
 
+## Advanced UI
+
+The Inventory modules comes packed with some extra components that will help you build the perfect user interface for your game, in case none of the templates work for you.
+
+{% hint style="info" %}
+This is meant for more advanced users and it is assumed that the user is fairly familiar with the Unity engine and its UI system.
+{% endhint %}
+
+### Items List UI
+
+Since version 0.5.2 you can group items by type. For example, you might want to have your Equipment items in one tab and your Potions in another one.
+
+In order to do so, you can use a component called **`Items List`**, under `Game Creator/UI` component path.
+
+![\(Items List component\)](../../.gitbook/assets/inventory-items-list.png)
+
+This component will display all items that belong to the ones selected in the Item Types dropdown menu and instantiate, for each matching item, an instance of the Prefab Item under the Container object.
+
+You can change the type of items displayed at runtime using the **Items List UI** action.
+
+![](../../.gitbook/assets/inventory-items-actions.png)
+
+### Equip Slot UI
+
+Most PC or Mac games rely on drag and drop functionality to equip different objects, instead of using buttons. In order to to so with the Inventory module, you'll need to add an Equip Slot UI component on the image you want to use as the drop zone.
+
+![\(Equip Slot UI component\)](../../.gitbook/assets/inventory-items-slot.png)
+
+The **Item Type** field lets you select one single type of item, where the dropped item will be used for equipping.
+
+{% hint style="info" %}
+In order for an item to be equipped, its type has to match the same as the one in the **`Item Type`** field of the **Equip Slot UI** component.
+{% endhint %}
+
+The rest of the fields are used to give visual feedback to the user.
+

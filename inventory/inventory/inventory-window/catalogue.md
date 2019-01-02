@@ -14,6 +14,8 @@ An **Item** has quite a lot of options
 * **Prefab**: When dropping an item or instantiating it, this prefab will be used
 * **Price**: The price this value costs \(used when buying or selling an item\)
 * **Max Stack**: Maximum number of this items the player can carry in its inventory
+* **Weight**: Used for custom Inventories
+* **Item Types:** What category or categories this item belongs to
 * **Consumable**: Defines whether an item is consumable or not
 
 If an item is marked as _consumable_ then the **Actions** defined below will be executed when the player clicks on the item in the **Inventory**'s **UI** or another **Action** forces to consume the item.

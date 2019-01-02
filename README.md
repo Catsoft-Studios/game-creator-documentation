@@ -11,7 +11,7 @@ For example, the **Inventory** module allows to add a complete Inventory to your
 ## Useful Links
 
 * [Get Game Creator](https://www.assetstore.unity3d.com/#!/content/89443?aid=1100l36uR)
-* [See our Store](https://store.gamecreator.io)
+* [See Game Creator Hub](https://hub.gamecreator.io)
 
 {% page-ref page="quickstart/get-started.md" %}
 

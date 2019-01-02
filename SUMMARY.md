@@ -53,6 +53,7 @@
   * [Inventory Window](inventory/inventory/inventory-window/README.md)
     * [Catalogue](inventory/inventory/inventory-window/catalogue.md)
     * [Recipes](inventory/inventory/inventory-window/recipes.md)
+    * [Types](inventory/inventory/inventory-window/types.md)
     * [Settings](inventory/inventory/inventory-window/settings.md)
     * [Equip Items](inventory/inventory/inventory-window/equip-items.md)
   * [Merchants](inventory/inventory/merchants.md)

@@ -8,32 +8,8 @@ description: >-
 
 Since version 0.5.1 you can create items and make characters equip them. We've built a very flexible system so one item can be equipped in multiple item slots \(although it can only be in either one or the other, but not both at the same time\). 
 
-## Item Types
-
-An item can be part of zero, one or more **Types**. **Types** are defined in the **Types** tab and have two fields: An **ID** and a **Name**.
-
-![\(Types tab in the Inventory&apos;s Preferences Window section\)](../../../.gitbook/assets/dialogue-types.jpg)
-
-An Item **Type** is identified by the concatenation of the **ID** and the **Name**. These should be unique across all other Types and can contain a "/" character to indicate being a sub-element of another item. In the example above, _Swords_ and _Helmets_ are sub elements of _Equipment_.
-
-{% hint style="success" %}
-Though not required, it's a good practice to keep all sub elements with a "/" separator. This will allow finding sub items much faster, since they will be placed as a sub category when selecting a type in a dropdown menu.
-{% endhint %}
-
 {% hint style="info" %}
-You can create up to **32** different item **Types**.
-{% endhint %}
-
-Item **Types** can be used for a wide variety of reasons. One of them is using a **Type** to define which items are equipable and where can they be equipped. 
-
-{% hint style="success" %}
-For example, you could assign the Type "_Right Hand_" to a _Sword_ and use all items that contain the type "_Right Hand_" as equipables to that slot.
-{% endhint %}
-
-Another use for **Types** is to organize the Player's inventory UI. You can choose to show specific items that belong to a category or multiple categories.
-
-{% hint style="success" %}
-For example, you can define a "Consumable" type and assign it to Potions and Food so they are displayed in a consumable menu.
+See [Item Types](types.md) section to know how to create and manage categories for different item types.
 {% endhint %}
 
 ## Equip Items
