@@ -9,7 +9,7 @@ description: >-
 Since version 0.5.1 you can create items and make characters equip them. We've built a very flexible system so one item can be equipped in multiple item slots \(although it can only be in either one or the other, but not both at the same time\). 
 
 {% hint style="info" %}
-See [Item Types](types.md) section to know how to create and manage categories for different item types.
+See [Item Types](inventory-window/types.md) section to know how to create and manage categories for different item types.
 {% endhint %}
 
 ## Equip Items
@@ -32,7 +32,7 @@ The **On Equip** and **On Unequip** actions are the perfect place to make the ef
 
 For example, if a _Steel Sword_ shows a nice 3D model of a shiny sword on its right hand, the **On Equip** Actions could look like something like this:
 
-![\(On Equip will instantiate a Sword model on the Invoker&apos;s Right Hand\)](../../../.gitbook/assets/inventory-on-equip-item.jpg)
+![\(On Equip will instantiate a Sword model on the Invoker&apos;s Right Hand\)](../../.gitbook/assets/inventory-on-equip-item.jpg)
 
 {% hint style="warning" %}
 If you try to equip an item on a type that doesn't match the item's type, it won't equip the item.

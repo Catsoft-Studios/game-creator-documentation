@@ -55,8 +55,8 @@
     * [Recipes](inventory/inventory/inventory-window/recipes.md)
     * [Types](inventory/inventory/inventory-window/types.md)
     * [Settings](inventory/inventory/inventory-window/settings.md)
-    * [Equip Items](inventory/inventory/inventory-window/equip-items.md)
   * [Merchants](inventory/inventory/merchants.md)
+  * [Equip Items](inventory/inventory/equip-items.md)
   * [Custom Inventory UI](inventory/inventory/custom-inventory-ui.md)
 
 ## Quests
