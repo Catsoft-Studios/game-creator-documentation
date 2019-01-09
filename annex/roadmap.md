@@ -24,9 +24,10 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 
 {% tabs %}
 {% tab title="Q1" %}
-* [ ] AI module
+* [ ] Behavior module
 * [ ] Shooter module
 * [ ] Melee module
+* [ ] Integration modules
 {% endtab %}
 {% endtabs %}
 
@@ -94,6 +95,21 @@ Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the deve
 * [ ] Integration with Cinemachine
 * [ ] Integration with Bolt
 * [ ] Integration with Playmaker
+{% endtab %}
+
+{% tab title="Postmortem" %}
+### What went right
+
+* Completed Game Creator Hub with admin dashboard
+* Improved Game Creator stability a lot
+* Kept documentation up to date
+* Stats module design and examples work great
+
+### What went wrong
+
+* Poor communication with _Beta_ phase ending
+* Marketing is still a thing that needs to be worked out
+* Did not hit integration modules deadline
 {% endtab %}
 {% endtabs %}
 
