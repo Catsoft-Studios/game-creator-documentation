@@ -38,7 +38,7 @@ See the [`Game Creator Components`](../game-creator/components/) section for mor
 
 ### For Programmers
 
-If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator](../game-creator/tools/game-creator-api/) section to see how you can hack it. Why waste time reinventing the wheel?
+If you are a coder you will fall in love with Game Creator's architecture. It's made to be easy to use and extremely extendable. Check our [Extend Game Creator](../game-creator/systems/game-creator-api/) section to see how you can hack it. Why waste time reinventing the wheel?
 
 Do you have existing coded tools? We're happy to say that they most likely work with Game Creator out of the box.
 
@@ -73,6 +73,6 @@ For example, the **Inventory** module give you a set of extremely easy to use to
 You can manage all your **modules** from the **Module Manager** window \[⌘ + M\]. You can download integration modules, Actions, Conditions and Triggers from the [Game Creator Hub](https://hub.gamecreator.io).
 
 {% hint style="info" %}
-See the [Module Manager](../game-creator/tools/module-manager.md) section for a full list of all the available **modules.**
+See the [Module Manager](../game-creator/systems/module-manager.md) section for a full list of all the available **modules.**
 {% endhint %}
 

@@ -15,7 +15,7 @@ For example, in a **Zelda** game, the hearts at the top of the screen would be a
 Variables can be **Global** or **Local**. For more information about **Global Variables** click [here](global-variables.md). To learn more about **Local Variables** click [here](local-variables.md).
 
 {% hint style="info" %}
-Variables can also be accessed through code. Head to [Variables Access](../../tools/game-creator-api/variables-access.md) to know more.
+Variables can also be accessed through code. Head to [Variables Access](../../systems/game-creator-api/variables-access.md) to know more.
 {% endhint %}
 
 ## Anatomy of a Variable

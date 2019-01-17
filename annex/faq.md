@@ -22,7 +22,7 @@ Notice that this is a third-party module and support is handled by the developer
 
 ### Can I use my own scripts with Game Creator?
 
-Yes. Game Creator is all wrapped and isolated in its own namespace. Game Creator has an [open API](../game-creator/tools/game-creator-api/) architecture that allows you to extend all functionalities. All logic and data are located inside the [special](https://docs.unity3d.com/Manual/SpecialFolders.html) Plugins/GameCreator/ folder. This means that recompiling your project won't also recompile Game Creator.
+Yes. Game Creator is all wrapped and isolated in its own namespace. Game Creator has an [open API](../game-creator/systems/game-creator-api/) architecture that allows you to extend all functionalities. All logic and data are located inside the [special](https://docs.unity3d.com/Manual/SpecialFolders.html) Plugins/GameCreator/ folder. This means that recompiling your project won't also recompile Game Creator.
 
 ### Can I integrate other Unity Asset Store packages with Game Creator?
 
@@ -42,7 +42,7 @@ Soon. Well, as soon as we have a stable version :-P We're at the last phase we c
 
 ### How easy is it to create my own Actions for Game Creator?
 
-If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](../game-creator/tools/game-creator-api/custom-actions.md) and [Custom Conditions](../game-creator/tools/game-creator-api/custom-conditions.md) for more information.
+If you have at least some programming experience, it's piece of cake. With Game Creator you can create script templates which contain a basic structure from which to code an Action. Check [Custom Actions](../game-creator/systems/game-creator-api/custom-actions.md) and [Custom Conditions](../game-creator/systems/game-creator-api/custom-conditions.md) for more information.
 
 ### Does Game Creator come with its own character controller?
 
