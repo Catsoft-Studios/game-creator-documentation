@@ -25,6 +25,6 @@ For example, the **Inventory** module allows to add a complete Inventory to your
 * [hello@catsoft-studios.com](mailto:hello@catsoft-studios.com)
 
 {% hint style="success" %}
-Join the Game Creator [Discord server](https://discord.gg/WUTVJeq)!
+Join the Game Creator [Discord server](https://gamecreator.page.link/discord)!
 {% endhint %}
 

@@ -34,7 +34,7 @@ All available modules can be downloaded from the [Game Creator Store](https://st
 
 ### Can I make a feature request?
 
-Sure! Game Creator is a community driven product. This means we're always listening, planning and executing according to what we discussed in our [Discord server](https://discord.gg/nzN8z5e). Join us! We're really friendly folk ;-\)
+Sure! Game Creator is a community driven product. This means we're always listening, planning and executing according to what we discussed in our [Discord server](https://gamecreator.page.link/discord). Join us! We're really friendly folk ;-\)
 
 ### When will Game Creator move beyond Beta phase?
 

@@ -15,7 +15,7 @@ Have any question? Feel free to drop us a line at [hello@catsoft-studios.com](ma
 **Game Creator** is a community driven product. That means that you can have a real impact on the direction of the development cycle. We internally have our own roadmap but if there's a community consensus that a certain feature should be implemented first, we hit the _pause_ button and implement that feature.
 
 {% hint style="info" %}
-Join our [Discord server](https://discord.gg/ZCkqJf5) for realtime discussions about the development of **Game Creator**.
+Join our [Discord server](https://gamecreator.page.link/discord) for realtime discussions about the development of **Game Creator**.
 {% endhint %}
 
 ## Why Game Creator?

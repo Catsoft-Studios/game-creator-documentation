@@ -17,7 +17,7 @@ At the end of each quarter we'll include a small [postmortem](https://en.wikiped
 {% endhint %}
 
 {% hint style="info" %}
-Join our [Discord server](https://discord.gg/ZCkqJf5) and let's discuss the development of Game Creator!
+Join our [Discord server](https://gamecreator.page.link/discord) and let's discuss the development of Game Creator!
 {% endhint %}
 
 ## 2019 - Milestones
