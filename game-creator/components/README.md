@@ -24,7 +24,7 @@ Click [here](actions.md) to learn more about them.
 
 Condition the execution of **Actions**. For example, you can check if the object **Chest** has been opened. If so, don't increase the player's `gold coins`, but show the message: `This chest has already been looted!` 
 
-Click [here](events.md) to learn more
+Click [here](conditions.md) to learn more
 
 ## Triggers
 

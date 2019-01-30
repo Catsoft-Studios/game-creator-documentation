@@ -1,6 +1,10 @@
-# Events
+# Conditions/Events
 
-Events components a little bit more complex than Actions; they allow to check for conditions and branch from execution threads.
+{% hint style="danger" %}
+**Events** have been renamed as **Conditions** on version 0.7.1.
+{% endhint %}
+
+Event components a little bit more complex than Actions; they allow to check for conditions and branch from execution threads.
 
 ![\(Example of an Event that checks if a chest is open or not\)](../../.gitbook/assets/events.jpg)
 
