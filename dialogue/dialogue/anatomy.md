@@ -64,3 +64,7 @@ See there's a **Condition** tab inside a **Text Element**? These _Conditions_ ar
 You can take advantage of this and skip entire conversations by dragging and dropping **Text Elements** inside another **Text Element**. If the upper-most element's _Conditions_ evaluate as `false`, any of its children will be shown.
 {% endhint %}
 
+{% hint style="info" %}
+You can also use **Global Variable** values inside your texts. To do so, use the **`global[name-of-your-variable]`** syntax.
+{% endhint %}
+
