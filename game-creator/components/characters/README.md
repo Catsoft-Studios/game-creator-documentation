@@ -83,3 +83,13 @@ Foot IK allows any Character or Player to correctly align and place their feed e
 
 ![\(With just one click your Characters will realistically align their feet and body to the floor\)](../../../.gitbook/assets/character-ik.gif)
 
+## Custom Animations
+
+You can play custom animations created by you or downloaded from third-party services, such as [Mixamo](https://mixamo.com). To do so, you need to make sure that the imported animation is of type **Humanoid**. 
+
+By default, Unity imports its animations as Generic. To change the animation type, select the imported clip and click on the **Rig** tab. There you can select Humanoid under **Animation Type**. 
+
+![\(Animation Type set as Humanoid\)](../../../.gitbook/assets/character-humanoid.png)
+
+For more information on how to play custom animations, Game Creator provides two components built on top of the Unity's Animation system: [Gestures](gestures.md) and [States](states.md). Check them out to know how to play simple animations or even build complex locomotion movements with just a couple of clicks.
+
