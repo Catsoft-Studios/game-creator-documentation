@@ -72,6 +72,34 @@ Checking if a local variable exists is done exactly like with global variables
 public static bool ExistsLocal(GameObject target, string name, bool inChildren = false)
 ```
 
+## Examples
+
+Here are some common examples. Let's say you have a Global Variable called **`player-score`** stored in as a **Number**. **Number** type variables are **`floats`**.
+
+```csharp
+public float GetPlayerScore()
+{
+    object result = VariablesManager.GetGlobal("player-score");
+    return (float)result;
+}
+```
+
+Notice how **`GetGlobal`** returns an **`object`**. This means that the result can be anything: from a **`float`**, a **string**, a **`Game Object`** or even **`null`**!
+
+You have to know beforehand the type of the variable you're trying to access and use an explicit cast to transform an object into the type you want; in this case, a **`float`**.
+
+Now let's say we want to increase the previous variable each time the player wins the game.
+
+```csharp
+public void IncreasePlayerScore()
+{
+    float score = this.GetPlayerScore();
+    VariablesManager.SetGlobal("player-score", score + 1);
+}
+```
+
+Using the previous method, we can easily get the current player's score and call the **`SetGlobal`** method to store the current score plus 1.
+
 ## TypeProperties
 
 When integrating Game Creator with your custom scripts you'll want to make use of both constant variable values \(float, strings, ...\) and Game Creator Variables. 
