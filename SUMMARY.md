@@ -85,6 +85,14 @@
     * [Strength and Armor](stats/stats/common-use-cases/strength-and-armor.md)
     * [Lockpicking](stats/stats/common-use-cases/lockpicking.md)
 
+## Behavior
+
+* [Behavior](behavior/behavior/README.md)
+  * [Behavior Graph](behavior/behavior/behavior-graph/README.md)
+    * [Nodes](behavior/behavior/behavior-graph/nodes.md)
+    * [Blackboard](behavior/behavior/behavior-graph/blackboard.md)
+  * [Perception](behavior/behavior/perception.md)
+
 ## Annex
 
 * [Roadmap](annex/roadmap.md)
