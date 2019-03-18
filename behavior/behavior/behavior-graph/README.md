@@ -36,7 +36,7 @@ The **Slider** next to it is the amount of zoom. You can either drag it or use t
 
 The **Sort** button re-arranges your nodes based on their size and dependencies. It is highly advisable to click it every once in a while. 
 
-The **Creator** button opens a dropdown of options which place nodes on the node Canvas. See the [Nodes](nodes.md) section for a full list of all available nodes. 
+The **Create** button opens a dropdown of options which place nodes on the node Canvas. See the [Nodes](nodes.md) section for a full list of all available nodes. 
 
 The **Maximize** button maximizes the window for maximum comfort.
 
