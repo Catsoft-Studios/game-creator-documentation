@@ -1,4 +1,4 @@
-# Conditions/Events
+# Conditions
 
 {% hint style="danger" %}
 **Events** have been renamed as **Conditions** on version 0.7.1.

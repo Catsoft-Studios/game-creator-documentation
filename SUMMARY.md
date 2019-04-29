@@ -11,7 +11,7 @@
 
 * [Components](game-creator/components/README.md)
   * [Actions](game-creator/components/actions.md)
-  * [Conditions/Events](game-creator/components/conditions.md)
+  * [Conditions](game-creator/components/conditions.md)
   * [Triggers](game-creator/components/triggers.md)
   * [Hotspots](game-creator/components/hotspots.md)
   * [Characters](game-creator/components/characters/README.md)

@@ -66,11 +66,11 @@ A **Red** highlight is a critical message that can be game breaking. Read with s
 
 ## Basic Concepts
 
-**Game Creator** provides a set of flexible tools to create any game of any genre. On top of the core tools [Catsoft Studios](https://catsoft-studios.com) and the rest of the community builds **modules** that extend Game Creator's functionalities  adding new features and improving existing ones.
+**Game Creator** provides a set of flexible tools to create any game of any genre. On top of the core tools [Catsoft Studios](https://catsoft-studios.com) and the rest of the community builds **Modules** that extend Game Creator's functionalities adding new features and improving existing ones.
 
 For example, the **Inventory** module give you a set of extremely easy to use tools to create items which produce different effects when consumed. It also allows you to easily define crafting recipes between different items and what happens when these two are combined.
 
-You can manage all your **modules** from the **Module Manager** window \[⌘ + M\]. You can download integration modules, Actions, Conditions and Triggers from the [Game Creator Hub](https://hub.gamecreator.io).
+You can manage all your **Modules** from the **Module Manager** window \[⌘ + Shift + M\]. You can download integration modules, Actions, Conditions and Triggers from the [Game Creator Hub](https://hub.gamecreator.io).
 
 {% hint style="info" %}
 See the [Module Manager](../game-creator/systems/module-manager.md) section for a full list of all the available **modules.**
