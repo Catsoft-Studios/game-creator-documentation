@@ -15,7 +15,7 @@ For example, the **Inventory** module allows to add a complete Inventory to your
 
 {% page-ref page="quickstart/get-started.md" %}
 
-{% page-ref page="game-creator/components/" %}
+{% page-ref page="game-creator/game-creator/" %}
 
 {% page-ref page="annex/faq.md" %}
 

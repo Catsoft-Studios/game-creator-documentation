@@ -1,4 +1,8 @@
-# Components
+---
+description: We <3 GameDev
+---
+
+# Game Creator
 
 The heart of **Game Creator** is composed of 6 different components. 
 

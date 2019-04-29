@@ -12,7 +12,7 @@ You are in the right place! Start by reading the [Get Started](../quickstart/get
 
 ### Is Game Creator a Visual Scripting tool?
 
-Game Creator is more than a scripting tool. It's an entire game creator toolbox that handles all the heavy lifting and lets you focus on what matters: Making awesome games. It helps you kickstart the development of your games with just a few seconds. Creating cinematic sequences is extremely easy with our [Camera Motors](../game-creator/components/camera/). Our [high-level scripting language](../game-creator/components/actions.md) abstracts you from complex math and lets you use simple instructions such as: Move character from A to B. Under the hood, these instructions handle collision avoidance, locomotion, acceleration, inverse kinematics to align the feet to the floor, etc... Check the [Get Started](../quickstart/get-started.md) section for a complete list of features.
+Game Creator is more than a scripting tool. It's an entire game creator toolbox that handles all the heavy lifting and lets you focus on what matters: Making awesome games. It helps you kickstart the development of your games with just a few seconds. Creating cinematic sequences is extremely easy with our [Camera Motors](../game-creator/game-creator/camera/). Our [high-level scripting language](../game-creator/game-creator/actions.md) abstracts you from complex math and lets you use simple instructions such as: Move character from A to B. Under the hood, these instructions handle collision avoidance, locomotion, acceleration, inverse kinematics to align the feet to the floor, etc... Check the [Get Started](../quickstart/get-started.md) section for a complete list of features.
 
 ### Can I make a multiplayer game with Game Creator?
 
