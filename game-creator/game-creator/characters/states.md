@@ -1,3 +1,7 @@
+---
+description: May Day! May Day! May Day! Steve is injured! I request immediate backup! Now!
+---
+
 # States
 
 Apart from performing different **Gestures**, a **Character** can also be in different **States**. The difference between a **State** and a **Gesture** is that a **State** is part of a range of Locomotion animations.
@@ -36,4 +40,6 @@ If you leave any **State** animation in blank, the default locomotion animation 
 ![\(Example of a Locomotion State asset with a complete list of all possible animations\)](../../../.gitbook/assets/character-states-custom.jpg)
 
 When using a **Character State Action** you'll have to drag and drop this **State** asset to the corresponding field and it will automagically bend between the default animations and the new state.
+
+![\(Example of a Character using the Change State Action to Drunk\)](../../../.gitbook/assets/character-state-example.gif)
 
