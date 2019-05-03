@@ -1,3 +1,7 @@
+---
+description: What... is... that?
+---
+
 # Hotspots
 
 **Hotspots** are interactive elements that provide a simple interface for common gameplay mechanics that are not part of the core of the game.
