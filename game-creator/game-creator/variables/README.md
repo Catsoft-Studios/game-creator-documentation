@@ -1,3 +1,7 @@
+---
+description: The Numbers Within
+---
+
 # Variables
 
 **Game Creator** comes with a variables system that allows you to keep track of the game progress and save the state between play sessions.
@@ -12,7 +16,11 @@ For example, in a **Zelda** game, the hearts at the top of the screen would be a
 
 ![\(You can track the Player health creating an integer variable called &quot;hearts&quot;\)](../../../.gitbook/assets/variables-header.jpg)
 
-Variables can be **Global** or **Local**. For more information about **Global Variables** click [here](global-variables.md). To learn more about **Local Variables** click [here](local-variables.md).
+There are different types of Variables:
+
+* [Global Variables](global-variables.md): Identified by a unique name.
+* [Local Variables](local-variables.md): identified by a unique name. Only affect one scene.
+* [List Variables](list-variables.md): An array of values accessed by index. Only affect one scene.
 
 {% hint style="info" %}
 Variables can also be accessed through code. Head to [Variables Access](../../systems/game-creator-api/variables-access.md) to know more.
@@ -22,9 +30,11 @@ Variables can also be accessed through code. Head to [Variables Access](../../sy
 
 A **variable** is has a `name` that identifies it \(for example: “shotgun ammo“\) and a `value`. 
 
-A variable can have different types of values, including character **strings**, **numbers**, **booleans** \(on/off\), **Colors**, **Vector3**, and references to **Game** **Objects**, **Transforms**, **Rigidbodies**, etc...
+A variable can have different types of values, including character **strings**, **numbers**, **booleans** \(on/off\), **Colors**, **Vector3**, and references to **Game** **Objects**.
 
-Next to the name there's a checkbox. This allows to save the variable's state between play sessions.
+{% hint style="info" %}
+Next to the name there's a checkbox. This allows to save the variable's state between play sessions
+{% endhint %}
 
 {% hint style="warning" %}
 Not all variable types allow to save its state. For example, **Game Objects** can't be saved because they are a reference type, which Unity doesn't allow to serialize.

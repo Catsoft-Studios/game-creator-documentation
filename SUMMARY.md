@@ -24,6 +24,7 @@
   * [Variables](game-creator/game-creator/variables/README.md)
     * [Global Variables](game-creator/game-creator/variables/global-variables.md)
     * [Local Variables](game-creator/game-creator/variables/local-variables.md)
+    * [List Variables](game-creator/game-creator/variables/list-variables.md)
 * [Systems](game-creator/systems/README.md)
   * [Localization](game-creator/systems/localization.md)
   * [Event System](game-creator/systems/event-system.md)
