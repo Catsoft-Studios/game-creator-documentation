@@ -116,6 +116,8 @@ Allows the **Character** to correctly place the hands on certain targets. For ex
 
 Allows the Character to slightly rotate its head towards a target. This adds a new layer of realism when moving the character around the world or interacting with other Characters.
 
+![\(Head IK smoothly following a Red Cube\)](../../../.gitbook/assets/head-ik-example.gif)
+
 {% hint style="info" %}
 **Hotspots** take advantage of the **Head IK** and allow to make the character automatically look at the point of interest when the **Character** is near
 {% endhint %}
