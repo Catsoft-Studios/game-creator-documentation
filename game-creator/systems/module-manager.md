@@ -4,12 +4,12 @@
 
 **Game Creator** is a large ecosystem of different parts brought together. Instead of shipping **Game Creator** as a single tool with lots of functionalities, it's split into what is called **Modules**.
 
-![\(See at a glance what modules are in your Project and which are available from the Store\)](../../.gitbook/assets/module-manager.jpg)
+![\(See at a glance what modules are in your Project\)](../../.gitbook/assets/module-manager%20%281%29.jpg)
 
 A **Module** extends or adds new functionalities to the core tools. Their complexity can range from a simple new **Action** to a complete RPG toolbox with stats, buffs and animations.
 
 {% hint style="info" %}
-All modules are available for free at [store.gamecreator.io](https://store.gamecreator.io/)​
+All modules can be found at the [Game Creator Hub](https://hub.gamecreator.io).
 {% endhint %}
 
 ## How to use Module Manager
@@ -18,12 +18,14 @@ All modules are available for free at [store.gamecreator.io](https://store.gamec
 
 To add or import a module:
 
-* If you download it from the [Unity Asset Store](https://docs.gamecreator.io/documentation/module-manager) skip to **Managing Modules**
-* If you download it from our [store.gamecreator.io](https://store.gamecreator.io/), double click the `.unitypackage` file.
+* If you download it from the [Unity Asset Store](https://assetstore.unity.com/?publisher=Catsoft%20Studios&orderBy=1) skip to **Managing Modules**
+* If you download it from our [hub.gamecreator.io](https://hub.gamecreator.io), double click the `.unitypackage` file.
 
 ### Managing modules
 
 Once you've imported a **Module**, you can enable, disable or remove it. You can also create a backup copy of an enabled module if you don't use `git` or any repository management tool.
+
+![\(Game Creator Examples module manager page\)](../../.gitbook/assets/module-manager.jpg)
 
 #### Backup
 
@@ -31,10 +33,10 @@ You can create a backup file from the select active **Module** at any time. Back
 
 #### Enable
 
-Enabling a **Module** allows you to work with the content of the module. In some cases, a **Module** might override some of your data \(such as **Variables**\). This happens mostly when using example modules that teach you how to use a certain tool \(**Dialogue Examples**, **Game Creator Examples**, ...\). If that's the case, a dialog box will prompt warning you of the consequences of enabling the module.
+Enabling a **Module** allows you to work with the content of the module. In some cases, a **Module** might override some of your data \(such as **Variables**\). This happens mostly when using example modules that teach you how to use a certain tool \(**Dialogue Examples**, **Game Creator Examples**, ...\). If that's the case, a dialog box will prompt warning you about the consequences of enabling the module.
 
 {% hint style="success" %}
-Before enabling or disabling a **Module** it's a advised to make a backup of your project.
+Before enabling or disabling a **Module** it's advised to make a backup of your project.
 {% endhint %}
 
 #### Disable

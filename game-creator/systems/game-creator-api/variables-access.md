@@ -72,6 +72,40 @@ Checking if a local variable exists is done exactly like with global variables
 public static bool ExistsLocal(GameObject target, string name, bool inChildren = false)
 ```
 
+## List Variables
+
+**List Variables** code syntax is a bit different from the **Local** and **Global Variables**. Instead of setting or getting a single variable, you insert a variable into an array-placed collection of variables.
+
+### Get List Variables
+
+Get the element of a **List Variables** based on the `ListVariables.Position` enum.
+
+```csharp
+public static Variable GetListItem(ListVariables list, ListVariables.Position position, int index = 0)
+```
+
+The **`ListVariables.Position`**  enum has the following options:
+
+* **Index:** Access by zero-based index. Requires an extra parameter with an index
+* **First:** Access the first element
+* **Last:** Access the last element
+* **Previous:** Access the previous element based on the iterator's value
+* **Current:** Access the element pointed by the iterator's value
+* **Next:** Access the next element based on the iterator's value
+* **Random:** Access a random position
+
+### Set List Variables
+
+Insert or remove an element of a **List Variables** object.
+
+```csharp
+public static void ListPush(ListVariables target, ListVariables.Position position, object value)
+```
+
+```csharp
+public static void ListRemove(GameObject target, ListVariables.Position position)
+```
+
 ## Examples
 
 Here are some common examples. Let's say you have a Global Variable called **`player-score`** stored in as a **Number**. **Number** type variables are **`floats`**.
