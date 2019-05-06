@@ -1,6 +1,6 @@
 # Welcome to Game Creator!
 
-![\(Example of an Action sequence\)](.gitbook/assets/game-creator.jpg)
+![](.gitbook/assets/game-creator.jpg)
 
 **Game Creator** is a set of tools that will help you kickstart your game in matter of minutes. It comes packed with ready-to-use fully animated **Characters**, a flexible high-level **Scripting Language**, a complete save & load system with global, local, list variables, and much, much more!
 
@@ -10,7 +10,7 @@ For example, the **Inventory** module allows to add a complete Inventory to your
 
 ## Useful Links
 
-* [Get Game Creator](https://www.assetstore.unity3d.com/#!/content/89443?aid=1100l36uR)
+* [Get Game Creator](https://gamecreator.page.link/download)
 * [See Game Creator Hub](https://hub.gamecreator.io)
 
 {% page-ref page="quickstart/get-started.md" %}
