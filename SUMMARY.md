@@ -28,6 +28,7 @@
 * [Systems](game-creator/systems/README.md)
   * [Localization](game-creator/systems/localization.md)
   * [Event System](game-creator/systems/event-system.md)
+  * [Timeline](game-creator/systems/timeline.md)
   * [Module Manager](game-creator/systems/module-manager.md)
   * [Game Creator Toolbar](game-creator/systems/game-creator-toolbar.md)
   * [Game Creator API](game-creator/systems/game-creator-api/README.md)
