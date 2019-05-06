@@ -1,3 +1,7 @@
+---
+description: 'An owl''s wing, ... blood from a dead rat, and...! And... a troll''s eye!'
+---
+
 # Catalogue
 
 **Items** are the main object of the **Inventory** module. The _Items Catalogue_ tab in the _Preferences Window_ allows to create and set the **Item**'s properties.
@@ -19,6 +23,10 @@ An **Item** has quite a lot of options
 * **Consumable**: Defines whether an item is consumable or not
 
 If an item is marked as _consumable_ then the **Actions** defined below will be executed when the player clicks on the item in the **Inventory**'s **UI** or another **Action** forces to consume the item.
+
+{% hint style="success" %}
+Since version **0.5.1** the **Inventory** module allows to equip and unequip items, adding new options to the Item's **Catalogue**. See the [Equip Items](../equip-items.md) section for more information about equipping items.
+{% endhint %}
 
 For example, if you create a **Health Potion** you'll want to restore some player's health \(which in this example will be saved in a **Variable**\). Then the **Item** would look like this.
 

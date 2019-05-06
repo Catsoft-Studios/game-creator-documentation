@@ -50,15 +50,17 @@
 ## Inventory
 
 * [Inventory](inventory/inventory/README.md)
-  * [Actions](inventory/inventory/actions.md)
-  * [Conditions](inventory/inventory/conditions.md)
   * [Inventory Window](inventory/inventory/inventory-window/README.md)
     * [Catalogue](inventory/inventory/inventory-window/catalogue.md)
     * [Recipes](inventory/inventory/inventory-window/recipes.md)
     * [Types](inventory/inventory/inventory-window/types.md)
     * [Settings](inventory/inventory/inventory-window/settings.md)
   * [Merchants](inventory/inventory/merchants.md)
+  * [Containers](inventory/inventory/containers.md)
+  * [Loot Tables](inventory/inventory/loot-tables.md)
   * [Equip Items](inventory/inventory/equip-items.md)
+  * [Actions](inventory/inventory/actions.md)
+  * [Conditions](inventory/inventory/conditions.md)
   * [Custom Inventory UI](inventory/inventory/custom-inventory-ui.md)
 
 ## Quests
