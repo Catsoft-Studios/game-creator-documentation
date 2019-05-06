@@ -99,7 +99,7 @@ The **Logic** includes scripts and all the assets that must be shipped with **Ga
 The **Data** is usually auto-generated information, such as script instances. **Data** is usually excluded from the build as it would overwrite other user's existing data.
 
 {% hint style="info" %}
-**Data** is usually used when building an [Example](https://store.gamecreator.io/?tags=examples) module, which needs previously auto-generated data.
+**Data** is usually used when building an _example_ module, which needs previously auto-generated data.
 {% endhint %}
 
 In **Game Creator** we publish all the **Logic** at `Assets/Plugins/GameCreator` directory and the **Data** inside `Assets/Plugins/GameCreatorData`.
