@@ -80,6 +80,16 @@ public void OnLoad(System.Object generic)
 }
 ```
 
+{% hint style="danger" %}
+If you get the following compile error:
+
+**`The type or namespace name 'IGameSave' could not be found (are you missing a using directive or an assembly reference?)`**
+
+Means that your compiler can't find the IGameSave interface. This can be easily solved by including at the top of your script:
+
+**`using GameCreator.Core;`**
+{% endhint %}
+
 ## Initialization
 
 It is important to know that whenever an object that implements the `IGameSave` interface it needs to inform the SaveLoadManager that a new savable/loadable object has been created.

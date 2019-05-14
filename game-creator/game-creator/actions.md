@@ -193,6 +193,7 @@ For example, if you save the game at a given point in **`Profile 3`**, you can l
 | Action Name | Description |
 | :--- | :--- |
 | **Current Profile** | Changes the current active profile |
+| **Delete Profile** | Deletes a Profile along with all its saved data |
 | **Load Game** | Loads the game \(either using the current profile or a specified one\) |
 | **Load Last Game** | Loads the last saved game from any profile. Useful when having a "Continue" button in your main menu |
 | **Save Game** | Saves the game content at the current profile location or a specified one |
@@ -219,11 +220,12 @@ UI Actions allow Game Creator to interact with UI elements and even create small
 
 ### Messages
 
-Messages section is a work in progress Actions list that will allow you to display information on screen. For now there's just one simple Action:
+Messages section is a work in progress Actions list that will allow you to display information on screen.
 
 | Action Name | Description |
 | :--- | :--- |
 | **Simple Message** | Displays a simple message on top of a UI element. Useful for prototyping conversations |
+| **Floating Message** | Displays a floating message on top of an object with a certain offset. Useful to display multiple conversations simultaneously |
 
 ### Variables
 

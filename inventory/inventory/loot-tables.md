@@ -14,6 +14,12 @@ That's why we wanted to create a looting system that was easy to debug and tweak
 
 ![\(Simple Loot Table for a Common Enemy\)](../../.gitbook/assets/loot-table.jpg)
 
+To create a **Loot** **Table** object, right click on the **Project Panel** and select **`Create → Game Creator → Inventory → Loot Table`**. This will create a **Loot Table** object you can place anywhere you want in your project.
+
+{% hint style="info" %}
+We recommend keeping all **Loot Table** objects inside a **`Assets/LootTables/`** folder in your project, but feel free to organize them as you see fit.
+{% endhint %}
+
 A **Loot Table** is based on [weighted probabilities.](https://en.wikipedia.org/wiki/Weight_function) At the end of the **Loot Table** there's a **summary** of the probabilities of dropping each item based on their weight.
 
 For example, if two items have the following probability weights:

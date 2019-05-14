@@ -19,7 +19,8 @@ The **Player** has different input methods:
 * **Directional:** Move the player using the WASD keys or a joystick.
 * **Point & Click:** Click on the floor and the Player will move there. It can use the Navigation Mesh.
 * **Pointer Follow:** Moves towards the direction of the pointer.
-* **Side-Scroll:** The Character moves in a 2D plane
+* **Side-Scroll X:** The Player moves in a 2D plane along the X axis
+* **Side-Scroll Z:** The Player moves in a 2D plane along the Z axis
 
 {% hint style="info" %}
 In mobile devices the **Directional** input will pop a **Virtual Joystick**.
