@@ -7,6 +7,10 @@ Game Creator has two different Camera types:
 * **Camera Controller:** Attached to the main camera. Mimics the behavior of an active Camera Motor.
 * **Camera Motors:** There are different types of motors. They tell the Camera Controller where to look.
 
+{% hint style="success" %}
+The first time you create a **Camera Motor**, a **Camera Controller** will be automatically attached to your main camera and linked to the created **Motor**.
+{% endhint %}
+
 ## Camera Controller
 
 The **Camera Controller** has a slot with a reference to an active **Camera Motor**. The **Camera Controller** tries to mimic the referenced motor properties.
