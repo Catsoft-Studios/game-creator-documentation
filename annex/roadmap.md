@@ -23,11 +23,36 @@ Join our [Discord server](https://gamecreator.page.link/discord) and let's discu
 ## 2019 - Milestones
 
 {% tabs %}
-{% tab title="Q1" %}
-* [ ] Behavior module
-* [ ] Shooter module
+{% tab title="Q3" %}
 * [ ] Melee module
 * [ ] Integration modules
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Q2" %}
+* [ ] Shooter module
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Q1" %}
+* [x] Behavior module
+* [x] Update Quickstart tutorials
+* [ ] Shooter module
+* [ ] Melee module
+{% endtab %}
+
+{% tab title="Postmortem" %}
+### What went right
+
+* The Behavior module went much better than expected
+* The Behavior module was done within the time frame
+
+### What went wrong
+
+* Unrealistic number of modules were set for the first quarter
+* Some Game Creator updates could have been handled better
 {% endtab %}
 {% endtabs %}
 
