@@ -85,6 +85,9 @@ If you find an Action that is not documented here, please send us a message at [
 | Action Name | Description |
 | :--- | :--- |
 | **Character Attachment** | Attaches a prefab instance to a character bone or removes an attachment |
+| **Character Dash** | Make a Character move towards a position. The gradient falloff can be customized as well as its initial velocity |
+| **Character Blendshapes** | Animate transitioning a Character's Blend-Shapes. Very useful for creating expressive characters. |
+| **Character Mount** | Sets the Character in Mount Mode. In this mode, the character can't be controlled and collisions are ignored |
 | **Character Direction** | Changes the direction in which the character looks while idle, walking or running |
 | **Character Follow** | Makes a Character follow a target keeping a distance within a min and max radius |
 | **Character Gesture** | Plays an animation on a Character once. For more information on Gestures, click [here](characters/gestures.md). |
@@ -164,6 +167,7 @@ These **Actions** allow to easily test your game and spot errors. These won't ha
 | **Animator Layer** | Changes the Animator Layer properties of a given Animator |
 | **Change Material** | Change the Material of a Game Object |
 | **Change Texture** | Changes the Texture of a Material. By default it changes the Albedo texture but can also modify any input texture |
+| **Change Color** | Changes the Color of a Material |
 | **Destroy** | Destroys a target Game Object |
 | **Enable Component** | Enables or Disables a game object component |
 | **Instantiate** | Creates an instance of a prefab or another game object and places it at a certain position and rotation |
@@ -245,9 +249,11 @@ How Game Creator interacts with them is done through the use of the following Ac
 | :--- | :--- |
 | **Add to List Variables** | Adds a new element to a List Variables object |
 | **Clear List Variables** | Removes all element from a List Variables |
-| **List Variables Iterate** | Execute an Action having as Invoker each of the different elements of the List Variables |
+| **List Variables Loop** | Execute an Action having as Invoker each of the different elements of the List Variables |
+| **List Variables Iterator** | Changes the iterator pointer of a List Variables |
 | **Remove from List Variables** | Remove an element from a List Variables |
 | **List Variables Select** | Picks an element from the List Variables and store it in a Local or Global Variable |
+| **Gather Components by Distance** | Fills a List Variable with a collection of objects with a certain component. The list is sorted by their distance to a source |
 | **Variable Random** | Generates a random value between min and max and stores it in a Variable |
 | **Variable Bool** | Assign a value of _true_ or _false_ to a Variable |
 | **Variable Color** | Assign a Color value to a Variable |
