@@ -104,3 +104,41 @@ The **Data** is usually auto-generated information, such as script instances. **
 
 In **Game Creator** we publish all the **Logic** at `Assets/Plugins/GameCreator` directory and the **Data** inside `Assets/Plugins/GameCreatorData`.
 
+## Example
+
+Let's see how to create a fictional module and distribute it. But before we begin, let's see what our package does.
+
+![\(CatsModule allows to search for Kittens\)](../../../.gitbook/assets/custom-module-overview.png)
+
+Our module is called CatModule and places a button at the top toolbar that allows you to take a break from work and relax watching some kitten's images.
+
+The code is placed inside the Plugins/CatModule folder.
+
+To distribute this module we'll need to create a manifest file at the installation path and fill its information so it knows what's going to be included in the module. The installation path can be found at **`Plugins/GameCreatorData/Modules/`**
+
+Let's create a new folder and call it **`com.gamecreator.module.cats`**. This is called Bundle ID \(or module ID\) and is used to uniquely identify this module across others.
+
+We'll also create a Package file and name it with the same bundle id, like in the following screenshot.
+
+![](../../../.gitbook/assets/custom-module-package.png)
+
+Fill in the information from above. Pay special attention to the Code Paths property. We want to add the paths from where our module will be built from. Since our Cat Module is under **`Plugins/CatModule`** we use the path **`Assets/Plugins/CatModule/`** as the source of the module from where it will be built.
+
+{% hint style="warning" %}
+The **Code Paths** needs to start with the **`Assets/`** folder
+{% endhint %}
+
+Now that our package knows where to build the module from, let's click on "Build Module" and wait for some seconds. We'll see that a new file has appeared below our manifest with the same name. This is like a .zip that contains everything inside the Code Paths folder/s.
+
+![](../../../.gitbook/assets/custom-module-build.png)
+
+That's it! If you want to share this module with other users, right click on the **`com.gamecreator.module.cats`** folder and select Export Package. Make sure to **untick** the _Select Dependencies_ checkbox.
+
+![](../../../.gitbook/assets/custom-module-export.png)
+
+Click on **Export...** and you'll be prompted to select a folder where to export the module. Installing this package on any **Unity** project with **Game Creator** will allow the user to enable it using the **Module Manager**.
+
+{% hint style="success" %}
+Download the Cats Module at the [Game Creator Hub](https://hub.gamecreator.io/content/item/gTG2VJna01L62qPW9MBZ).
+{% endhint %}
+
