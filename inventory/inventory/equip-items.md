@@ -18,6 +18,10 @@ To equip an item you first need to define which Types will be used as Equipping 
 
 Once you have these, you can use the Action "Equip Item" to equip the _Steel Sword_ to a specific slot, such as the type **Right Hand**.
 
+{% hint style="danger" %}
+Remember that the **Player** must have this item in its **Inventory** before equipping it.
+{% endhint %}
+
 {% hint style="info" %}
 Defining what items can be equipped is something that should be thought prior to start developing the game. It's advised to draft the amount of items that will be equipable and define their common types.
 {% endhint %}
