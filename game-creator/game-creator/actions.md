@@ -109,7 +109,7 @@ If you find an Action that is not documented here, please send us a message at [
 
 | Action Name | Description |
 | :--- | :--- |
-| **Cursor** | Changes the Cursor image and center |
+| **Cursor** | Changes the Cursor image, lock state and visibility |
 | **Open URL** | Opens the web browser and a specific webpage |
 | **Quality Settings** | Changes the quality settings of the game |
 | **Quit Game** | Exits the Application |
