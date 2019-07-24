@@ -74,6 +74,7 @@ Here's a list of all available **Conditions**. Remember that each module adds ne
 | :--- | :--- |
 | **Pattern** | Returns True or False depending on the given pattern. For example, if the pattern is "**True**, **False**, **True**", the first 5 times the Condition is checked will return "**True**, **False**, **True**, **True**, **False**". Starts over again when reaching the end. |
 | **Simple Condition** | Returns a constant value of True or False. Useful for debugging. |
+| **Scene Loaded** | Returns whether a scene is currently loaded or not \(additive scenes included\) |
 
 ### Input
 

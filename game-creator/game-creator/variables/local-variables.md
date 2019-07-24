@@ -32,6 +32,19 @@ It is specially important that you don't modify the **UID** after releasing your
 You can also modify the UID value with a more descriptive one, as long as they are unique.
 {% endhint %}
 
+### Nested Access
+
+Since version **0.9.7** you can access nested **Game Object** variables. For example, if a **Local Variable A** has a reference to another **Game Object B** that also contains a **Local Variable**, you can access the **Local Variable B** by adding a "slash" character between the names of both variables.
+
+* **Game Object 1** has Local Variable "myVariableA" with **Game Object 2** as its value
+* **Game Object 2** has Local Variable "myVariableB" with an arbitrary value
+
+```text
+myVariableA/myVariableB
+```
+
+Accessing via the above name will return the value of the second **Local Variable**.
+
 ## Saving Variables
 
 Just like Global Variables, Local Variables have a little checkbox next to its name field. Marking it will tell Game Creator that this variable value must be tracked between play sessions.
