@@ -158,6 +158,7 @@ These **Actions** allow to easily test your game and spot errors. These won't ha
 | **Restart Actions** | Restarts the execution of the current Actions object |
 | **Time Scale** | Changes the time scale as well as the fixed time scale. Useful for pausing the game or making a slow-motion effect. |
 | **Wait** | Waits some seconds before jumping to the next instruction |
+| **Render Reflection Probe** | Manually renders a Reflection Probe. Bear in mind that reflection probes might not be active due to quality settings |
 
 ### Object
 
