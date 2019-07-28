@@ -104,6 +104,7 @@ If you find an Action that is not documented here, please send us a message at [
 | **Teleport** | Instantaneously moves a Character from its position to a new one |
 | **Head Track** | Makes a Character's head look at a target using Inverse Kinematics |
 | **Player Movement Input** | Changes the input scheme of the Player |
+| **Character Rotate Towards** | Pivot a Character around itself towards a target, using its angular speed |
 
 ### Application
 
@@ -258,6 +259,7 @@ How Game Creator interacts with them is done through the use of the following Ac
 | **Gather Components by Distance** | Fills a List Variable with a collection of objects with a certain component. The list is sorted by their distance to a source |
 | **Variable Random** | Generates a random value between min and max and stores it in a Variable |
 | **Variable Bool** | Assign a value of _true_ or _false_ to a Variable |
+| **Toggle Variable Bool** | Toggles \(true to false and false to true\) a boolean variable |
 | **Variable Color** | Assign a Color value to a Variable |
 | **Variable Game Object** | Assign a Game Object value to a Variable |
 | **Variable Number** | Assign a numeric value to a Variable |
