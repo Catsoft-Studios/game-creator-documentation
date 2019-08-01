@@ -105,6 +105,7 @@ If you find an Action that is not documented here, please send us a message at [
 | **Head Track** | Makes a Character's head look at a target using Inverse Kinematics |
 | **Player Movement Input** | Changes the input scheme of the Player |
 | **Character Rotate Towards** | Pivot a Character around itself towards a target, using its angular speed |
+| **Set Character default State** | Sets the Character's default State |
 
 ### Application
 
