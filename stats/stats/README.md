@@ -6,6 +6,10 @@ description: What doesn't kill you... is because the strength stat is not high e
 
 Almost any game you can play nowadays has some kind of **Stat** system. Whether it is a simple health bar with 100 hit points or a complex RPG with 16 stats that influence the progress of the player and the outcome of any interaction.
 
+{% hint style="success" %}
+Download: [gamecreator.page.link/stats](https://gamecreator.page.link/stats)
+{% endhint %}
+
 The **Stats** module has been designed to be learned in a few minutes, but also allows to handle the most complex cases and keeping everything under control.
 
 ## Key Features

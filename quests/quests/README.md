@@ -6,6 +6,10 @@ description: 'Luke, I am your father. Search your feelings. You know it is the t
 
 The **Quest** module is a **Game Creator** extension that allows to create, track and easily manage game quests.
 
+{% hint style="success" %}
+Download: [gamecreator.page.link/quests](https://gamecreator.page.link/quests)
+{% endhint %}
+
 ![\(Example of the Journal user interface\)](../../.gitbook/assets/quests-header.jpg)
 
 ## Key features <a id="key-features"></a>

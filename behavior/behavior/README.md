@@ -4,7 +4,11 @@ description: 'Delta Six, three Tangos ahead. Let them pass or take them down. Yo
 
 # Behavior
 
-Despite of the game, creating an AI for a game, even in its most simple form can be a daunting task. Luckily there's a bunch of smart people out there that have developed tools that help create, visualize and organize behavior system.
+Regardless of the game, creating an AI for a game, even in its most simple form can be a daunting task. Luckily there's a bunch of smart people out there that have developed tools that help create, visualize and organize behavior system.
+
+{% hint style="success" %}
+Download: [gamecreator.page.link/behavior](https://gamecreator.page.link/behavior)
+{% endhint %}
 
 One of the most widely used system are the **Behavior Trees**, which were used in the first Halo game and popularized it due to its flexibility and power.
 
