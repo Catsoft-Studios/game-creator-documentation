@@ -189,6 +189,7 @@ These **Actions** allow to easily test your game and spot errors. These won't ha
 | **Transform Rotate** | Smoothly rotates an object to match an Euler rotation |
 | **Transform Rotate Towards** | Smoothly rotates an object to face a given target |
 | **Trigger** | Executes a Trigger object |
+| **Explosion Force** | Adds gradient force from a position that affects all objects within a radius and pushes them outwards |
 
 ### Save & Load
 
