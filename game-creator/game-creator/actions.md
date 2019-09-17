@@ -79,6 +79,7 @@ If you find an Action that is not documented here, please send us a message at [
 | **FPS Camera Settings** | Changes the settings of a FPS Camera motor |
 | **Railway Camera Settings** | Changes the settings of a Railway Camera motor |
 | **Target Camera Settings** | Changes the settings of a Target Camera motor |
+| **Change FOV** | Changes the Field of View of the current main camera |
 
 ### Character
 
@@ -175,6 +176,7 @@ These **Actions** allow to easily test your game and spot errors. These won't ha
 | **Destroy** | Destroys a target Game Object |
 | **Enable Component** | Enables or Disables a game object component |
 | **Instantiate** | Creates an instance of a prefab or another game object and places it at a certain position and rotation |
+| **Instantiate from Pool** | Creates an instance of a prefab and generates a pool system from it to be reused. See [Pooling](../systems/pool-system.md) for more information. |
 | **Light** | Changes the Light properties of a Game Object |
 | **Look At** | Makes a Game Object face at a target. The Z axis will be aligned towards the target |
 | **Nearest with Component** | Stores in a variable the nearest \(if any\) Game Object with a certain component within a certain radius |

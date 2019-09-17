@@ -32,6 +32,7 @@
   * [UI](game-creator/systems/ui.md)
   * [Module Manager](game-creator/systems/module-manager.md)
   * [Game Creator Toolbar](game-creator/systems/game-creator-toolbar.md)
+  * [Pool System](game-creator/systems/pool-system.md)
   * [Game Creator API](game-creator/systems/game-creator-api/README.md)
     * [Custom Actions](game-creator/systems/game-creator-api/custom-actions.md)
     * [Custom Conditions](game-creator/systems/game-creator-api/custom-conditions.md)
