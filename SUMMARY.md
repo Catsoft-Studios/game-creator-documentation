@@ -100,14 +100,14 @@
     * [Blackboard](behavior/behavior/behavior-graph/blackboard.md)
   * [Perception](behavior/behavior/perception.md)
 
-## Annex
-
-* [Roadmap](annex/roadmap.md)
-* [FAQ](annex/faq.md)
-
 ## Shooter
 
 * [Shooter](shooter/shooter/README.md)
   * [Weapons](shooter/shooter/weapons.md)
   * [Ammunition](shooter/shooter/ammunition.md)
+
+## Annex
+
+* [Roadmap](annex/roadmap.md)
+* [FAQ](annex/faq.md)
 
