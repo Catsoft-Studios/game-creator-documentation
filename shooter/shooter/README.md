@@ -23,7 +23,7 @@ Check the [Weapons](weapons.md) and [Ammunition](ammunition.md) pages for more d
 
 The **Shooter** module works as a [FSM](https://en.wikipedia.org/wiki/Finite-state_machine) that follows the rules of the diagram below. For example, a Character can not shoot unless it's _armed_ and _aiming_.
 
-![](../../.gitbook/assets/shooter-diagram.jpg)
+![](../../.gitbook/assets/shooter-diagram%20%281%29.jpg)
 
 To transition between different states you'll need to use the corresponding Action. If a **Character** tries to shoot when it's in a state that doesn't allow to shoot, the system will simply ignore the command.
 
