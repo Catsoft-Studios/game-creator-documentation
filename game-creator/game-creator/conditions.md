@@ -31,7 +31,7 @@ A **Conditions** object follows the following process:
   * If all **Conditions** are _true_
   * Then executes its **Actions**
 * ...
-* If any of the **Clause** **Conditions** was _true_, then execute a special **Actions**
+* If none of the **Clause** **Conditions** is _true_, then execute a special **Actions**
 
 Only one set of **Actions** will be called in a **Conditions**. If the first **Clause** of the **Conditions** are all true, only its **Actions** will be executed and the rest of the **Clause** won't even be checked.
 
