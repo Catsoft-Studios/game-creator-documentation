@@ -1,3 +1,7 @@
+---
+description: Where we go. Together.
+---
+
 # Roadmap
 
 ![](../.gitbook/assets/roadmap.jpg)
@@ -20,18 +24,49 @@ At the end of each quarter we'll include a small [postmortem](https://en.wikiped
 Join our [Discord server](https://gamecreator.page.link/discord) and let's discuss the development of Game Creator!
 {% endhint %}
 
+## 2020 - Milestones
+
+{% tabs %}
+{% tab title="Q3" %}
+* [ ] Game Creator 2.0
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Q2" %}
+* [ ] Traversal module
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Q1" %}
+* [ ] Melee module
+* [ ] Traversal module
+{% endtab %}
+{% endtabs %}
+
 ## 2019 - Milestones
 
 {% tabs %}
 {% tab title="Q3" %}
+* [ ] Shooter module
 * [ ] Melee module
-* [ ] Integration modules
 {% endtab %}
 {% endtabs %}
 
 {% tabs %}
 {% tab title="Q2" %}
 * [ ] Shooter module
+{% endtab %}
+
+{% tab title="Postmortem" %}
+### What went right
+
+* Found a way to procedurally create aiming animations which look realistic and allow users to create almost any kind of weapon from a single pose
+
+### What went wrong
+
+* The Shooter module took way too long to complete. I was on holiday for 20 days, so there was a time frame I couldn't get to work on it, but still, the pre-production phase took quite a bit
 {% endtab %}
 {% endtabs %}
 
