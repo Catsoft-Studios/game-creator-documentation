@@ -8,5 +8,7 @@ Here you'll find a collection of advanced topics on how to use the **Shooter** m
 
 {% page-ref page="custom-crosshairs.md" %}
 
+{% page-ref page="shooter-api.md" %}
+
 
 
