@@ -236,9 +236,45 @@ This is due to the fact that accuracy is usually linked to the expertise of the 
 
 ### Ammo Model
 
+Some weapons show the amount of ammunition. For example, guns don't really need to show the amount of bullets in the clip, but Bows, on the other hand, need to display an arrow being held by the shooter. This is where this section comes into play.
+
+{% hint style="warning" %}
+This section is completely **optional**. In fact, most weapons don't even use it.
+{% endhint %}
+
+![](../../.gitbook/assets/ammo-ammo-model.jpg)
+
+Whenever a weapon is equipped it checks if there's at least one projectile in the clip. If there is, an instance of the **Prefab Ammo** will be created as a child of the **Bone**, with an offset specified by the **Position** and **Rotation** fields.
+
+After shooting, if the clip becomes depleted, it will automatically destroy the instance of the ammo object.
+
 ### Audio
 
+As its name implies, the **Audio** section lets you specify different audio clips for different situations.
+
+![\(Audio section\)](../../.gitbook/assets/ammo-audio.jpg)
+
+* **Audio Shoot:** An audio clip played when the weapon is fired.
+* **Audio Empty:** An audio clip played when the weapon is fired but there are no bullets in the magazine.
+* **Audio Reload:** An audio clip played when the weapon is reloaded.
+
 ### Animations
+
+The **Animations** section allows to configure what **Character** animations will be played in different situations.
+
+![\(Animations section\)](../../.gitbook/assets/ammo-animations.jpg)
+
+**Animation Shoot** is an animation clip played whenever the **Character** shoots. It also has an optional [Avatar Mask](https://docs.unity3d.com/Manual/class-AvatarMask.html) that allows to define which body parts will be affected by the animation.
+
+{% hint style="success" %}
+Using **Avatar Masks** is very useful if you plan on allowing a character to shoot while doing other things, like walking, running and shooting. The animation could potentially only affect an arm, leaving the rest of the body play the locomotion as it is.
+{% endhint %}
+
+Similarly, the **Animation Reload** also is a field that accepts an _Animation Clip_ as well as an _Avatar Mask_.
+
+{% hint style="warning" %}
+Bear in mind that the reload animation will be stretched or shrank, depending on the duration of the **Reload Duration**, specified in the **General** section. 
+{% endhint %}
 
 ## Actions
 
