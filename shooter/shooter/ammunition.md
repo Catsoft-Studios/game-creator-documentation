@@ -146,11 +146,11 @@ For example, if you have an _Arrow_ with a **Min Charge Time** of 0.5, and the k
 
 The **Shooting** section defines how bullets are fired. There are 4 different shooting modes, each of them with its own particular set of properties: **Projectile**, **Raycast**, **Raycast All** and **Trajectory Cast**.
 
-![\(Shooting mode: Projectile\)](../../.gitbook/assets/ammo-shooting-projectile.jpg)
+![\(Shooting Type: Projectile\)](../../.gitbook/assets/ammo-shooting-projectile.jpg)
 
 #### Projectile
 
-Shooting **Projectile Mode** is the easiest to set up. It instantiates a prefab, defined by **Prefab Projectile**, where the muzzle is and moves it forward. 
+Shooting **Projectile Type** is the easiest to set up. It instantiates a prefab, defined by **Prefab Projectile**, where the muzzle is and moves it forward. 
 
 If the projectile contains a [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component and the **Aiming Mode** is set to _Trajectory_, it will also apply force based on the **Min Velocity** and **Max Velocity** properties found at the **Charging** section.
 
@@ -163,6 +163,76 @@ Instantiating objects takes quite a performance toll on the CPU. However, the **
 ![\(Shooting a Projectile with Trajectory aiming mode\)](../../.gitbook/assets/arrow.gif)
 
 Bear in mind that the trajectory computed by the aiming mode doesn't necessarily coincide 100% with where the projectile will land. See the GIF above how the arrow gets stuck just a few millimeters below where the trajectory indicated. This is due to the arrow being computed by a different system \(Unity Physics engine\) than the trajectory gizmo.
+
+#### Raycast & Raycast All
+
+Shooting **Raycast** and **Raycast All** modes \(also know in other engines as hit-scan weapons\) immediately hit the target as soon as the weapon is fired. This is done checking for any collisions between the muzzle and the direction of the muzzle.
+
+![\(Shooting Type: Raycast\)](../../.gitbook/assets/ammo-shooting-raycast.jpg)
+
+**Distance** and **Prefab Muzzle Flash** properties define the maximum distance the collision check will reach. As soon as the scan starts, a prefab \(if any\) will get instantiated where the muzzle is.
+
+If any object is returned by the collision check \(or all of them if the **Shoot Type** is set to _Raycast All_\), an instance of the **Prefab Impact Effect** will be instantiated.
+
+{% hint style="info" %}
+Each instance of **Prefab Impact Effect** will be oriented towards reflected direction between the normal of the collided object and the direction of the scan. This means that if the impact prefab contains an explosion of debris, it should be oriented upwards.
+{% endhint %}
+
+**Layer Mask** allows to ignore objects that are part of the ignored layers. Very useful if you plan on making projectiles penetrate thin surfaces, such as paper walls or water.
+
+If **Push Force** is greater than zero, each object returned by the hit-scan will be examined. If a Rigidbody is found, it will apply an impulse force at the contact point equal to this property's value.
+
+**Shooting Trail** allows to draw a trail that simulates the trail left by the bullet.
+
+{% hint style="success" %}
+This is very useful if you want to hide the fact that bullets travel at the speed of light, giving the players the feeling that bullets are really fast, but not hitting the targets as soon as they are fired.
+{% endhint %}
+
+![\(Notice the trail between the muzzle and the impact point\)](../../.gitbook/assets/ammo-trail.gif)
+
+This effect is achieved by drawing a trail from the muzzle to the object hit, and making the tail of the trail travel towards its head.
+
+You can customize the **Width** of the trail, the **Duration**, which defines how long will it take for the tail to reach the head, as well as change its **Material**. **Alignment** defines where the plane of the trail will be oriented towards and **Texture Mode** how the material will be laid out along the trail.
+
+{% hint style="success" %}
+**TIP:** Increasing the duration of the trail, generally makes weapons feel more powerful.
+{% endhint %}
+
+#### Trajectory Cast
+
+This **Shooting Type** is similar to **Raycast**, but instead of using two endpoints from where to scan for collisions, it uses a curved trajectory.
+
+{% hint style="info" %}
+Contrary to shooting **Projectiles**, which use Unity's Physics engine, the **Trajectory Cast** paired with the **Trajectory** Aiming Mode will yield dead eye precision perfect shots.
+{% endhint %}
+
+![\(Shooting Type: Trajectory Cast\)](../../.gitbook/assets/ammo-shooting-trajectory.jpg)
+
+All properties in **Trajectory Cast** are exactly the same as **Raycast** and **Raycast All** modes.
+
+**Recoil** defines how much accuracy will be lost after shooting with this ammunition and it is percentage based. 
+
+{% hint style="info" %}
+For example, a _Revolver_ might lose between a 10% and a 50% of the accuracy after firing a bullet, depending on the expertise of the shooter. On the other hand, a Sniper rifle will probably lose 100% of the accuracy after firing, due to the incredible amount of reactive force exercised by the shot.
+{% endhint %}
+
+{% hint style="warning" %}
+This has nothing to do with the recoil animation.
+{% endhint %}
+
+**Min Spread** and **Max Spread** define how much accurate the guns are. If the shooter is standing still and the accuracy reticule is at its minimum, it means that the next shot fired will have an accuracy of **Min Spread**. On the other hand, if the shooter is running, the crosshair reticule will be at its widest and the precision of the shot will be **Max Spread**. In between values will be calculated by interpolating **Min Spread** and **Max Spread**.
+
+When shooting with a weapon, the deviation of the shot based on the accuracy is not calculated as a linearly distributed random value, but with a [Gauss-Laplace Random Distribution](https://en.wikipedia.org/wiki/Normal_distribution). 
+
+![\(Gauss-Laplace Ranom Distribution\)](../../.gitbook/assets/ammo-shooting-gauss.jpg)
+
+This results in more realistic shots, where most shots are localized at the center and fewer on the sides.
+
+{% hint style="info" %}
+It is worth noting that **Min Spread** and **Max Spread** values can come from a [Local](../../game-creator/game-creator/variables/local-variables.md) or [Global Variable](../../game-creator/game-creator/variables/global-variables.md). 
+
+This is due to the fact that accuracy is usually linked to the expertise of the gun wielder. You could easily create two Local Variables called **`min-spread`** and **`max-spread`** and bound them to the corresponding values. That way, each character will have different accuracy depending on their skill.
+{% endhint %}
 
 ### Ammo Model
 
