@@ -278,9 +278,25 @@ Bear in mind that the reload animation will be stretched or shrank, depending on
 
 ## Actions
 
+The **Ammo** object contains three tabs with different Actions executed depending on the shooting event being executed.
+
+![\(On Start Charging, On Shoot and On End Charging Actions\)](../../.gitbook/assets/ammo-actions.jpg)
+
 ### On Start Charging
+
+An Actions list executed whenever the weapon with this Ammo starts charging.
 
 ### On Shoot
 
+An Actions list that is executed whenever a shot is fired. Notice that doesn't distinguish between charged or normal shots. It is always executed.
+
 ### On End Charging
+
+An Actions list that is executed after a successful charge is released. This Action is executed after the _On Shoot_ Actions.
+
+{% hint style="danger" %}
+**IMPORTANT!**
+
+When the **Shooting Type** property is set to either Raycast, _Raycast All_ or _Trajectory Cast_, the Invoker in these Actions will refer to the object being hit. However, if the **Shooting Type** is set to _Projectile_, the Invoker literal will refer to the **Character** shooting.
+{% endhint %}
 
