@@ -107,6 +107,7 @@
   * [Ammunition](shooter/shooter/ammunition.md)
   * [Advanced](shooter/shooter/advanced/README.md)
     * [Custom Crosshairs](shooter/shooter/advanced/custom-crosshairs.md)
+    * [Shooter API](shooter/shooter/advanced/shooter-api.md)
 
 ## Annex
 
