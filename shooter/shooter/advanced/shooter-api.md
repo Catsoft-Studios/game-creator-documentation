@@ -116,9 +116,3 @@ Adds a certain amount of ammunition to the spare ammo. This method is the one th
 There are a few more undocumented methods available, but shouldn't be of interested. However, if you are curious about them, you can open the **`CharacterShooter`** script and examine them. The names are quite self-describing.
 {% endhint %}
 
-
-
-
-
-
-
