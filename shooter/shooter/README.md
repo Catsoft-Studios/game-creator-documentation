@@ -17,6 +17,14 @@ There are two main objects in the Shooter module:
 * **Weapons:** A configuration object that lets you define how a weapon is handled, which prefab is used and the States in which the character will pose when aiming with a particular weapon. Requires an Ammo object linked.
 * **Ammo:** A configuration object tied to a weapon that defines how a particular ammunition type works, including the effects of shooting, charging a shot or whether it uses a crosshair, a visual trajectory, ...
 
+{% hint style="danger" %}
+**IMPORTANT!** 
+
+Do not duplicate or modify the **Weapon** and **Ammo** objects that come as an example. Updating the Shooter module will overwrite your changes. Also, duplicating them will result in keeping multiple-references between the original object and the duplicated one. **Always create a new Weapon and Ammo object from scratch**.
+
+We're working on a solution.
+{% endhint %}
+
 {% hint style="info" %}
 Check the [Weapons](weapons.md) and [Ammunition](ammunition.md) pages for more details about the options they offer.
 {% endhint %}
