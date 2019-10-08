@@ -21,6 +21,7 @@ There are a few events you can subscribe to in order to react when the Character
 * **`eventShoot<Weapon, Ammo>`** Event raised whenever the Character shoots.
 * **`eventChargedShotStart<Weapon, Ammo>`** Event raised whenever it starts charging.
 * **`eventChargedShotStop<Weapon, Ammo>`** Event raised whenever it ends a charged shot.
+* **`eventAim<bool>`** Event raised whenever the Character starts or stops aiming
 
 ### Queries
 
