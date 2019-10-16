@@ -60,9 +60,15 @@ Charged shots also have a minimum charge time, which defines the minimum time re
 
 ## Receiving Damage
 
-Receiving damage is an essential step in any shooter game.
+Receiving damage is an essential step in any game where any kind of shooting is involved. There are two ways to deal with damage output: The first one is using the built-in **Action Lists** provided by each **Ammo** asset. When shooting with any raycast or trajectory-cast projectiles, the Invoker will always reference the targeted object.
 
-{% hint style="warning" %}
-**UNDER CONSTRUCTION**
+However, this does not give enough control. To solve this, there's the **On Receive Shot** **Trigger**, which is executed any time it received a shot. These shots can be filtered by weapon type and shot type \(Any, Normal or Charged\).
+
+{% hint style="info" %}
+Raycast shooting modes will always automatically look for any **On Receive Shot** **Trigger** and call it. However, projectiles do not. In order for a _Grenade_ or an _Arrow_ \(or any prefab projectile\) to trigger the **On Receive Shot**, these need to use the **Notify Shot Action**.
+
+For example, the _Arrow_ projectile has a **On Collision Enter Trigger** which uses the **Notify Shot Action** to whatever object it collides with. The G_renade_, on the other hand, collects all the objects affected by the blast and uses the **Notify Shot Action** in each one of them.
 {% endhint %}
+
+
 
