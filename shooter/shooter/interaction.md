@@ -44,11 +44,23 @@ As a rule of thumb, **Aim at Target** should only b used with the _player_, as y
 
 ## Shooting
 
+Shooting a weapon is very simple. All that is needed is to use the **Shoot Weapon Action**. This will instruct the weapon to shoot. Depending on both the currently equipped **Weapon** and **Ammo** assets, the shot will be different.
+
+However, there's a second type of shot that requires a different set of Actions: The charged shots.
+
+Charged shots need a wind-up time before being released. An example of a charged shot are grenades, bows, Megaman's ArmGun, etc...
+
+To start charging a shot you need to use the **Weapon Start Charged Shot**. To execute a charged shot you'll need to use the **Weapon Execute Charged Shot**.
+
 {% hint style="warning" %}
-**UNDER CONSTRUCTION**
+Notice that nothing will happen if the **Execute Charged Shot** is issued before the **Start Charged Shot**.
+
+Charged shots also have a minimum charge time, which defines the minimum time required to be able to shoot a charged shot. If the time between **Start Charged Shot** and **Execute Charged Shot** is less than the **`Min Charge Time`** field in the **Ammo** asset, the shot will not be made.
 {% endhint %}
 
 ## Receiving Damage
+
+Receiving damage is an essential step in any shooter game.
 
 {% hint style="warning" %}
 **UNDER CONSTRUCTION**
