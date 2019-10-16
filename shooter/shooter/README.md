@@ -4,10 +4,6 @@ description: From Pew-Pew to Ka-BOOM!
 
 # Shooter
 
-{% hint style="warning" %}
-**DOCUMENTATION UNDER CONSTRUCTION**
-{% endhint %}
-
 Welcome to the **Shooter** module guide. This is a rather complex system with many configuration options, which allow to create from a top-down perspective shoot 'em up like _Hotline Miami_ to third-person adventure games like _Uncharted_ or _Tomb Raider_.
 
 ## Overview
