@@ -55,5 +55,13 @@ The **On Mouse Down Trigger** will execute the **Start Charged Shot Action**. Th
 Remember this is just the configuration we decided to use. You can use whatever input schema that suits your game.
 {% endhint %}
 
+### Reloading
 
+The example weapons that come with the **Shooter** module have the _Auto Reload_ option enabled. This means that whenever a weapon's clip is emptied, if the character tries to shoot again, it will automatically enter a reload phase.
+
+However, you can also force a weapon to reload using the **Reload Weapon Action**. We've bound the **`R`** key using a **On Key Down Trigger** which simply calls the **Reload Weapon Action**.
+
+{% hint style="info" %}
+The **Reload** action will be ignored if the character's weapon clip/magazine is full or there's no more ammunition left in the pouch.
+{% endhint %}
 
