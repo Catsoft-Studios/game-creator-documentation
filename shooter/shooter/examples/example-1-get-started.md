@@ -65,3 +65,26 @@ However, you can also force a weapon to reload using the **Reload Weapon Action*
 The **Reload** action will be ignored if the character's weapon clip/magazine is full or there's no more ammunition left in the pouch.
 {% endhint %}
 
+## Ammo Box
+
+The **Player** starts the game with zero ammunition. For this reason, we've also created a green box prefab that, when the user clicks it, will refill 50 ammunition of each type. This is done using a simple **On Left Click Trigger** set on the box, which calls an **Action** with the following instructions:
+
+1. Move Player to a Marker near the Ammo Box
+2. Play a sound effect \(because it's fancy\)
+3. Give 50 Ammo of _Bullets_
+4. Give 50 Ammo of _Arrows_
+5. Give 50 Ammo of _Fragmentation_
+6. Give 50 Ammo of _Cartridges_
+
+You might be asking why all these ammo types are given if this scene just has the _Revolver_ weapon available. This is because this prefab is reused throughout all the examples; We just need to drag and drop the prefab and it automagically allows the player to refill the ammo of all its weapons.
+
+## Ammo UI
+
+In order to display the current equipped weapon as well as the amount of ammunition the Player has \(in his pouch and inside the weapon's clip\), we're using a special component called Ammo UI.
+
+This component has multiple Text references \(all of them optional\) which will update their information based on the Player's current shooter data.
+
+![\(Ammo UI component\)](../../../.gitbook/assets/example1-ammo-ui.jpg)
+
+As you can see, the component targets the **Player** as the character that will be used to retrieve information about its shooting data. We're also referencing the name of the ammunition used, the amount of bullets currently inside the weapon's clip as well as how many bullets we have in the pouch.
+
