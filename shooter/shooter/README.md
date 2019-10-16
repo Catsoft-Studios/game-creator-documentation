@@ -6,9 +6,11 @@ description: From Pew-Pew to Ka-BOOM!
 
 Welcome to the **Shooter** module guide. This is a rather complex system with many configuration options, which allow to create from a top-down perspective shoot 'em up like _Hotline Miami_ to third-person adventure games like _Uncharted_ or _Tomb Raider_.
 
+![](../../.gitbook/assets/shooter-cover.jpg)
+
 ## Overview
 
-There are two main objects in the Shooter module:
+There are two main objects in the **Shooter** module:
 
 * **Weapons:** A configuration object that lets you define how a weapon is handled, which prefab is used and the States in which the character will pose when aiming with a particular weapon. Requires an Ammo object linked.
 * **Ammo:** A configuration object tied to a weapon that defines how a particular ammunition type works, including the effects of shooting, charging a shot or whether it uses a crosshair, a visual trajectory, ...
