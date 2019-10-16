@@ -20,14 +20,26 @@ The **Player** should use another component called **Player Shooter** instead. T
 
 ## Drawing & Holstering Weapons
 
-{% hint style="warning" %}
-**UNDER CONSTRUCTION**
-{% endhint %}
+Drawing and holstering weapons is done using the **Weapon Draw** and **Weapon Holster Actions**. These automatically equip the character with the specified weapon. 
+
+The **Ammo** field is optional and, if none is specified, it will use the default Ammo object defined by the Weapon.
 
 ## Aiming
 
-{% hint style="warning" %}
-**UNDER CONSTRUCTION**
+Aiming is the process of choosing a target at which to shoot at. There are multiple aiming types, each addressing requirements set by different types of games. Here is the full list of options available when using the **Aim Weapon Action**.
+
+* **Stop Aiming:** Used to stop aiming with the weapon. Typically used when releasing the aiming button.
+* **Aim Camera Direction:** Aims where the camera looks at. Perfect for Third-Person and First-Person shooter games.
+* **Aim at Target:** The target is specified by a Transform object and keeps track of its position.
+* **Aim at Position:** The target is specified by a given position.
+* **Aim Muzzle Forward:** Simply aims forward, where the character with the weapon is shooting at.
+* **Aim Ground Plane:** Aims at a direction specified by the projection of the mouse over the plane where the character is. This option is perfect for top-down shooter games.
+* **Aim Side-Scroll:** Aims at  a direction specified by the project of the mouse over the vertical plane of one side of the character. The plane \(XY or ZY\) can be also specified.
+
+{% hint style="info" %}
+It is important to distinguish the difference between **Aim at Target** and **Aim at Position**. The first one will make the character keep track of the target while it is aiming, while the other one will remember the position of the target, but, if this one moves, it will still aim at where it was at the beginning.
+
+As a rule of thumb, **Aim at Target** should only b used with the _player_, as you normally lock onto enemies. On the other hand, **Aim at Position** is usually used by enemies to simulate a flaw in their accuracy.
 {% endhint %}
 
 ## Shooting
