@@ -48,6 +48,7 @@ These are all the **Triggers** that come with **Game Creator**. You can download
 | **On Mouse Middle Click** | Detects when the mouse middle clicks on the Trigger's Collider |
 | **On Mouse Right Click** | Detects when the mouse right clicks on the Trigger's Collider |
 | **On Mouse Up** | Detects when a mouse button is released |
+| **Raycast Mouse World Position** | Detects when the mouse has clicked the Trigger's Collider and stores the point in a Variable |
 
 ### Character
 

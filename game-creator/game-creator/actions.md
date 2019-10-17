@@ -162,6 +162,7 @@ These **Actions** allow to easily test your game and spot errors. These won't ha
 | **Time Scale** | Changes the time scale as well as the fixed time scale. Useful for pausing the game or making a slow-motion effect. |
 | **Wait** | Waits some seconds before jumping to the next instruction |
 | **Render Reflection Probe** | Manually renders a Reflection Probe. Bear in mind that reflection probes might not be active due to quality settings |
+| **Store Mouse World Position** | Raycasts from the Camera to where the mouse points at and stores the result \(game object and point\) in a Local, Global or List Variable |
 
 ### Object
 
