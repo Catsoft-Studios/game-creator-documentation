@@ -22,7 +22,7 @@ An Inventory representation is composed of two prefabs:
 We recommend that, if you want to create your own custom inventory, you duplicate any of the default prefabs we've set up.
 
 {% hint style="info" %}
-You can find these prefabs at: Assets/Plugins/GameCreator/Inventory/Prefabs/
+You can find these prefabs at: Assets/Plugins/GameCreator/Inventory/Skins/
 {% endhint %}
 
 Once you duplicate any of the **Inventory UI** and **Item UI** prefabs, drag and drop them in the Settings menu of the Inventory's [Preference Window](inventory-window/).
