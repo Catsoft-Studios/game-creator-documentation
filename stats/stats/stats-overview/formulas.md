@@ -127,11 +127,11 @@ We've put up an example of how to use a Progression Table to define the Level of
 | Symbol | Description |
 | :--- | :--- |
 | **`this[value]`** | The base value of the Formula |
-| **`table(input)`** | The tier of the Progression Table |
-| **`table:rise(input)`** | Returns the percentage complete to reach the next tier |
-| **`rand(X, Y)`** | Returns a random value between X and Y |
-| **`dice(R, S)`** | Returns the value of rolling R dices of S sides |
-| **`chance(X)`** | Returns 1 if a random percentage is less or equal to X, and 0 otherwise |
+| **`table[input]`** | The tier of the Progression Table |
+| **`table:rise[input]`** | Returns the percentage complete to reach the next tier |
+| **`rand[X, Y]`** | Returns a random value between X and Y |
+| **`dice[R, S]`** | Returns the value of rolling R dices of S sides |
+| **`chance[X]`** | Returns 1 if a random percentage is less or equal to X, and 0 otherwise |
 | **`stat[name]`** | Returns the value of a stat identified by name |
 | **`attr[name]`** | Returns the value of an attribute identified by name |
 | **`stat:other[name]`** | Returns the value of the other stat identified by name |
@@ -139,6 +139,9 @@ We've put up an example of how to use a Progression Table to define the Level of
 | **`local[name]`** | Returns the value of a local variable \(number or bool\) identified by name |
 | **`local:other[name]`** | Returns the value of the other local variable identified by name |
 | **`global[name]`** | Returns the value of a global variable \(number or bool\) identified by name |
-| **`min(X, Y)`** | Returns the smallest value |
-| **`max(X, Y)`** | Returns the largest value |
+| **`min[X, Y]`** | Returns the smallest value |
+| **`max[X, Y]`** | Returns the largest value |
+| **`round[X]`** | Rounds the value to the nearest integer |
+| **`floor[X]`** | Returns the largest integer smaller or equal to X |
+| **`ceil[X]`** | Returns the smallest integer greater or equal to X |
 
