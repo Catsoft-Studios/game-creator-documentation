@@ -19,6 +19,8 @@
     * [Markers](game-creator/game-creator/characters/markers.md)
     * [Gestures](game-creator/game-creator/characters/gestures.md)
     * [States](game-creator/game-creator/characters/states.md)
+    * [Advanced](game-creator/game-creator/characters/advanced/README.md)
+      * [IK in custom Animations](game-creator/game-creator/characters/advanced/ik-in-custom-animations.md)
   * [Camera](game-creator/game-creator/camera/README.md)
     * [Camera Motors](game-creator/game-creator/camera/camera-motors.md)
   * [Variables](game-creator/game-creator/variables/README.md)

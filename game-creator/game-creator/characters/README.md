@@ -102,7 +102,11 @@ Enabling **IK** comes at a \(minimal\) performance cost of several **Raycasts** 
 
 #### Foot IK
 
-Foot IK allows any Character or Player to correctly align and place their feed even on steep floors.
+**Foot IK** allows any **Character** or **Player** to correctly align and place their feed even on steep floors.
+
+{% hint style="success" %}
+The default Game Creator animations have the IK settings pre-configured. However, if you're using your own animations, you'll need to set some settings before. See [IK in custom Animations](advanced/ik-in-custom-animations.md) for more information.
+{% endhint %}
 
 ![\(With just one click your Characters will realistically align their feet and body to the floor\)](../../../.gitbook/assets/character-ik.gif)
 
