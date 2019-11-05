@@ -49,7 +49,7 @@ Join our [Discord server](https://gamecreator.page.link/discord) and let's discu
 
 {% tabs %}
 {% tab title="Q3" %}
-* [ ] Shooter module
+* [x] Shooter module
 * [ ] Melee module
 {% endtab %}
 {% endtabs %}
