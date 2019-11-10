@@ -30,9 +30,13 @@ Every RPG game has its own system. Some are based on the famous **D20** from _Du
 
 Let's begin with the basics. A Formula object has a text field where you can type some words. Let's begin with something very simple:
 
+{% tabs %}
+{% tab title="" %}
 ```text
 2 + 3
 ```
+{% endtab %}
+{% endtabs %}
 
 When we execute this formula, the output will always be 5. If we use this as the **Formula** for the **`strength`** stat, the player and all the enemies will always have a **`strength`** of 5 points.
 

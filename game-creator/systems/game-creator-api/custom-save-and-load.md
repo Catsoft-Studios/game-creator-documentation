@@ -107,8 +107,8 @@ void Start()
 
 To better illustrate how to use the Save/Load system let's see a simple yet complete example. Imagine our game always has some music track playing in the background as well as at a user defined volume level. The class that manages this part of the game could be named as **`BackgroundMusicManager`**.
 
-{% code-tabs %}
-{% code-tabs-item title="BackgroundMusicManager.cs" %}
+{% tabs %}
+{% tab title="BackgroundMusicManager.cs" %}
 ```csharp
 public class BackgroundMusicManager : MonoBehaviour
 {
@@ -127,8 +127,8 @@ public class BackgroundMusicManager : MonoBehaviour
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 A simple and straightforward component, right? Let's modify it so it supports Game Creator Save/Load system.
 
@@ -136,8 +136,8 @@ We need to make the **`BackgroundMusicManager`** inherit from the **`IGameSave`*
 
 We'll also need to create a class to save both the current song name and the volume and set it as serializable. You can do this on a separate file, though we prefer to create an internal class.
 
-{% code-tabs %}
-{% code-tabs-item title="BackgroundMusicManager.cs" %}
+{% tabs %}
+{% tab title="BackgroundMusicManager.cs" %}
 ```csharp
 public class BackgroundMusicManager : MonoBehaviour, IGameSave
 {
@@ -195,8 +195,8 @@ public class BackgroundMusicManager : MonoBehaviour, IGameSave
 	}
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 And _voilá!_ That's all that needs to be done. Of course this is a simple example but unless you want to save procedural data with multiple instances it should be pretty straight forward and similar to this example.
 
@@ -220,8 +220,8 @@ Should the Lever L be pulled? That's something you should consider. Most cases w
 
 To keep the changes all you need to do is to inform the **`SaveLoadManager`** class that the object has been destroyed \(when switching between scenes\) and it will automatically restore the state when going back.
 
-{% code-tabs %}
-{% code-tabs-item title="MyClass.cs" %}
+{% tabs %}
+{% tab title="MyClass.cs" %}
 ```csharp
 public class MyClass : MonoBehaviour, IGameSave
 {
@@ -233,6 +233,6 @@ public class MyClass : MonoBehaviour, IGameSave
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

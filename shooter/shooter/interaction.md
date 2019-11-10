@@ -33,7 +33,8 @@ Aiming is the process of choosing a target at which to shoot at. There are multi
 * **Aim at Target:** The target is specified by a Transform object and keeps track of its position.
 * **Aim at Position:** The target is specified by a given position.
 * **Aim Muzzle Forward:** Simply aims forward, where the character with the weapon is shooting at.
-* **Aim Ground Plane:** Aims at a direction specified by the projection of the mouse over the plane where the character is. This option is perfect for top-down shooter games.
+* **Aim Top-Down Plane:** Aims at a direction specified by the projection of the mouse over the plane where the character is. This option is perfect for top-down shooter games.
+* **Aim Top-Down Floor:** Very similar to Top-Down Plane, but instead of shooting straight ahead where the eyes of the shooter are, the shot is performed where the mouse position intersects with geometry. This allows to shoot at enemies that are on a lower or upper level than the shooter.
 * **Aim Side-Scroll:** Aims at  a direction specified by the project of the mouse over the vertical plane of one side of the character. The plane \(XY or ZY\) can be also specified.
 
 {% hint style="info" %}

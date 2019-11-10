@@ -144,7 +144,7 @@ For example, if you have an _Arrow_ with a **Min Charge Time** of 0.5, and the k
 
 ### Shooting
 
-The **Shooting** section defines how bullets are fired. There are 4 different shooting modes, each of them with its own particular set of properties: **Projectile**, **Raycast**, **Raycast All** and **Trajectory Cast**.
+The **Shooting** section defines how bullets are fired. There are different shooting modes, each of them with its own particular set of properties: **Projectile**, **Raycast**, **Raycast All,** **Trajectory Cast**, **SphereCast** and **SphereCastAll**.
 
 ![\(Shooting Type: Projectile\)](../../.gitbook/assets/ammo-shooting-projectile.jpg)
 
@@ -210,7 +210,15 @@ Contrary to shooting **Projectiles**, which use Unity's Physics engine, the **Tr
 
 All properties in **Trajectory Cast** are exactly the same as **Raycast** and **Raycast All** modes.
 
+#### SphereCast & SphereCastAll
+
+These shooting modes are homologous to **Raycast** and **Raycast All**, with the difference that they allow to add volume to the ray shot. This volume is defined by a radius. This is specially useful for weapons that shoot spread shots, such as a shotgun or a flamethrower.
+
+In order to better visualize how **SphereCast** works, imagine that, at the tip of the gun, there's a sphere with a certain radius, and everything that collides with this sphere being swiped forward will be considered shot by the bullet.
+
 **Recoil** defines how much accuracy will be lost after shooting with this ammunition and it is percentage based. 
+
+**Delay** is a property that allows to add a certain amount of delay \(in seconds\) between the animation, sound and particle effects are played and the actual shot is taken. This value is generally low, between 0 and 0.5 seconds. This allows, for example, to swing a wand before casting a Fireball spell.
 
 {% hint style="info" %}
 For example, a _Revolver_ might lose between a 10% and a 50% of the accuracy after firing a bullet, depending on the expertise of the shooter. On the other hand, a Sniper rifle will probably lose 100% of the accuracy after firing, due to the incredible amount of reactive force exercised by the shot.

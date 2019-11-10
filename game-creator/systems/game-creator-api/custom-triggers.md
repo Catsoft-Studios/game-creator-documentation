@@ -6,8 +6,8 @@
 
 So when we talk about creating custom **Triggers**, we're actually talking about custom **Igniters**. And these work pretty much the same way as **Actions** and **Conditions**.
 
-{% code-tabs %}
-{% code-tabs-item title="IgniterExample.cs" %}
+{% tabs %}
+{% tab title="IgniterExample.cs" %}
 ```csharp
 
 [AddComponentMenu("")]
@@ -24,8 +24,8 @@ public class IgniterCollisionEnter : Igniter
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 In the example above you see an example of Igniter that tells the **Trigger** to fire the **Actions** and **Events** as soon as the **`Start`** method is called.
 

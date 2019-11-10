@@ -18,7 +18,7 @@ The **Weapon** and **Ammo** assets configure how the weapon behaves, but do not 
 
 ### Drawing & Holstering
 
-Drawing and holstering a weapon is done pressing the **`E`** keyboard button. This is specified using a Trigger that detects _On Key Down_ with the _E_ option.
+Drawing and holstering a weapon is done holding down the **`E`** keyboard button for half a second. This is specified using a Trigger that detects _On Key Timeout_ with the _E_ option.
 
 This **Trigger** executes a **Condition** object that checks whether the **Player** has a weapon at hand or not. If it does not, it uses the **Draw Weapon** action referencing the _Revolver_ weapon asset. Otherwise, it uses the **Holster Weapon** action.
 
@@ -26,7 +26,7 @@ This **Trigger** executes a **Condition** object that checks whether the **Playe
 
 Before shooting with a weapon the character with the weapon must first aim with it. There are multiple aiming systems available, each used in different situations \(for example, it's not the same aiming with a weapon if your game has a top-down perspective, or it is a side-scroll game or a first-person shooter\).
 
-Similarly to the drawing/holstering **Triggers**, we're binding the **`Left Shift`** key to the aiming. Using a **On Key Down Trigger** \(with the **`Left Shift`** option\) will use the **Aim Weapon Action**, whereas another **On Key Up Trigger** \(also with the **`Left Shift`** option\) will use the **Aim Weapon Action**, but the option to _Stop Aiming_.
+Similarly to the drawing/holstering **Triggers**, we're binding the **`Right Mouse`** key to the aiming. Using a **On Mouse Down Trigger** \(with the **`Right`** option\) will use the **Aim Weapon Action**, whereas another **On Mouse Up Trigger** \(also with the **`Right`** option\) will use the **Aim Weapon Action**, but the option to _Stop Aiming_.
 
 ### Charging & Shooting
 
@@ -45,7 +45,7 @@ Notice that the weapon will fire every time the user clicks with its left mouse 
 To stop the weapon from firing, you'll also need to create a **On Mouse Up** Trigger with the _Left Button_ option, which will use the **Cancel** Action on the previous action. This will force the action responsible for the shooting to exit its execution cycle.
 {% endhint %}
 
-To shoot charged attacks, there are to phases: The charging and the release of the charge. We've bound these mechanics to the right mouse button, so when the user holds down the button, the player will start charging the attack. When releasing the button, the charged attack will be executed.
+To shoot charged attacks, there are to phases: The charging and the release of the charge. We've bound these mechanics to the left mouse button too, so when the user holds down the shooting mouse button, the player will start charging the attack. When releasing the button, the charged attack will be executed.
 
 To do this, we simply use two **Triggers**: **On Mouse Down** for charging and **On Mouse Up** for releasing the shot.
 
@@ -67,9 +67,9 @@ The **Reload** action will be ignored if the character's weapon clip/magazine is
 
 ## Ammo Box
 
-The **Player** starts the game with zero ammunition. For this reason, we've also created a green box prefab that, when the user clicks it, will refill 50 ammunition of each type. This is done using a simple **On Left Click Trigger** set on the box, which calls an **Action** with the following instructions:
+The **Player** starts the game with zero ammunition. For this reason, we've also created a green box prefab that, when the user is near it and presses the E key, it will refill 50 ammunition of each type. This is done using a simple **On Player Enter Key Trigger** set on the box, which calls an **Action** with the following instructions:
 
-1. Move Player to a Marker near the Ammo Box
+1. Rotate the Player towards the box
 2. Play a sound effect \(because it's fancy\)
 3. Give 50 Ammo of _Bullets_
 4. Give 50 Ammo of _Arrows_
