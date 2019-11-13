@@ -6,6 +6,10 @@ description: From Pew-Pew to Ka-BOOM!
 
 Welcome to the **Shooter** module guide. This is a rather complex system with many configuration options, which allow to create from a top-down perspective shoot 'em up like _Hotline Miami_ to third-person adventure games like _Uncharted_ or _Tomb Raider_.
 
+{% hint style="info" %}
+Download the [**Shooter**](https://gamecreator.page.link/shooter) module
+{% endhint %}
+
 ![](../../.gitbook/assets/shooter-cover.jpg)
 
 ## Overview
