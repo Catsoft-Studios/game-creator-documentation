@@ -165,12 +165,14 @@ public class Player : MonoBehaviour
     
     public void Awake()
     {
-        Debug.Log(playerName.GetValue());
+        Debug.Log(playerName.GetValue(gameObject));
     }
 }
 ```
 
-If the user has decided to use a **constant value** `"John"` as the `playerName` value, `playerName.GetValue()` will return a string with `"John".` 
+If the user has decided to use a **constant value** `"John"` as the `playerName` value, `playerName.GetValue(gameObject)` will return a string with `"John".` 
 
-If the user uses a **Global Variable** or a **Local Variable** for `playerName`, using `playerName.GetValue()` will return the Global/Local variable's value.
+If the user uses a **Global Variable** or a **Local Variable** for `playerName`, using `playerName.GetValue(gameObject)` will return the Global/Local variable's value.
+
+The _Game Object_ parameter passed is optional. It is used to reference the Invoker object in case the property is set to use as the target the Invoker option.
 

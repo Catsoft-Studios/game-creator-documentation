@@ -20,13 +20,11 @@ Additionally, each **Text Element** has its own unique **Skin** field in case yo
 
 To create a custom Dialogue skin, we recommend duplicating the default skin prefab and modify that one. You can find the default skin at:
 
-{% tabs %}
-{% tab title="Default Skin path" %}
+{% code title="Default Skin path" %}
 ```text
 Plugins/GameCreator/Dialogue/Resources/GameCreator/DefaultSkin.prefab
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 You can place the duplicated anywhere you want in your project. To modify it, drag and drop it in the scene, make whatever changes you want and don't forget to hit "**Apply Changes**" in the Inspector! Otherwise your prefab won't be saved.
 
