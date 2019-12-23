@@ -42,10 +42,10 @@ You can use these fields to display the value of the **Stat** or **Attribute**. 
 
 ###  C. Fill Image
 
-Because an **Attribute** is a value between 0 and a maximum value, they are usually used to represent heath, mana and energy gauges. The [Fill Image](https://docs.unity3d.com/ScriptReference/UI.Image-fillAmount.html) is a special Unity property from an _Image_ component that allows to mask a percentage of its sprite based on a value between 0 and 1.
+Because an **Attribute** is a value between 0 and a maximum value, they are usually used to represent heath, mana and energy gauges. The [Fill Image](https://docs.unity3d.com/Manual/script-Image.html) is a special Unity property from an _Image_ component that allows to mask a percentage of its sprite based on a value between 0 and 1.
 
 {% hint style="info" %}
-You can create health bars that fill from left to right, right to left, vertical, or even circular. Check out the [Image component documentation](https://docs.unity3d.com/ScriptReference/UI.Image.html) to learn more about it. The sky is the limit!
+You can create health bars that fill from left to right, right to left, vertical, or even circular. Check out the [Image component documentation](https://docs.unity3d.com/Manual/script-Image.html) to learn more about it. The sky is the limit!
 {% endhint %}
 
 ### D. Scaling
