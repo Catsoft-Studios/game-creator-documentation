@@ -3,7 +3,7 @@
 **Inventory** is a complete solution exclusively developed for **Game Creator** that allows to have a fully functional inventory system in your game in less than 30 seconds.
 
 {% hint style="success" %}
-Download: [gamecreator.page.link/behavior](https://gamecreator.page.link/inventory)
+Download: [gamecreator.page.link/inventory](https://gamecreator.page.link/inventory).
 {% endhint %}
 
 ![\(Example of the RPG skin that comes with the Inventory module\)](../../.gitbook/assets/inventory-header.jpg)
@@ -12,7 +12,7 @@ Download: [gamecreator.page.link/behavior](https://gamecreator.page.link/invento
 
 * Create **Items** from the _Items Catalogue_ and define what happens when consumed.
 * Create **Recipes** of two objects and customize the output using **Actions**.
-* Use brand-new **Actions** to add, substract, buy, sell and combine items.
+* Use brand-new **Actions** to add, subtract, buy, sell and combine items.
 * Built-in currency system to trade with other NPCs.
 * Easy to customize **Inventory**'s **UI**.
 
