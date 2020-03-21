@@ -60,6 +60,6 @@ The last Action restarts this action so it loops indefinitely.
 As you can see this is a very simple enemy Ai, but works pretty well for any standard game mob. You can easily tweak any parameters to make it more aggressive or change its behavior based on different parameters.
 
 {% hint style="info" %}
-It is also worth noting that this module works best paired with the [**Behavior**](https://gamecreator.page.link/behavior) module.
+It is also worth noting that this module works best paired with the [**Behavior**](https://gamecreator.page.link/behavior) module \(for enemy AI\) and the [**Stats**](https://gamecreator.page.link/stats) module \(for Health and Stamina attributes\).
 {% endhint %}
 
