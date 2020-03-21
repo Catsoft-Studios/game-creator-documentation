@@ -6,9 +6,15 @@ description: Slash! Clack! Stomp! Shlaaaack!
 
 The **Melee** module is a **Game Creator** extension that allows to easily create close quarter combat with different white weapons, such as \(but not limited to\), swords, hammers, axes, daggers, fists, etc.
 
+![](../../.gitbook/assets/media.png)
+
 {% hint style="info" %}
 Download the [**Melee**](https://gamecreator.page.link/melee) module
 {% endhint %}
+
+If you prefer to learn by watching a video, you can do so by heading onto the official live-stream presentation:
+
+{% embed url="https://www.youtube.com/watch?v=vjJxWgQHuvg" caption="\(Melee module live-stream presentation\)" %}
 
 ## Overview
 
