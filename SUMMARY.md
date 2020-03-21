@@ -119,6 +119,15 @@
     * [Custom Crosshairs](shooter/shooter/advanced/custom-crosshairs.md)
     * [Shooter API](shooter/shooter/advanced/shooter-api.md)
 
+## Melee
+
+* [Melee](melee/melee/README.md)
+  * [Weapons](melee/melee/weapons/README.md)
+    * [Blade Component](melee/melee/weapons/blade-component.md)
+  * [Shields](melee/melee/shields.md)
+  * [Melee Clips](melee/melee/melee-clips.md)
+  * [Combat](melee/melee/combat.md)
+
 ## Annex
 
 * [Roadmap](annex/roadmap.md)

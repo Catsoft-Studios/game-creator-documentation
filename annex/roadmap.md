@@ -40,7 +40,7 @@ Join our [Discord server](https://gamecreator.page.link/discord) and let's discu
 
 {% tabs %}
 {% tab title="Q1" %}
-* [ ] Melee module
+* [x] Melee module
 * [ ] Traversal module
 {% endtab %}
 {% endtabs %}
