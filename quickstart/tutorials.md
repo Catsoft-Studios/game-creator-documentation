@@ -98,10 +98,6 @@ Euhm RVR [Youtube Channel](https://www.youtube.com/channel/UCVIsY1n-8BaAIngZGOLJ
 
 #### Basic Tutorials
 
-{% embed url="https://www.youtube.com/watch?v=gpLJV6YvSRc&list=PLLHgX\_wW6BGITwbeJFzEIQqJO1dBj8SpY" %}
-
-{% embed url="https://www.youtube.com/watch?v=ch-6oseE3qU&list=PLLHgX\_wW6BGITwbeJFzEIQqJO1dBj8SpY&index=2" %}
-
 {% embed url="https://www.youtube.com/watch?v=YO9vtWCNyZw&list=PLLHgX\_wW6BGKNgbAjnp6xK2U\_QVKaW12m" %}
 
 {% embed url="https://www.youtube.com/watch?v=G9D33Izje8k&list=PLLHgX\_wW6BGKNgbAjnp6xK2U\_QVKaW12m&index=2" %}
