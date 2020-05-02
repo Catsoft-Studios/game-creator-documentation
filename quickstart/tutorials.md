@@ -88,9 +88,9 @@ What game doesn't have a main menu? Learn how to make one with this extensive se
 \*\*\*\*[**Create a Main Menu using Game Creator**](https://www.youtube.com/watch?v=kL-JVHdCc9Q&list=PLVpxoFqeUjC-pLsc78jsroWb9-OJy0Mgn) Playlist.
 {% endhint %}
 
-### Euhm RVR
+### RVR
 
-Euhm RVR \(aka Penhoat\) is a tutorial machine gun that touches many game development topics using Game Creator along with multiple modules, and explain how these symbiotically interact with each other.
+RVR \(aka Penhoat\) is a tutorial machine gun that touches many game development topics using Game Creator along with multiple modules, and explain how these symbiotically interact with each other.
 
 {% hint style="success" %}
 Euhm RVR [Youtube Channel](https://www.youtube.com/channel/UCVIsY1n-8BaAIngZGOLJ69g/featured)
