@@ -32,7 +32,7 @@ A combat is made of little animations that modify the state of the fight. For ex
 
 However, an attack also modifies the state of the character attacking. For example, following the previous example, a slash also tells the fighting system that the player is currently performing an attack and won't be responding to commands such as evading or attacking again, until the attack is complete.
 
-## Hidden Features
+## Extra Features
 
 This module comes with a collection of features and mechanics that, transparently to the game designer, allow to create a smooth combat system. We've dedicated a lot of hours in order to emulate a AAA production game experience while keeping the entire module as simple and straightforward to use as possible.
 

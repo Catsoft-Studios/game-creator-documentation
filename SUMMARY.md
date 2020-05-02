@@ -6,6 +6,7 @@
 
 * [Get Started](quickstart/get-started.md)
 * [Setup](quickstart/setup.md)
+* [Tutorials](quickstart/tutorials.md)
 
 ## Game Creator
 
