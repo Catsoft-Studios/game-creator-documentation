@@ -136,5 +136,7 @@ Euhm RVR [Youtube Channel](https://www.youtube.com/channel/UCVIsY1n-8BaAIngZGOLJ
 
 {% embed url="https://www.youtube.com/watch?v=hy4ee\_Dc1TM&list=PLLHgX\_wW6BGKNgbAjnp6xK2U\_QVKaW12m&index=20" %}
 
+{% embed url="https://www.youtube.com/watch?v=RY0VwUf77c4" %}
 
+{% embed url="https://www.youtube.com/watch?v=d4mlTaKRtpE" %}
 
