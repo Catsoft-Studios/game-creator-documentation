@@ -144,5 +144,15 @@ Euhm RVR [Youtube Channel](https://www.youtube.com/channel/UCVIsY1n-8BaAIngZGOLJ
 
 {% embed url="https://www.youtube.com/watch?v=LiGWarKSA\_c" %}
 
+### Steed Maker
+
+Here's a couple of very beginner-friendly video tutorials for those starting out with both Game Creator and the Unity engine.
+
+Here's a couple of tutorials addressed to users who are just beginning with both Game Creator and Unity. Assumes no prior knowledge and will get you through step by step.
+
+{% embed url="https://vimeo.com/416196091" %}
+
+{% embed url="https://vimeo.com/416205448" %}
+
 
 

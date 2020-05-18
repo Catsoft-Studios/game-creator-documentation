@@ -86,6 +86,10 @@ You'll probably want to make a game with your custom character models. Luckily, 
 
 ![\(Automagically retarget any Humanoid bone structure with our Locomotion system\)](../../../.gitbook/assets/character-change-model.gif)
 
+{% hint style="warning" %}
+It is important to note that to correctly retarget the bones of the character, it has to be made a **Humanoid**. To do so, check the Rig tab on the character model.
+{% endhint %}
+
 {% hint style="info" %}
 You can also change characters in **Play-Mode** in case you want to see how they look like. Switching back to **Edit-Mode** will undo any changes made.
 {% endhint %}
