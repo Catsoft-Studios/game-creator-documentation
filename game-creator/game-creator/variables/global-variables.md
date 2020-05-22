@@ -50,3 +50,7 @@ A variable's tag name will be represented with the name and a background color n
 You can use the filter at the top of the _Preferences Window_ to search for a group of specific tags or by name.
 {% endhint %}
 
+## Advanced
+
+If you are a programmer and want to access the Global Variables API, check out the [scripting guide documentation](../../systems/game-creator-api/variables-access.md).
+

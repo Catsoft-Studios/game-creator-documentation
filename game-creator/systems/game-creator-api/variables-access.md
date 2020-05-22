@@ -96,11 +96,25 @@ The **`ListVariables.Position`**  enum has the following options:
 
 ### Set List Variables
 
-Insert or remove an element of a **List Variables** object.
+Insert or remove an element of a **List Variables** object. A List Variable cannot update its value.
+
+```csharp
+public static void ListPush(ListVariables target, int index, object value)
+```
 
 ```csharp
 public static void ListPush(ListVariables target, ListVariables.Position position, object value)
 ```
+
+{% hint style="info" %}
+If you want to add a new element using an index, use:
+
+**`ListPush(target, index, value);`**
+
+However, if you want to add a new element using one of the dynamic pointers provided by Game Creator \(First, Last, Random, Next, Current, ...\) use the second method
+
+**`ListPush(target, ListVariables.Position.Random, value);`**
+{% endhint %}
 
 ```csharp
 public static void ListRemove(GameObject target, ListVariables.Position position)

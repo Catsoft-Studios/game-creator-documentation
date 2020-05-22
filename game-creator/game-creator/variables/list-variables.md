@@ -86,3 +86,7 @@ By default the **iterator** points at the first element. If an **Action** access
 
 So it basically remembers the last accessed or modified element. This is very useful when iterating over elements. You can access the **First** element and subsequently ask for the **Next** element, allowing you to iterate all elements of the **List Variable**.
 
+## Advanced
+
+If you are a programmer and want to access the List Variables API, check out the [scripting guide documentation](../../systems/game-creator-api/variables-access.md).
+

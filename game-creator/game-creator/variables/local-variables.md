@@ -53,3 +53,7 @@ Just like Global Variables, Local Variables have a little checkbox next to its n
 **Prefabs** can't save the value of any type of variable because there can be any number of prefab instances in a scene at any given point.
 {% endhint %}
 
+## Advanced
+
+If you are a programmer and want to access the Local Variables API, check out the [scripting guide documentation](../../systems/game-creator-api/variables-access.md).
+
