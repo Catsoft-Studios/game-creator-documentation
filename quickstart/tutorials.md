@@ -144,6 +144,26 @@ Euhm RVR [Youtube Channel](https://www.youtube.com/channel/UCVIsY1n-8BaAIngZGOLJ
 
 {% embed url="https://www.youtube.com/watch?v=LiGWarKSA\_c" %}
 
+{% embed url="https://www.youtube.com/watch?v=ZP5DB416INs" %}
+
+{% embed url="https://www.youtube.com/watch?v=BTBZYp1cicA" %}
+
+{% embed url="https://www.youtube.com/watch?v=9FB2QRyPyCw" %}
+
+{% embed url="https://www.youtube.com/watch?v=8y54j-7d9hA" %}
+
+{% embed url="https://www.youtube.com/watch?v=0dEXgQqNDfg" %}
+
+{% embed url="https://www.youtube.com/watch?v=sMIlNRQvwg0" %}
+
+{% embed url="https://www.youtube.com/watch?v=9cuvbCmqxXo" %}
+
+{% embed url="https://www.youtube.com/watch?v=i23goPhS6OQ" %}
+
+{% embed url="https://www.youtube.com/watch?v=YMt2R2h012M" %}
+
+{% embed url="https://www.youtube.com/watch?v=S6XcVLeZmQQ" %}
+
 ### Steed Maker
 
 Here's a couple of very beginner-friendly video tutorials for those starting out with both Game Creator and the Unity engine.
