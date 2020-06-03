@@ -4,6 +4,10 @@ In the _Settings_ tab you can configure all the necessary information related to
 
 ![](../../../.gitbook/assets/inventory-settings.jpg)
 
+{% hint style="danger" %}
+The **`Item UI Prefab`** field is no longer there and has been moved as part of the Inventory UI component inside the prefab used as **`Inventory UI Prefab`** field.
+{% endhint %}
+
 ## User Interface <a id="user-interface"></a>
 
 In this section you can define how the **Inventory** looks like in the game.
