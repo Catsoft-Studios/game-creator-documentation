@@ -24,11 +24,25 @@ At the end of each quarter we'll include a small [postmortem](https://en.wikiped
 Join our [Discord server](https://gamecreator.page.link/discord) and let's discuss the development of Game Creator!
 {% endhint %}
 
+## 2021 - Milestones
+
+{% tabs %}
+{% tab title="Q2" %}
+* [ ] Game Creator 2.0 - public pre-alpha release
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Q1" %}
+* [ ] Stability improvements on all modules
+{% endtab %}
+{% endtabs %}
+
 ## 2020 - Milestones
 
 {% tabs %}
 {% tab title="Q3" %}
-* [ ] Game Creator 2.0
+* [ ] Traversal module
 {% endtab %}
 {% endtabs %}
 
