@@ -82,7 +82,7 @@ The second property is a _const_ string named `NODE_TITLE`. This one is used in 
 Instead of using a constant string, **Game Creator** gets the description of an **Action** using the `GetNodeTitle` method so it can dynamically change its content based on its properties.
 {% endhint %}
 
-`OnEnableEditorChild()` and `OnDisableEditorChild()` are called when the _Instector_ containing this **Action** is focused/unfocused. It's a good place to initialize the properties used in the `OnInspectorGUI()` method.
+`OnEnableEditorChild()` and `OnDisableEditorChild()` are called when the _Inspector_ containing this **Action** is focused/unfocused. It's a good place to initialize the properties used in the `OnInspectorGUI()` method.
 
 The `OnInspectorGUI()` is where the thick code goes. It is called every refresh frame. It should always start with `serializedObject.Update()` and finish with `serializedObject.ApplyModifiedProperties()`. Between these two lines you should show the serialized version of the properties.
 
