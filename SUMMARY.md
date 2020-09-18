@@ -129,6 +129,13 @@
   * [Melee Clips](melee/melee/melee-clips.md)
   * [Combat](melee/melee/combat.md)
 
+## Traversal
+
+* [Traversal](traversal/traversal/README.md)
+  * [Obstacles](traversal/traversal/obstacles.md)
+  * [Climbables](traversal/traversal/climbables.md)
+  * [Built-in Elements](traversal/traversal/built-in-elements.md)
+
 ## Annex
 
 * [Roadmap](annex/roadmap.md)
