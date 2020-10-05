@@ -6,7 +6,7 @@ description: 'Swing, vault, jump and get anywhere you want!'
 
 The **Traversal** module is a module for **Game Creator** that empowers characters with features that allow them to smoothly traverse the environment. Some movements include parkour jumps, vaulting over obstacles and hanging from ledges.
 
-\[COVER IMAGE\]
+![](../../.gitbook/assets/cover.jpg)
 
 {% hint style="info" %}
 Download the [**Traversal**](https://gamecreator.page.link/traversal) module
