@@ -3,7 +3,7 @@
 The **Dialogue** module is a **Game Creator** extension that allows to create and display in-game cutscenes and branching conversations between characters.
 
 {% hint style="success" %}
-Download: [gamecreator.page.link/behavior](https://gamecreator.page.link/dialogue)
+Download: [gamecreator.page.link/dialogue](https://gamecreator.page.link/dialogue)
 {% endhint %}
 
 ![](../../.gitbook/assets/dialogue-header.jpg)
