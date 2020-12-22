@@ -4,7 +4,7 @@ description: Sling! Slash! And Thusck! - Detect all these and apply damage
 
 # Blade Component
 
-The **Blade Component** is a Unity component that must be attacked to a prefab game object used as the scene representation of a weapon. It serves two purposes:
+The **Blade Component** is a Unity component that must be attached to a prefab game object used as the scene representation of a weapon. It serves two purposes:
 
 On one hand, it allows to display _particle_ and _sound effects_ when clashing with other scene objects, as well as show a trail during the activation phase of an attack.
 
