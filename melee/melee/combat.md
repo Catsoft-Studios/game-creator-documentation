@@ -9,7 +9,7 @@ Time to put everything learned together. So, we have Weapon assets which determi
 {% hint style="info" %}
 The **Melee** module comes with an example scene with all the building blocks already laid out for you. We'll use this example scene to explain step by step how to build a similar scene so you can adapt it to your game.
 
-A WebGL demo can be played here: [https://demos.gamecreator.io/demo/melee](https://demos.gamecreator.io/demo/melee).
+A WebGL demo can be played here: [demos.gamecreator.one/demo/melee](https://demos.gamecreator.one/demo/melee).
 {% endhint %}
 
 So, the question is: How do we create a combat system?

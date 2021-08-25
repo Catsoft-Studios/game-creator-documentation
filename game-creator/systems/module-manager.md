@@ -9,7 +9,7 @@
 A **Module** extends or adds new functionalities to the core tools. Their complexity can range from a simple new **Action** to a complete RPG toolbox with stats, buffs and animations.
 
 {% hint style="info" %}
-All modules can be found at the [Game Creator Hub](https://hub.gamecreator.io).
+All modules can be found at the [Game Creator Hub](https://hub.gamecreator.one).
 {% endhint %}
 
 ## How to use Module Manager
@@ -19,7 +19,7 @@ All modules can be found at the [Game Creator Hub](https://hub.gamecreator.io).
 To add or import a module:
 
 * If you download it from the [Unity Asset Store](https://assetstore.unity.com/?publisher=Catsoft%20Studios&orderBy=1) skip to **Managing Modules**
-* If you download it from our [hub.gamecreator.io](https://hub.gamecreator.io), double click the `.unitypackage` file.
+* If you download it from our [hub.gamecreator.one](https://hub.gamecreator.one), double click the `.unitypackage` file.
 
 ### Managing modules
 
