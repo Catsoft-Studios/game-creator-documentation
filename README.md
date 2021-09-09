@@ -4,12 +4,10 @@ description: Game Creator 1.x Documentation
 
 # Welcome to Game Creator!
 
-
-
 ![](.gitbook/assets/game-creator.jpg)
 
 {% hint style="info" %}
-**This is the documentation for Game Creator 1.x**
+**This is the documentation for Game Creator 1. For Game Creator 2 documentation visit** [**docs.gamecreator.io**](https://docs.gamecreator.io)\*\*\*\*
 {% endhint %}
 
 **Game Creator** is a set of tools that will help you kickstart your game in matter of minutes. It comes packed with ready-to-use fully animated **Characters**, a flexible high-level **Scripting Language**, a complete save & load system with global, local, list variables, and much, much more!
